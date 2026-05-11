@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+models/
+node_modules/
+frontend/node_modules/
+.env

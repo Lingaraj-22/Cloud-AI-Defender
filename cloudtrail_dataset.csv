@@ -1,0 +1,1001 @@
+requestID,eventTime,eventName,eventSource,sourceIPAddress,awsRegion,userIdentity,userAgent,errorCode,failedLoginAttempts,apiCallFrequency,geoAnomaly,rootAccountUsage,offHoursAccess,mfaDisabled,errorFlag,sensitiveAPICall,label
+req-00020a-3024,2024-01-11T11:44:41Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,us-east-1,devops,console.aws.amazon.com,,1,12,0,0,0,0,0,0,NORMAL
+req-0002e2-6553,2024-01-15T03:19:36Z,CreateAccessKey,iam.amazonaws.com,203.0.113.99,cn-north-1,svc-lambda,console.aws.amazon.com,,0,78,1,0,1,0,0,0,SUSPICIOUS
+req-0002e5-7598,2024-01-07T15:28:04Z,GetSecretValue,secretsmanager.amazonaws.com,198.51.100.77,us-east-1,iam-readonly,Go-http-client/1.1,,2,87,1,0,0,0,0,1,SUSPICIOUS
+req-000295-5965,2024-01-15T14:02:02Z,GetObject,s3.amazonaws.com,172.31.0.10,eu-west-2,iam-readonly,aws-cli/2.13.0,,1,9,0,0,0,0,0,0,NORMAL
+req-00019c-5767,2024-01-13T12:14:57Z,ListBuckets,s3.amazonaws.com,34.224.10.5,eu-west-2,iam-readonly,AWS Internal,,4,12,0,0,0,0,0,0,NORMAL
+req-0002a7-4865,2024-01-27T12:37:47Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ap-south-1,iam-readonly,Boto3/1.28.0,,3,13,0,0,0,0,0,0,NORMAL
+req-000273-8243,2024-01-25T11:36:42Z,GetObject,s3.amazonaws.com,34.224.10.5,ap-northeast-1,svc-billing,Terraform/1.5.0,,1,13,0,0,0,0,0,0,NORMAL
+req-000202-8680,2024-01-23T08:49:30Z,ListBuckets,s3.amazonaws.com,10.0.1.20,us-east-1,admin,Terraform/1.5.0,,1,9,0,0,0,0,0,0,NORMAL
+req-00035c-8289,2024-01-02T09:33:57Z,RunInstances,ec2.amazonaws.com,185.220.101.47,cn-north-1,admin,curl/7.88.1,InvalidClientTokenId,2,88,1,0,0,0,1,0,SUSPICIOUS
+req-000089-3463,2024-01-22T15:24:18Z,AssumeRole,sts.amazonaws.com,10.0.0.1,eu-west-2,svc-billing,console.aws.amazon.com,,2,12,0,0,0,0,0,0,NORMAL
+req-00032c-7376,2024-01-06T10:00:25Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,192.0.2.45,cn-north-1,admin,python-requests/2.31,,2,21,1,0,0,0,0,0,SUSPICIOUS
+req-00004d-1659,2024-01-25T07:43:52Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ca-central-1,api-user,console.aws.amazon.com,,2,10,0,0,0,0,0,0,NORMAL
+req-00027d-8144,2024-01-20T08:47:23Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,ap-south-1,svc-billing,Boto3/1.28.0,,4,8,0,0,0,0,0,0,NORMAL
+req-0003ce-1159,2024-01-06T00:16:56Z,DeleteTrail,cloudtrail.amazonaws.com,45.155.205.12,ru-central-1,admin,Mozilla/5.0 (unknown),AccessDenied,9,41,1,1,1,1,1,1,ATTACK
+req-0003ab-9247,2024-01-24T03:48:39Z,CreateLoginProfile,iam.amazonaws.com,203.0.113.99,sa-east-1,admin,python-requests/2.31,AccessDenied,39,32,1,1,1,1,1,1,ATTACK
+req-000384-9036,2024-01-27T05:55:11Z,PutBucketPolicy,s3.amazonaws.com,198.51.100.77,ru-central-1,root,python-requests/2.31,,1,92,1,0,0,0,0,0,SUSPICIOUS
+req-000119-7590,2024-01-21T11:45:32Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ca-central-1,devops,AWS Internal,,3,7,0,0,0,0,0,0,NORMAL
+req-000374-3436,2024-01-06T19:12:54Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,103.21.244.0,sa-east-1,svc-lambda,curl/7.88.1,,4,100,1,0,0,0,0,0,SUSPICIOUS
+req-0002fa-6862,2024-01-15T06:00:14Z,RunInstances,ec2.amazonaws.com,203.0.113.99,ru-central-1,svc-billing,Go-http-client/1.1,,0,55,1,0,0,0,0,0,SUSPICIOUS
+req-000140-2228,2024-01-11T08:10:56Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,us-east-1,terraform-svc,Boto3/1.28.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000226-8464,2024-01-19T14:08:05Z,AssumeRole,sts.amazonaws.com,10.0.1.20,ca-central-1,iam-readonly,Terraform/1.5.0,,3,2,0,0,0,0,0,0,NORMAL
+req-0000af-7850,2024-01-04T09:03:18Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ap-south-1,devops,Boto3/1.28.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000174-2442,2024-01-03T10:29:28Z,GetObject,s3.amazonaws.com,10.0.0.1,ap-northeast-1,devops,Boto3/1.28.0,,4,8,0,0,0,0,0,0,NORMAL
+req-000210-2784,2024-01-10T16:21:58Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ap-south-1,api-user,aws-cli/2.13.0,,0,1,0,0,0,0,0,0,NORMAL
+req-0000d3-8191,2024-01-02T20:15:47Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,eu-west-2,svc-lambda,Terraform/1.5.0,,0,7,0,0,0,0,0,0,NORMAL
+req-0000ec-8353,2024-01-04T11:08:05Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,us-east-1,svc-billing,aws-cli/2.13.0,,1,7,0,0,0,0,0,0,NORMAL
+req-000066-1410,2024-01-12T17:06:43Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-east-1,devops,console.aws.amazon.com,,1,8,0,0,0,0,0,0,NORMAL
+req-0003db-1877,2024-01-12T23:08:39Z,CreateLoginProfile,iam.amazonaws.com,45.155.205.12,sa-east-1,root,Go-http-client/1.1,,39,92,1,1,1,1,0,1,ATTACK
+req-000387-8871,2024-01-26T00:06:34Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,ru-central-1,john.doe,curl/7.88.1,AccessDenied,26,30,1,0,1,0,1,1,ATTACK
+req-0003b4-7148,2024-01-03T03:31:40Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,ap-northeast-1,john.doe,libwww-perl/6.07,,9,46,1,0,1,1,0,1,ATTACK
+req-00015b-3967,2024-01-12T17:32:19Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ap-northeast-1,devops,console.aws.amazon.com,,1,14,0,0,0,0,0,0,NORMAL
+req-00008c-2264,2024-01-16T19:12:14Z,GetCallerIdentity,sts.amazonaws.com,10.0.0.1,ca-central-1,svc-billing,Boto3/1.28.0,,1,3,0,0,0,0,0,0,NORMAL
+req-00026e-6021,2024-01-15T15:29:19Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ap-northeast-1,api-user,Terraform/1.5.0,,4,3,0,0,0,0,0,0,NORMAL
+req-0001f4-7124,2024-01-05T16:28:02Z,AssumeRole,sts.amazonaws.com,172.16.0.5,us-west-2,iam-readonly,Boto3/1.28.0,,1,4,0,0,0,0,0,0,NORMAL
+req-000173-6421,2024-01-03T09:48:31Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,eu-west-2,devops,Terraform/1.5.0,,2,4,0,0,0,0,0,0,NORMAL
+req-0000c7-1187,2024-01-15T10:48:17Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,us-east-1,svc-billing,Boto3/1.28.0,,2,5,0,0,0,0,0,0,NORMAL
+req-0002b0-2815,2024-01-21T10:19:20Z,ListBuckets,s3.amazonaws.com,172.16.0.5,ap-northeast-1,admin,Terraform/1.5.0,,4,2,0,0,0,0,0,0,NORMAL
+req-000249-8144,2024-01-01T16:32:45Z,GetObject,s3.amazonaws.com,10.0.1.20,us-west-2,terraform-svc,Boto3/1.28.0,,3,8,0,0,0,0,0,0,NORMAL
+req-000386-1716,2024-01-04T23:24:24Z,CreateLoginProfile,iam.amazonaws.com,192.0.2.45,cn-north-1,john.doe,python-requests/2.31,UnauthorizedOperation,6,34,1,0,1,1,1,1,ATTACK
+req-00003c-3506,2024-01-21T12:57:53Z,ListBuckets,s3.amazonaws.com,10.0.0.1,eu-west-2,devops,Terraform/1.5.0,,3,12,0,0,0,0,0,0,NORMAL
+req-000149-8133,2024-01-05T10:02:27Z,GetObject,s3.amazonaws.com,52.94.228.167,us-east-1,john.doe,AWS Internal,,0,11,0,0,0,0,0,0,NORMAL
+req-000061-3240,2024-01-21T10:12:39Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,us-east-1,iam-readonly,console.aws.amazon.com,,2,11,0,0,0,0,0,0,NORMAL
+req-000139-8982,2024-01-11T11:08:10Z,GetObject,s3.amazonaws.com,54.239.28.85,eu-west-2,admin,AWS Internal,,3,13,0,0,0,0,0,0,NORMAL
+req-0003cf-3401,2024-01-19T00:43:18Z,PutUserPolicy,iam.amazonaws.com,192.0.2.45,cn-north-1,root,Mozilla/5.0 (unknown),,19,87,1,1,1,1,0,1,ATTACK
+req-00012c-8570,2024-01-18T14:47:35Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ap-south-1,devops,AWS Internal,,1,2,0,0,0,0,0,0,NORMAL
+req-000116-1894,2024-01-20T15:32:12Z,AssumeRole,sts.amazonaws.com,10.0.1.20,ap-northeast-1,svc-billing,AWS Internal,,3,5,0,0,0,0,0,0,NORMAL
+req-00039d-3935,2024-01-06T02:04:17Z,PutUserPolicy,iam.amazonaws.com,192.0.2.45,us-east-1,root,Go-http-client/1.1,,28,65,1,1,1,0,0,1,ATTACK
+req-00025a-1476,2024-01-30T07:34:11Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,eu-west-2,admin,AWS Internal,,1,13,0,0,0,0,0,0,NORMAL
+req-0001b8-1448,2024-01-22T14:29:57Z,GetObject,s3.amazonaws.com,34.224.10.5,us-west-2,terraform-svc,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-000346-6333,2024-01-27T20:20:01Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,cn-north-1,root,Mozilla/5.0 (unknown),,2,25,1,0,0,0,0,0,SUSPICIOUS
+req-00023b-8317,2024-01-06T16:58:37Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-east-1,svc-lambda,Boto3/1.28.0,,1,11,0,0,0,0,0,0,NORMAL
+req-000370-4260,2024-01-24T13:21:57Z,GetSecretValue,secretsmanager.amazonaws.com,203.0.113.99,us-east-1,root,Mozilla/5.0 (unknown),,0,40,1,0,0,0,0,1,SUSPICIOUS
+req-000106-2923,2024-01-12T11:55:52Z,AssumeRole,sts.amazonaws.com,10.0.1.20,ca-central-1,admin,Boto3/1.28.0,,0,8,0,0,0,0,0,0,NORMAL
+req-000243-4552,2024-01-20T07:05:03Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,us-east-1,john.doe,Boto3/1.28.0,,4,11,0,0,0,0,0,0,NORMAL
+req-000018-4044,2024-01-06T15:03:32Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,eu-west-2,terraform-svc,aws-cli/2.13.0,,0,14,0,0,0,0,0,0,NORMAL
+req-00001f-1158,2024-01-24T09:28:35Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ap-south-1,terraform-svc,Boto3/1.28.0,,3,9,0,0,0,0,0,0,NORMAL
+req-00026a-8501,2024-01-26T18:56:04Z,AssumeRole,sts.amazonaws.com,34.224.10.5,ap-northeast-1,iam-readonly,Boto3/1.28.0,,1,15,0,0,0,0,0,0,NORMAL
+req-00000b-9797,2024-01-28T15:00:43Z,ListBuckets,s3.amazonaws.com,54.239.28.85,eu-west-2,svc-billing,Terraform/1.5.0,,0,11,0,0,0,0,0,0,NORMAL
+req-0000de-9037,2024-01-11T17:16:48Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,eu-west-2,svc-lambda,AWS Internal,,3,12,0,0,0,0,0,0,NORMAL
+req-000335-5079,2024-01-07T23:15:27Z,CreateAccessKey,iam.amazonaws.com,192.0.2.45,us-east-1,john.doe,console.aws.amazon.com,UnauthorizedOperation,1,97,1,0,1,0,1,0,SUSPICIOUS
+req-000129-8635,2024-01-04T16:09:06Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,us-east-1,iam-readonly,aws-cli/2.13.0,,1,8,0,0,0,0,0,0,NORMAL
+req-000037-1508,2024-01-08T12:41:04Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,ap-northeast-1,terraform-svc,aws-cli/2.13.0,,0,13,0,0,0,0,0,0,NORMAL
+req-00021f-1598,2024-01-17T20:43:08Z,AssumeRole,sts.amazonaws.com,34.224.10.5,ap-south-1,iam-readonly,console.aws.amazon.com,,1,12,0,0,0,0,0,0,NORMAL
+req-0000d2-1256,2024-01-02T08:51:42Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,ca-central-1,svc-lambda,Boto3/1.28.0,,3,10,0,0,0,0,0,0,NORMAL
+req-00025d-6503,2024-01-07T18:40:22Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,eu-west-2,john.doe,Terraform/1.5.0,,2,4,0,0,0,0,0,0,NORMAL
+req-0002b5-4328,2024-01-27T14:43:31Z,GetObject,s3.amazonaws.com,172.16.0.5,eu-west-2,terraform-svc,console.aws.amazon.com,,0,4,0,0,0,0,0,0,NORMAL
+req-000297-5660,2024-01-19T14:24:39Z,ListBuckets,s3.amazonaws.com,52.94.228.167,ap-northeast-1,devops,AWS Internal,,2,13,0,0,0,0,0,0,NORMAL
+req-000363-2623,2024-01-19T22:55:18Z,GetSecretValue,secretsmanager.amazonaws.com,198.51.100.77,ru-central-1,devops,AWS Internal,,4,54,1,0,1,0,0,1,SUSPICIOUS
+req-000047-1986,2024-01-10T14:55:37Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ap-northeast-1,devops,Boto3/1.28.0,,3,5,0,0,0,0,0,0,NORMAL
+req-000220-8649,2024-01-28T17:38:55Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-south-1,terraform-svc,Terraform/1.5.0,,0,6,0,0,0,0,0,0,NORMAL
+req-00006c-4394,2024-01-26T09:36:13Z,ListBuckets,s3.amazonaws.com,34.224.10.5,us-west-2,john.doe,aws-cli/2.13.0,,0,14,0,0,0,0,0,0,NORMAL
+req-0001ee-1187,2024-01-04T20:55:49Z,AssumeRole,sts.amazonaws.com,172.31.5.22,ca-central-1,devops,Boto3/1.28.0,,1,12,0,0,0,0,0,0,NORMAL
+req-00024f-4817,2024-01-22T14:55:55Z,AssumeRole,sts.amazonaws.com,10.0.0.1,us-west-2,svc-lambda,aws-cli/2.13.0,,4,3,0,0,0,0,0,0,NORMAL
+req-0002e6-3364,2024-01-23T14:59:31Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,45.155.205.12,ap-northeast-1,svc-billing,python-requests/2.31,,3,40,1,0,0,0,0,0,SUSPICIOUS
+req-000125-6038,2024-01-01T12:48:42Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,us-west-2,admin,console.aws.amazon.com,,3,14,0,0,0,0,0,0,NORMAL
+req-000122-5625,2024-01-02T15:25:04Z,ListBuckets,s3.amazonaws.com,172.16.0.5,ap-south-1,john.doe,console.aws.amazon.com,,3,14,0,0,0,0,0,0,NORMAL
+req-00028d-7672,2024-01-24T16:19:43Z,ListBuckets,s3.amazonaws.com,10.0.0.1,ap-south-1,svc-billing,Boto3/1.28.0,,3,4,0,0,0,0,0,0,NORMAL
+req-000028-7691,2024-01-29T18:19:32Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,us-east-1,iam-readonly,Boto3/1.28.0,,2,11,0,0,0,0,0,0,NORMAL
+req-00024e-6533,2024-01-15T19:01:02Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,eu-west-2,terraform-svc,console.aws.amazon.com,,2,1,0,0,0,0,0,0,NORMAL
+req-000134-7363,2024-01-02T18:48:14Z,GetObject,s3.amazonaws.com,172.16.0.5,us-east-1,iam-readonly,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-0002a8-9740,2024-01-09T13:55:37Z,GetObject,s3.amazonaws.com,192.168.1.100,us-east-1,svc-billing,aws-cli/2.13.0,,0,8,0,0,0,0,0,0,NORMAL
+req-000043-3939,2024-01-27T08:12:18Z,AssumeRole,sts.amazonaws.com,192.168.1.100,us-west-2,api-user,Terraform/1.5.0,,1,6,0,0,0,0,0,0,NORMAL
+req-000114-2646,2024-01-15T17:55:13Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-south-1,devops,console.aws.amazon.com,,0,15,0,0,0,0,0,0,NORMAL
+req-000044-1200,2024-01-23T11:08:40Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ap-south-1,admin,aws-cli/2.13.0,,3,2,0,0,0,0,0,0,NORMAL
+req-00013f-8393,2024-01-19T20:41:48Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,ap-south-1,devops,Terraform/1.5.0,,1,3,0,0,0,0,0,0,NORMAL
+req-000225-4246,2024-01-20T14:22:19Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-northeast-1,svc-lambda,AWS Internal,,2,14,0,0,0,0,0,0,NORMAL
+req-0003e7-7132,2024-01-20T00:16:07Z,DeleteTrail,cloudtrail.amazonaws.com,192.0.2.45,cn-north-1,john.doe,Go-http-client/1.1,UnauthorizedOperation,7,29,1,0,1,0,1,1,ATTACK
+req-0002cb-1293,2024-01-28T08:43:06Z,PutBucketPolicy,s3.amazonaws.com,192.0.2.45,ap-northeast-1,terraform-svc,Go-http-client/1.1,,3,88,1,0,0,0,0,0,SUSPICIOUS
+req-0002f2-1305,2024-01-03T13:30:01Z,RunInstances,ec2.amazonaws.com,198.51.100.77,us-east-1,devops,python-requests/2.31,,3,49,1,0,0,0,0,0,SUSPICIOUS
+req-000148-2970,2024-01-26T15:36:43Z,GetCallerIdentity,sts.amazonaws.com,10.0.0.1,us-west-2,api-user,AWS Internal,,4,3,0,0,0,0,0,0,NORMAL
+req-00017f-6281,2024-01-21T18:11:32Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,eu-west-2,svc-lambda,Boto3/1.28.0,,4,12,0,0,0,0,0,0,NORMAL
+req-0001c4-7527,2024-01-09T11:35:54Z,GetObject,s3.amazonaws.com,172.31.0.10,us-west-2,iam-readonly,Terraform/1.5.0,,4,1,0,0,0,0,0,0,NORMAL
+req-00020b-7235,2024-01-26T18:32:39Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-south-1,svc-lambda,console.aws.amazon.com,,1,7,0,0,0,0,0,0,NORMAL
+req-0000db-5285,2024-01-13T11:29:34Z,AssumeRole,sts.amazonaws.com,10.0.2.45,us-east-1,svc-billing,Boto3/1.28.0,,2,5,0,0,0,0,0,0,NORMAL
+req-000314-1674,2024-01-10T02:28:33Z,RunInstances,ec2.amazonaws.com,185.220.101.47,ru-central-1,admin,Terraform/1.5.0,,2,49,1,0,1,0,0,0,SUSPICIOUS
+req-0001b5-6703,2024-01-10T15:46:53Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,us-west-2,terraform-svc,aws-cli/2.13.0,,4,15,0,0,0,0,0,0,NORMAL
+req-0002fd-9731,2024-01-24T16:50:17Z,GetSecretValue,secretsmanager.amazonaws.com,192.168.1.100,ap-northeast-1,john.doe,aws-cli/2.13.0,,1,22,0,0,0,0,0,1,SUSPICIOUS
+req-000059-2315,2024-01-09T19:21:39Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ca-central-1,admin,AWS Internal,,3,11,0,0,0,0,0,0,NORMAL
+req-000040-1282,2024-01-23T10:30:41Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,eu-west-2,api-user,Boto3/1.28.0,,3,8,0,0,0,0,0,0,NORMAL
+req-00033b-1462,2024-01-08T23:15:30Z,RunInstances,ec2.amazonaws.com,103.21.244.0,sa-east-1,terraform-svc,Mozilla/5.0 (unknown),AccessDenied,0,66,1,0,1,0,1,0,SUSPICIOUS
+req-0002cd-4428,2024-01-04T06:52:01Z,CreateAccessKey,iam.amazonaws.com,192.0.2.45,ru-central-1,root,Mozilla/5.0 (unknown),,1,23,1,0,0,0,0,0,SUSPICIOUS
+req-000160-3595,2024-01-15T07:17:13Z,AssumeRole,sts.amazonaws.com,52.94.228.167,us-east-1,svc-lambda,console.aws.amazon.com,,1,10,0,0,0,0,0,0,NORMAL
+req-0003a9-6502,2024-01-14T03:22:22Z,StopLogging,cloudtrail.amazonaws.com,45.155.205.12,eu-west-2,john.doe,libwww-perl/6.07,AccessDenied,39,74,1,0,1,1,1,1,ATTACK
+req-000101-4065,2024-01-18T09:10:31Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,ca-central-1,terraform-svc,Terraform/1.5.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00027c-3938,2024-01-21T08:42:57Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,ap-northeast-1,svc-lambda,Boto3/1.28.0,,2,7,0,0,0,0,0,0,NORMAL
+req-000285-4712,2024-01-05T10:54:44Z,AssumeRole,sts.amazonaws.com,54.239.28.85,ap-south-1,iam-readonly,console.aws.amazon.com,,1,12,0,0,0,0,0,0,NORMAL
+req-00022b-8972,2024-01-23T15:15:11Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,eu-west-2,iam-readonly,console.aws.amazon.com,,0,12,0,0,0,0,0,0,NORMAL
+req-0003c0-7444,2024-01-03T03:35:49Z,DeleteTrail,cloudtrail.amazonaws.com,185.220.101.47,sa-east-1,john.doe,libwww-perl/6.07,,25,83,1,0,1,1,0,1,ATTACK
+req-0000a9-9501,2024-01-06T09:20:59Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ap-south-1,john.doe,aws-cli/2.13.0,,1,6,0,0,0,0,0,0,NORMAL
+req-000396-6942,2024-01-21T02:27:12Z,DeleteBucket,s3.amazonaws.com,91.108.4.1,sa-east-1,root,curl/7.88.1,UnauthorizedOperation,22,33,1,1,1,0,1,0,ATTACK
+req-000211-6901,2024-01-19T16:50:35Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ap-northeast-1,svc-lambda,console.aws.amazon.com,,1,8,0,0,0,0,0,0,NORMAL
+req-000338-4206,2024-01-16T19:04:21Z,GetSecretValue,secretsmanager.amazonaws.com,198.51.100.77,cn-north-1,svc-billing,console.aws.amazon.com,,1,80,1,0,0,0,0,1,SUSPICIOUS
+req-0003da-1432,2024-01-14T02:29:26Z,DeleteTrail,cloudtrail.amazonaws.com,91.108.4.1,cn-north-1,admin,Go-http-client/1.1,AccessDenied,31,79,1,1,1,0,1,1,ATTACK
+req-000331-5556,2024-01-20T23:28:47Z,GetSecretValue,secretsmanager.amazonaws.com,185.220.101.47,eu-west-2,admin,AWS Internal,,2,37,1,0,1,0,0,1,SUSPICIOUS
+req-000057-3492,2024-01-30T18:51:24Z,ListBuckets,s3.amazonaws.com,192.168.1.100,ap-south-1,svc-lambda,console.aws.amazon.com,,3,11,0,0,0,0,0,0,NORMAL
+req-0001b1-7075,2024-01-14T16:05:04Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,ap-south-1,john.doe,aws-cli/2.13.0,,2,4,0,0,0,0,0,0,NORMAL
+req-0000b9-8225,2024-01-19T07:44:07Z,ListBuckets,s3.amazonaws.com,10.0.1.20,ap-south-1,svc-lambda,AWS Internal,,1,1,0,0,0,0,0,0,NORMAL
+req-0003d3-7836,2024-01-06T23:16:58Z,PutUserPolicy,iam.amazonaws.com,192.0.2.45,sa-east-1,admin,libwww-perl/6.07,UnauthorizedOperation,27,62,1,1,1,0,1,1,ATTACK
+req-000217-5919,2024-01-10T18:16:50Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-east-1,svc-lambda,AWS Internal,,0,5,0,0,0,0,0,0,NORMAL
+req-000127-7461,2024-01-19T08:06:32Z,GetObject,s3.amazonaws.com,34.224.10.5,eu-west-2,terraform-svc,console.aws.amazon.com,,1,11,0,0,0,0,0,0,NORMAL
+req-00037d-3711,2024-01-22T15:34:55Z,PutBucketPolicy,s3.amazonaws.com,192.0.2.45,ru-central-1,iam-readonly,aws-cli/2.13.0,,4,29,1,0,0,0,0,0,SUSPICIOUS
+req-0001aa-9680,2024-01-17T13:26:23Z,GetObject,s3.amazonaws.com,34.224.10.5,ca-central-1,svc-lambda,aws-cli/2.13.0,,0,12,0,0,0,0,0,0,NORMAL
+req-0002ca-5342,2024-01-10T22:20:37Z,GetSecretValue,secretsmanager.amazonaws.com,91.108.4.1,eu-west-2,admin,Terraform/1.5.0,,3,77,1,0,1,0,0,1,SUSPICIOUS
+req-000105-2677,2024-01-24T19:28:34Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ap-northeast-1,iam-readonly,AWS Internal,,1,7,0,0,0,0,0,0,NORMAL
+req-0000ee-3274,2024-01-19T10:33:10Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-northeast-1,terraform-svc,console.aws.amazon.com,,3,3,0,0,0,0,0,0,NORMAL
+req-000230-1510,2024-01-27T15:22:07Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ca-central-1,admin,AWS Internal,,2,14,0,0,0,0,0,0,NORMAL
+req-000248-1014,2024-01-25T11:28:01Z,GetObject,s3.amazonaws.com,10.0.2.45,ap-south-1,api-user,aws-cli/2.13.0,,3,3,0,0,0,0,0,0,NORMAL
+req-0001be-3101,2024-01-30T19:32:17Z,GetObject,s3.amazonaws.com,172.31.0.10,us-east-1,john.doe,Terraform/1.5.0,,3,4,0,0,0,0,0,0,NORMAL
+req-000364-3090,2024-01-18T17:38:56Z,AttachUserPolicy,iam.amazonaws.com,54.239.28.85,ca-central-1,svc-lambda,libwww-perl/6.07,,3,81,0,0,0,0,0,1,SUSPICIOUS
+req-000321-6388,2024-01-27T02:25:38Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,45.155.205.12,us-west-2,root,Mozilla/5.0 (unknown),,1,87,1,0,1,0,0,0,SUSPICIOUS
+req-000258-3444,2024-01-09T10:03:12Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,eu-west-2,svc-lambda,Terraform/1.5.0,,0,13,0,0,0,0,0,0,NORMAL
+req-000352-1886,2024-01-13T17:06:08Z,CreateAccessKey,iam.amazonaws.com,185.220.101.47,us-west-2,root,curl/7.88.1,AccessDenied,2,94,1,0,0,0,1,0,SUSPICIOUS
+req-00010a-5402,2024-01-22T20:25:31Z,AssumeRole,sts.amazonaws.com,172.16.0.5,us-east-1,john.doe,aws-cli/2.13.0,,1,10,0,0,0,0,0,0,NORMAL
+req-0003e4-8925,2024-01-26T02:48:42Z,TerminateInstances,ec2.amazonaws.com,45.155.205.12,cn-north-1,john.doe,Go-http-client/1.1,UnauthorizedOperation,24,70,1,0,1,0,1,0,ATTACK
+req-000212-5797,2024-01-25T08:27:53Z,GetObject,s3.amazonaws.com,10.0.0.1,eu-west-2,devops,Boto3/1.28.0,,4,2,0,0,0,0,0,0,NORMAL
+req-000038-5198,2024-01-04T17:36:13Z,GetObject,s3.amazonaws.com,172.16.0.5,ap-south-1,john.doe,aws-cli/2.13.0,,3,12,0,0,0,0,0,0,NORMAL
+req-000079-1502,2024-01-19T09:42:25Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,eu-west-2,john.doe,AWS Internal,,0,3,0,0,0,0,0,0,NORMAL
+req-0000d8-9775,2024-01-03T17:59:28Z,GetObject,s3.amazonaws.com,34.224.10.5,us-east-1,john.doe,aws-cli/2.13.0,,2,2,0,0,0,0,0,0,NORMAL
+req-00001a-5915,2024-01-11T18:15:16Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ca-central-1,john.doe,Terraform/1.5.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000049-4824,2024-01-23T11:18:44Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,eu-west-2,admin,console.aws.amazon.com,,3,2,0,0,0,0,0,0,NORMAL
+req-00002d-2746,2024-01-08T13:09:41Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,us-west-2,devops,Terraform/1.5.0,,0,15,0,0,0,0,0,0,NORMAL
+req-0000f8-9199,2024-01-12T14:25:29Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ap-northeast-1,api-user,Terraform/1.5.0,,4,12,0,0,0,0,0,0,NORMAL
+req-0002d2-3643,2024-01-21T19:22:28Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,45.155.205.12,sa-east-1,root,AWS Internal,InvalidClientTokenId,3,22,1,0,0,0,1,0,SUSPICIOUS
+req-00011a-6353,2024-01-30T15:13:51Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,us-east-1,svc-billing,console.aws.amazon.com,,1,9,0,0,0,0,0,0,NORMAL
+req-00037e-9401,2024-01-06T00:36:13Z,RunInstances,ec2.amazonaws.com,45.155.205.12,ca-central-1,root,curl/7.88.1,AccessDenied,4,21,1,0,1,0,1,0,SUSPICIOUS
+req-000393-1526,2024-01-23T22:00:18Z,TerminateInstances,ec2.amazonaws.com,203.0.113.99,ca-central-1,admin,Go-http-client/1.1,AccessDenied,12,39,1,1,1,0,1,0,ATTACK
+req-00032b-4105,2024-01-17T13:06:52Z,PutBucketPolicy,s3.amazonaws.com,203.0.113.99,ru-central-1,root,Go-http-client/1.1,,2,61,1,0,0,0,0,0,SUSPICIOUS
+req-0000f5-7853,2024-01-19T14:25:34Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ap-south-1,terraform-svc,console.aws.amazon.com,,4,15,0,0,0,0,0,0,NORMAL
+req-000337-9801,2024-01-14T12:54:05Z,RunInstances,ec2.amazonaws.com,198.51.100.77,ru-central-1,admin,Go-http-client/1.1,UnauthorizedOperation,2,96,1,0,0,0,1,0,SUSPICIOUS
+req-000142-5612,2024-01-30T18:46:34Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,us-east-1,svc-lambda,Boto3/1.28.0,,2,11,0,0,0,0,0,0,NORMAL
+req-000284-9570,2024-01-12T18:08:52Z,GetObject,s3.amazonaws.com,172.16.0.5,ap-south-1,svc-billing,aws-cli/2.13.0,,3,15,0,0,0,0,0,0,NORMAL
+req-00009f-8126,2024-01-15T12:02:46Z,ListBuckets,s3.amazonaws.com,54.239.28.85,eu-west-2,svc-lambda,console.aws.amazon.com,,2,10,0,0,0,0,0,0,NORMAL
+req-0003d2-7189,2024-01-12T03:13:47Z,CreateLoginProfile,iam.amazonaws.com,198.51.100.77,cn-north-1,john.doe,python-requests/2.31,,10,44,1,0,1,1,0,1,ATTACK
+req-0001ae-8904,2024-01-25T13:13:26Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ap-northeast-1,terraform-svc,Terraform/1.5.0,,4,13,0,0,0,0,0,0,NORMAL
+req-0003ae-8045,2024-01-27T23:47:38Z,TerminateInstances,ec2.amazonaws.com,185.220.101.47,ap-south-1,john.doe,libwww-perl/6.07,,25,62,1,0,1,0,0,0,ATTACK
+req-0001cf-3551,2024-01-15T08:19:23Z,ListBuckets,s3.amazonaws.com,34.224.10.5,eu-west-2,john.doe,AWS Internal,,3,5,0,0,0,0,0,0,NORMAL
+req-000136-2478,2024-01-18T14:19:11Z,GetObject,s3.amazonaws.com,34.224.10.5,us-east-1,terraform-svc,Terraform/1.5.0,,3,1,0,0,0,0,0,0,NORMAL
+req-0002ba-5264,2024-01-29T09:35:02Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,svc-lambda,Boto3/1.28.0,,4,3,0,0,0,0,0,0,NORMAL
+req-00003d-5397,2024-01-25T15:30:29Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,us-east-1,iam-readonly,AWS Internal,,3,14,0,0,0,0,0,0,NORMAL
+req-000375-7673,2024-01-07T19:05:55Z,PutBucketPolicy,s3.amazonaws.com,192.168.1.100,ru-central-1,svc-billing,aws-cli/2.13.0,InvalidClientTokenId,0,68,1,0,0,0,1,0,SUSPICIOUS
+req-000254-3584,2024-01-04T09:50:54Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-east-1,api-user,aws-cli/2.13.0,,4,7,0,0,0,0,0,0,NORMAL
+req-000300-3694,2024-01-14T22:04:58Z,GetSecretValue,secretsmanager.amazonaws.com,54.239.28.85,cn-north-1,svc-lambda,Boto3/1.28.0,,1,45,1,0,1,0,0,1,SUSPICIOUS
+req-00028a-9260,2024-01-24T07:06:59Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,us-east-1,iam-readonly,AWS Internal,,1,15,0,0,0,0,0,0,NORMAL
+req-00028b-4510,2024-01-06T08:53:22Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,us-east-1,svc-lambda,console.aws.amazon.com,,3,7,0,0,0,0,0,0,NORMAL
+req-000362-3023,2024-01-04T00:24:14Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,185.220.101.47,us-west-2,john.doe,python-requests/2.31,InvalidClientTokenId,3,33,1,0,1,0,1,0,SUSPICIOUS
+req-00029d-6518,2024-01-24T16:05:45Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,ap-northeast-1,iam-readonly,Boto3/1.28.0,,4,2,0,0,0,0,0,0,NORMAL
+req-00012b-1802,2024-01-23T08:15:22Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ca-central-1,svc-billing,aws-cli/2.13.0,,3,9,0,0,0,0,0,0,NORMAL
+req-0002b2-7447,2024-01-07T11:05:26Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,ap-northeast-1,svc-billing,aws-cli/2.13.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00013b-3983,2024-01-19T18:25:54Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,us-east-1,admin,Boto3/1.28.0,,4,1,0,0,0,0,0,0,NORMAL
+req-000137-3907,2024-01-07T16:51:08Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,eu-west-2,svc-billing,aws-cli/2.13.0,,2,12,0,0,0,0,0,0,NORMAL
+req-00016a-9095,2024-01-03T17:58:07Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,us-east-1,admin,AWS Internal,,4,11,0,0,0,0,0,0,NORMAL
+req-0001e0-9151,2024-01-27T15:24:12Z,ListBuckets,s3.amazonaws.com,54.239.28.85,us-east-1,admin,console.aws.amazon.com,,4,11,0,0,0,0,0,0,NORMAL
+req-00006f-8405,2024-01-25T14:23:32Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,ap-south-1,admin,Terraform/1.5.0,,4,2,0,0,0,0,0,0,NORMAL
+req-0003de-3507,2024-01-26T00:31:39Z,DeleteTrail,cloudtrail.amazonaws.com,192.0.2.45,eu-west-2,john.doe,Go-http-client/1.1,AccessDenied,17,34,1,0,1,0,1,1,ATTACK
+req-0001e7-6163,2024-01-18T09:38:28Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,eu-west-2,svc-billing,aws-cli/2.13.0,,2,15,0,0,0,0,0,0,NORMAL
+req-00016c-1751,2024-01-11T17:27:47Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ca-central-1,svc-billing,AWS Internal,,0,2,0,0,0,0,0,0,NORMAL
+req-0000ff-2388,2024-01-26T18:19:58Z,ListBuckets,s3.amazonaws.com,54.239.28.85,ap-northeast-1,iam-readonly,AWS Internal,,4,10,0,0,0,0,0,0,NORMAL
+req-000104-2871,2024-01-16T19:35:32Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,eu-west-2,svc-lambda,aws-cli/2.13.0,,0,10,0,0,0,0,0,0,NORMAL
+req-000323-3587,2024-01-19T22:06:25Z,RunInstances,ec2.amazonaws.com,54.239.28.85,cn-north-1,api-user,Mozilla/5.0 (unknown),,0,50,1,0,1,0,0,0,SUSPICIOUS
+req-0002a6-9605,2024-01-30T15:07:33Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,us-east-1,api-user,AWS Internal,,4,13,0,0,0,0,0,0,NORMAL
+req-0001ef-1827,2024-01-05T16:20:32Z,ListBuckets,s3.amazonaws.com,10.0.1.20,ap-northeast-1,svc-billing,aws-cli/2.13.0,,1,3,0,0,0,0,0,0,NORMAL
+req-00029f-1304,2024-01-22T14:48:35Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,eu-west-2,api-user,Boto3/1.28.0,,1,15,0,0,0,0,0,0,NORMAL
+req-00017a-8381,2024-01-30T07:40:53Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,eu-west-2,iam-readonly,aws-cli/2.13.0,,4,2,0,0,0,0,0,0,NORMAL
+req-00020f-3429,2024-01-27T15:52:13Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,ap-northeast-1,api-user,Boto3/1.28.0,,0,3,0,0,0,0,0,0,NORMAL
+req-00034e-5643,2024-01-16T07:43:29Z,GetSecretValue,secretsmanager.amazonaws.com,10.0.0.1,us-west-2,john.doe,Go-http-client/1.1,UnauthorizedOperation,1,96,0,0,0,0,1,1,SUSPICIOUS
+req-00008a-2388,2024-01-22T18:25:08Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,eu-west-2,terraform-svc,aws-cli/2.13.0,,4,12,0,0,0,0,0,0,NORMAL
+req-000164-4742,2024-01-25T12:12:10Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,eu-west-2,terraform-svc,AWS Internal,,3,1,0,0,0,0,0,0,NORMAL
+req-00016e-3171,2024-01-16T20:51:26Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,us-east-1,devops,AWS Internal,,1,2,0,0,0,0,0,0,NORMAL
+req-0003af-6212,2024-01-14T23:08:40Z,StopLogging,cloudtrail.amazonaws.com,192.0.2.45,sa-east-1,john.doe,python-requests/2.31,UnauthorizedOperation,29,42,1,0,1,0,1,1,ATTACK
+req-0002ee-6249,2024-01-15T18:05:51Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,45.155.205.12,us-west-2,iam-readonly,libwww-perl/6.07,,4,97,1,0,0,0,0,0,SUSPICIOUS
+req-0003b5-6681,2024-01-19T22:40:38Z,CreateLoginProfile,iam.amazonaws.com,198.51.100.77,eu-west-2,john.doe,Mozilla/5.0 (unknown),,7,35,1,0,1,1,0,1,ATTACK
+req-00033e-6642,2024-01-25T13:56:59Z,PutBucketPolicy,s3.amazonaws.com,185.220.101.47,sa-east-1,john.doe,libwww-perl/6.07,,0,33,1,0,0,0,0,0,SUSPICIOUS
+req-000291-8448,2024-01-16T13:32:17Z,AssumeRole,sts.amazonaws.com,172.31.0.10,eu-west-2,svc-lambda,AWS Internal,,1,13,0,0,0,0,0,0,NORMAL
+req-0000c8-2923,2024-01-13T09:43:32Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,us-west-2,devops,Boto3/1.28.0,,2,12,0,0,0,0,0,0,NORMAL
+req-0000d6-5913,2024-01-11T15:44:26Z,ListBuckets,s3.amazonaws.com,10.0.0.1,ap-northeast-1,devops,Boto3/1.28.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000199-6004,2024-01-29T12:30:29Z,AssumeRole,sts.amazonaws.com,10.0.1.20,eu-west-2,svc-lambda,Boto3/1.28.0,,3,6,0,0,0,0,0,0,NORMAL
+req-00014d-7581,2024-01-02T14:11:17Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,ap-northeast-1,api-user,Boto3/1.28.0,,3,3,0,0,0,0,0,0,NORMAL
+req-0000d1-4762,2024-01-24T17:34:27Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ap-south-1,svc-billing,aws-cli/2.13.0,,4,7,0,0,0,0,0,0,NORMAL
+req-000266-1844,2024-01-17T07:58:43Z,ListBuckets,s3.amazonaws.com,192.168.1.100,ap-northeast-1,svc-billing,console.aws.amazon.com,,2,15,0,0,0,0,0,0,NORMAL
+req-00004f-1601,2024-01-16T18:18:42Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,ca-central-1,svc-billing,console.aws.amazon.com,,3,14,0,0,0,0,0,0,NORMAL
+req-00001e-7939,2024-01-17T11:31:16Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-east-1,svc-lambda,console.aws.amazon.com,,0,2,0,0,0,0,0,0,NORMAL
+req-000218-6415,2024-01-19T18:39:01Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,us-west-2,svc-billing,aws-cli/2.13.0,,1,4,0,0,0,0,0,0,NORMAL
+req-0002b8-5198,2024-01-23T10:24:45Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,ca-central-1,devops,AWS Internal,,3,12,0,0,0,0,0,0,NORMAL
+req-00022e-5989,2024-01-22T10:56:20Z,ListBuckets,s3.amazonaws.com,52.94.228.167,ap-northeast-1,devops,Boto3/1.28.0,,2,10,0,0,0,0,0,0,NORMAL
+req-000345-5072,2024-01-01T04:38:07Z,AttachUserPolicy,iam.amazonaws.com,203.0.113.99,ap-south-1,svc-billing,Go-http-client/1.1,InvalidClientTokenId,4,55,1,0,0,0,1,1,SUSPICIOUS
+req-000255-8798,2024-01-19T17:56:18Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,us-east-1,admin,aws-cli/2.13.0,,3,12,0,0,0,0,0,0,NORMAL
+req-0000a6-3126,2024-01-12T07:35:36Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ap-south-1,iam-readonly,Boto3/1.28.0,,2,8,0,0,0,0,0,0,NORMAL
+req-000397-1530,2024-01-01T23:48:58Z,PutUserPolicy,iam.amazonaws.com,203.0.113.99,ca-central-1,root,python-requests/2.31,AccessDenied,24,44,1,1,1,1,1,1,ATTACK
+req-0001f0-3165,2024-01-08T08:27:18Z,AssumeRole,sts.amazonaws.com,172.31.5.22,us-west-2,api-user,AWS Internal,,3,3,0,0,0,0,0,0,NORMAL
+req-000339-6043,2024-01-13T13:47:23Z,GetSecretValue,secretsmanager.amazonaws.com,54.239.28.85,cn-north-1,devops,aws-cli/2.13.0,UnauthorizedOperation,3,82,1,0,0,0,1,1,SUSPICIOUS
+req-000042-4545,2024-01-04T12:47:34Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,us-east-1,svc-lambda,Boto3/1.28.0,,1,4,0,0,0,0,0,0,NORMAL
+req-00008e-4891,2024-01-15T18:02:26Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ap-northeast-1,terraform-svc,console.aws.amazon.com,,2,11,0,0,0,0,0,0,NORMAL
+req-00039e-7568,2024-01-04T01:36:31Z,TerminateInstances,ec2.amazonaws.com,91.108.4.1,ru-central-1,admin,libwww-perl/6.07,UnauthorizedOperation,7,66,1,1,1,1,1,0,ATTACK
+req-00033c-2912,2024-01-19T19:42:53Z,CreateAccessKey,iam.amazonaws.com,91.108.4.1,cn-north-1,john.doe,console.aws.amazon.com,AccessDenied,1,21,1,0,0,0,1,0,SUSPICIOUS
+req-000290-5472,2024-01-08T08:53:27Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,ap-northeast-1,terraform-svc,Boto3/1.28.0,,3,5,0,0,0,0,0,0,NORMAL
+req-00014c-9775,2024-01-19T08:49:06Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,admin,Terraform/1.5.0,,2,14,0,0,0,0,0,0,NORMAL
+req-000299-2073,2024-01-21T10:19:37Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ap-south-1,john.doe,Terraform/1.5.0,,0,15,0,0,0,0,0,0,NORMAL
+req-0000fa-1732,2024-01-23T18:28:20Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,eu-west-2,admin,Terraform/1.5.0,,0,5,0,0,0,0,0,0,NORMAL
+req-00038c-3435,2024-01-26T02:58:45Z,PutUserPolicy,iam.amazonaws.com,45.155.205.12,us-west-2,admin,libwww-perl/6.07,AccessDenied,9,20,1,1,1,1,1,1,ATTACK
+req-0002c5-9021,2024-01-04T21:53:23Z,RunInstances,ec2.amazonaws.com,103.21.244.0,us-west-2,root,Go-http-client/1.1,AccessDenied,4,45,1,0,0,0,1,0,SUSPICIOUS
+req-000132-7363,2024-01-12T14:58:36Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,eu-west-2,api-user,console.aws.amazon.com,,4,6,0,0,0,0,0,0,NORMAL
+req-0002df-5940,2024-01-12T22:56:51Z,CreateAccessKey,iam.amazonaws.com,103.21.244.0,cn-north-1,api-user,console.aws.amazon.com,UnauthorizedOperation,3,45,1,0,1,0,1,0,SUSPICIOUS
+req-0003d0-6777,2024-01-09T23:42:31Z,DeleteBucket,s3.amazonaws.com,185.220.101.47,cn-north-1,admin,libwww-perl/6.07,AccessDenied,21,66,1,1,1,0,1,0,ATTACK
+req-000032-1320,2024-01-27T10:26:24Z,AssumeRole,sts.amazonaws.com,10.0.0.1,ap-northeast-1,devops,Terraform/1.5.0,,4,12,0,0,0,0,0,0,NORMAL
+req-000381-5831,2024-01-09T17:46:08Z,GetSecretValue,secretsmanager.amazonaws.com,185.220.101.47,ca-central-1,svc-lambda,Mozilla/5.0 (unknown),,3,98,1,0,0,0,0,1,SUSPICIOUS
+req-000003-2519,2024-01-09T12:09:13Z,ListBuckets,s3.amazonaws.com,172.31.0.10,us-west-2,svc-lambda,aws-cli/2.13.0,,2,2,0,0,0,0,0,0,NORMAL
+req-000221-4285,2024-01-10T19:40:57Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,us-west-2,admin,console.aws.amazon.com,,1,6,0,0,0,0,0,0,NORMAL
+req-00015f-3954,2024-01-29T16:58:29Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,ca-central-1,svc-billing,aws-cli/2.13.0,,1,6,0,0,0,0,0,0,NORMAL
+req-000389-4700,2024-01-08T00:27:24Z,DeleteTrail,cloudtrail.amazonaws.com,45.155.205.12,ru-central-1,john.doe,Mozilla/5.0 (unknown),,14,65,1,0,1,1,0,1,ATTACK
+req-000219-9797,2024-01-16T09:09:40Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,eu-west-2,admin,Terraform/1.5.0,,3,15,0,0,0,0,0,0,NORMAL
+req-000159-3292,2024-01-20T19:25:42Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-south-1,iam-readonly,Boto3/1.28.0,,2,11,0,0,0,0,0,0,NORMAL
+req-0003e3-3858,2024-01-07T23:22:57Z,CreateLoginProfile,iam.amazonaws.com,91.108.4.1,us-west-2,admin,Go-http-client/1.1,UnauthorizedOperation,38,69,1,1,1,1,1,1,ATTACK
+req-0001e2-5193,2024-01-27T17:24:42Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,us-east-1,admin,aws-cli/2.13.0,,3,9,0,0,0,0,0,0,NORMAL
+req-000240-5429,2024-01-14T20:39:58Z,GetObject,s3.amazonaws.com,10.0.1.20,ca-central-1,svc-lambda,aws-cli/2.13.0,,2,6,0,0,0,0,0,0,NORMAL
+req-000022-3938,2024-01-26T19:11:56Z,GetObject,s3.amazonaws.com,10.0.2.45,us-east-1,john.doe,AWS Internal,,3,1,0,0,0,0,0,0,NORMAL
+req-000020-1685,2024-01-19T12:35:09Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,ap-south-1,admin,console.aws.amazon.com,,3,3,0,0,0,0,0,0,NORMAL
+req-0000e8-2284,2024-01-11T15:24:48Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ca-central-1,svc-lambda,Terraform/1.5.0,,1,13,0,0,0,0,0,0,NORMAL
+req-0003c4-9029,2024-01-04T22:33:33Z,StopLogging,cloudtrail.amazonaws.com,103.21.244.0,ru-central-1,admin,Mozilla/5.0 (unknown),UnauthorizedOperation,20,93,1,1,1,0,1,1,ATTACK
+req-0000c1-4267,2024-01-14T09:41:59Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,ap-south-1,terraform-svc,console.aws.amazon.com,,3,8,0,0,0,0,0,0,NORMAL
+req-00014e-5965,2024-01-29T11:23:01Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,us-east-1,svc-lambda,Boto3/1.28.0,,2,14,0,0,0,0,0,0,NORMAL
+req-000004-5803,2024-01-18T14:07:59Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,us-east-1,admin,Boto3/1.28.0,,3,2,0,0,0,0,0,0,NORMAL
+req-0000cd-1049,2024-01-10T19:46:01Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ap-south-1,devops,Terraform/1.5.0,,3,5,0,0,0,0,0,0,NORMAL
+req-000203-5421,2024-01-08T10:02:26Z,AssumeRole,sts.amazonaws.com,54.239.28.85,eu-west-2,john.doe,AWS Internal,,0,15,0,0,0,0,0,0,NORMAL
+req-000320-6084,2024-01-27T13:45:42Z,RunInstances,ec2.amazonaws.com,172.16.0.5,ru-central-1,root,libwww-perl/6.07,,3,40,1,0,0,0,0,0,SUSPICIOUS
+req-000133-4813,2024-01-02T11:51:30Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,ap-south-1,iam-readonly,Terraform/1.5.0,,4,6,0,0,0,0,0,0,NORMAL
+req-00006e-3854,2024-01-26T19:15:37Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,ap-south-1,admin,console.aws.amazon.com,,2,1,0,0,0,0,0,0,NORMAL
+req-0001af-2951,2024-01-23T19:25:47Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,api-user,Terraform/1.5.0,,1,14,0,0,0,0,0,0,NORMAL
+req-00004e-8700,2024-01-14T16:40:52Z,AssumeRole,sts.amazonaws.com,172.16.0.5,eu-west-2,svc-billing,Terraform/1.5.0,,3,2,0,0,0,0,0,0,NORMAL
+req-000055-9022,2024-01-01T20:18:46Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ca-central-1,api-user,Terraform/1.5.0,,2,14,0,0,0,0,0,0,NORMAL
+req-00011f-2889,2024-01-09T09:49:06Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ca-central-1,john.doe,aws-cli/2.13.0,,4,11,0,0,0,0,0,0,NORMAL
+req-000053-5479,2024-01-05T20:31:59Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,eu-west-2,admin,AWS Internal,,2,9,0,0,0,0,0,0,NORMAL
+req-0003e0-4943,2024-01-04T23:27:09Z,DeleteBucket,s3.amazonaws.com,203.0.113.99,ru-central-1,john.doe,Mozilla/5.0 (unknown),AccessDenied,6,43,1,0,1,0,1,0,ATTACK
+req-000316-2942,2024-01-26T02:17:59Z,PutBucketPolicy,s3.amazonaws.com,172.16.0.5,us-west-2,devops,libwww-perl/6.07,,1,32,0,0,1,0,0,0,SUSPICIOUS
+req-00037f-4902,2024-01-04T17:10:14Z,RunInstances,ec2.amazonaws.com,198.51.100.77,us-west-2,svc-lambda,curl/7.88.1,,0,88,1,0,0,0,0,0,SUSPICIOUS
+req-00018f-7357,2024-01-19T08:52:14Z,AssumeRole,sts.amazonaws.com,10.0.0.1,us-east-1,svc-billing,aws-cli/2.13.0,,2,7,0,0,0,0,0,0,NORMAL
+req-000144-9013,2024-01-04T20:19:50Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,us-east-1,admin,aws-cli/2.13.0,,3,8,0,0,0,0,0,0,NORMAL
+req-000208-8400,2024-01-17T18:57:09Z,AssumeRole,sts.amazonaws.com,192.168.1.100,us-east-1,terraform-svc,aws-cli/2.13.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000395-2264,2024-01-13T01:39:03Z,CreateUser,iam.amazonaws.com,103.21.244.0,cn-north-1,root,libwww-perl/6.07,UnauthorizedOperation,19,70,1,1,1,0,1,1,ATTACK
+req-00039b-8059,2024-01-15T02:50:08Z,DeleteBucket,s3.amazonaws.com,103.21.244.0,cn-north-1,admin,libwww-perl/6.07,UnauthorizedOperation,26,57,1,1,1,0,1,0,ATTACK
+req-000006-3803,2024-01-07T12:42:17Z,DescribeSecurityGroups,ec2.amazonaws.com,54.239.28.85,ca-central-1,john.doe,Terraform/1.5.0,,0,10,0,0,0,0,0,0,NORMAL
+req-0002dc-2140,2024-01-01T11:28:09Z,CreateAccessKey,iam.amazonaws.com,103.21.244.0,cn-north-1,iam-readonly,python-requests/2.31,UnauthorizedOperation,0,86,1,0,0,0,1,0,SUSPICIOUS
+req-0001d2-5454,2024-01-14T08:40:15Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,us-west-2,john.doe,console.aws.amazon.com,,4,13,0,0,0,0,0,0,NORMAL
+req-000062-5835,2024-01-12T16:46:08Z,ListBuckets,s3.amazonaws.com,172.31.5.22,us-east-1,devops,console.aws.amazon.com,,0,15,0,0,0,0,0,0,NORMAL
+req-00010b-8996,2024-01-17T13:47:17Z,ListBuckets,s3.amazonaws.com,54.239.28.85,us-west-2,iam-readonly,aws-cli/2.13.0,,2,8,0,0,0,0,0,0,NORMAL
+req-000166-8279,2024-01-01T20:03:44Z,AssumeRole,sts.amazonaws.com,10.0.1.20,ap-south-1,admin,Terraform/1.5.0,,0,7,0,0,0,0,0,0,NORMAL
+req-000365-7852,2024-01-02T08:58:46Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,sa-east-1,api-user,Mozilla/5.0 (unknown),,2,51,1,0,0,0,0,0,SUSPICIOUS
+req-00031f-7855,2024-01-13T13:10:07Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,172.16.0.5,cn-north-1,iam-readonly,aws-cli/2.13.0,,1,88,1,0,0,0,0,0,SUSPICIOUS
+req-00017d-3185,2024-01-13T11:21:18Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,ca-central-1,iam-readonly,AWS Internal,,3,13,0,0,0,0,0,0,NORMAL
+req-000278-7944,2024-01-14T18:51:28Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,us-east-1,terraform-svc,Terraform/1.5.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00017e-4560,2024-01-28T15:20:45Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,ap-northeast-1,iam-readonly,AWS Internal,,4,11,0,0,0,0,0,0,NORMAL
+req-0001eb-4817,2024-01-09T09:23:56Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ap-south-1,svc-billing,aws-cli/2.13.0,,4,4,0,0,0,0,0,0,NORMAL
+req-000077-8030,2024-01-04T12:48:17Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,ap-south-1,iam-readonly,Boto3/1.28.0,,4,4,0,0,0,0,0,0,NORMAL
+req-000385-8455,2024-01-20T22:12:04Z,CreateLoginProfile,iam.amazonaws.com,103.21.244.0,ca-central-1,john.doe,curl/7.88.1,UnauthorizedOperation,14,29,1,0,1,0,1,1,ATTACK
+req-0000fb-3623,2024-01-30T09:47:15Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,ap-northeast-1,svc-lambda,AWS Internal,,4,3,0,0,0,0,0,0,NORMAL
+req-00020c-6047,2024-01-28T09:09:11Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ca-central-1,iam-readonly,Boto3/1.28.0,,0,7,0,0,0,0,0,0,NORMAL
+req-00000a-7916,2024-01-04T20:09:40Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,eu-west-2,iam-readonly,aws-cli/2.13.0,,1,13,0,0,0,0,0,0,NORMAL
+req-0000c5-5833,2024-01-23T11:11:00Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ap-south-1,devops,aws-cli/2.13.0,,2,13,0,0,0,0,0,0,NORMAL
+req-00025c-8141,2024-01-03T10:30:37Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,ca-central-1,devops,console.aws.amazon.com,,3,1,0,0,0,0,0,0,NORMAL
+req-000052-7684,2024-01-23T10:10:19Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,ca-central-1,api-user,aws-cli/2.13.0,,4,1,0,0,0,0,0,0,NORMAL
+req-000310-1872,2024-01-10T17:50:09Z,PutBucketPolicy,s3.amazonaws.com,103.21.244.0,ru-central-1,api-user,Mozilla/5.0 (unknown),UnauthorizedOperation,2,51,1,0,0,0,1,0,SUSPICIOUS
+req-00024c-2749,2024-01-07T17:19:44Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ap-northeast-1,terraform-svc,Boto3/1.28.0,,3,15,0,0,0,0,0,0,NORMAL
+req-00031e-5769,2024-01-30T02:24:18Z,GetSecretValue,secretsmanager.amazonaws.com,45.155.205.12,sa-east-1,root,aws-cli/2.13.0,,1,49,1,0,1,0,0,1,SUSPICIOUS
+req-0000f0-6399,2024-01-13T07:21:53Z,AssumeRole,sts.amazonaws.com,52.94.228.167,eu-west-2,john.doe,console.aws.amazon.com,,4,7,0,0,0,0,0,0,NORMAL
+req-000123-8600,2024-01-19T11:50:19Z,AssumeRole,sts.amazonaws.com,54.239.28.85,eu-west-2,svc-billing,aws-cli/2.13.0,,4,4,0,0,0,0,0,0,NORMAL
+req-0000d4-6253,2024-01-08T11:52:58Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,ap-south-1,api-user,AWS Internal,,4,6,0,0,0,0,0,0,NORMAL
+req-0002ce-7912,2024-01-10T02:49:29Z,RunInstances,ec2.amazonaws.com,192.168.1.100,ru-central-1,devops,console.aws.amazon.com,InvalidClientTokenId,1,80,1,0,1,0,1,0,SUSPICIOUS
+req-000168-2741,2024-01-20T18:07:18Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-west-2,admin,aws-cli/2.13.0,,0,13,0,0,0,0,0,0,NORMAL
+req-0001c2-4863,2024-01-08T17:52:06Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,ap-northeast-1,terraform-svc,Terraform/1.5.0,,2,13,0,0,0,0,0,0,NORMAL
+req-0000e4-7640,2024-01-28T20:05:41Z,GetObject,s3.amazonaws.com,52.94.228.167,us-west-2,svc-billing,Boto3/1.28.0,,0,2,0,0,0,0,0,0,NORMAL
+req-0003b7-6710,2024-01-05T22:17:17Z,StopLogging,cloudtrail.amazonaws.com,45.155.205.12,ap-south-1,root,libwww-perl/6.07,,35,45,1,1,1,1,0,1,ATTACK
+req-0003b3-2520,2024-01-04T23:06:09Z,DeleteTrail,cloudtrail.amazonaws.com,103.21.244.0,ru-central-1,root,python-requests/2.31,UnauthorizedOperation,23,53,1,1,1,1,1,1,ATTACK
+req-00031d-3808,2024-01-15T18:40:57Z,AttachUserPolicy,iam.amazonaws.com,52.94.228.167,cn-north-1,admin,python-requests/2.31,,2,31,1,0,0,0,0,1,SUSPICIOUS
+req-0001f6-5237,2024-01-07T15:13:34Z,AssumeRole,sts.amazonaws.com,172.16.0.5,ap-south-1,john.doe,Terraform/1.5.0,,4,13,0,0,0,0,0,0,NORMAL
+req-0001d1-7467,2024-01-12T15:12:26Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ap-northeast-1,iam-readonly,console.aws.amazon.com,,4,7,0,0,0,0,0,0,NORMAL
+req-00016b-8606,2024-01-21T11:14:29Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,us-west-2,admin,Terraform/1.5.0,,2,5,0,0,0,0,0,0,NORMAL
+req-0001d5-8597,2024-01-14T12:19:50Z,AssumeRole,sts.amazonaws.com,10.0.2.45,ap-south-1,devops,Boto3/1.28.0,,3,6,0,0,0,0,0,0,NORMAL
+req-0003a8-1265,2024-01-12T01:13:12Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,sa-east-1,admin,python-requests/2.31,UnauthorizedOperation,5,67,1,1,1,1,1,1,ATTACK
+req-0001ad-5155,2024-01-14T12:23:06Z,ListBuckets,s3.amazonaws.com,172.16.0.5,ap-northeast-1,svc-lambda,aws-cli/2.13.0,,1,7,0,0,0,0,0,0,NORMAL
+req-000008-9179,2024-01-29T16:45:20Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,us-east-1,john.doe,Boto3/1.28.0,,1,11,0,0,0,0,0,0,NORMAL
+req-00009c-3039,2024-01-28T12:49:03Z,GetObject,s3.amazonaws.com,34.224.10.5,us-west-2,john.doe,Boto3/1.28.0,,2,5,0,0,0,0,0,0,NORMAL
+req-00021e-8921,2024-01-29T14:32:09Z,AssumeRole,sts.amazonaws.com,10.0.2.45,eu-west-2,admin,AWS Internal,,1,6,0,0,0,0,0,0,NORMAL
+req-0001b9-9462,2024-01-08T18:51:20Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,us-west-2,john.doe,Boto3/1.28.0,,3,6,0,0,0,0,0,0,NORMAL
+req-0001e3-1994,2024-01-16T17:59:56Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ap-south-1,terraform-svc,console.aws.amazon.com,,0,8,0,0,0,0,0,0,NORMAL
+req-0001a7-8429,2024-01-06T11:46:43Z,ListBuckets,s3.amazonaws.com,10.0.2.45,us-east-1,svc-lambda,AWS Internal,,2,15,0,0,0,0,0,0,NORMAL
+req-00030b-4018,2024-01-26T10:47:24Z,AttachUserPolicy,iam.amazonaws.com,91.108.4.1,cn-north-1,devops,Mozilla/5.0 (unknown),,1,71,1,0,0,0,0,1,SUSPICIOUS
+req-0003b6-3496,2024-01-20T01:01:34Z,CreateUser,iam.amazonaws.com,198.51.100.77,eu-west-2,john.doe,Mozilla/5.0 (unknown),UnauthorizedOperation,6,86,1,0,1,1,1,1,ATTACK
+req-00014f-6257,2024-01-05T10:19:47Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-west-2,terraform-svc,AWS Internal,,3,13,0,0,0,0,0,0,NORMAL
+req-000241-4193,2024-01-08T18:46:43Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,eu-west-2,iam-readonly,console.aws.amazon.com,,4,13,0,0,0,0,0,0,NORMAL
+req-0003a7-2596,2024-01-01T22:28:53Z,CreateLoginProfile,iam.amazonaws.com,91.108.4.1,ru-central-1,root,curl/7.88.1,AccessDenied,13,77,1,1,1,1,1,1,ATTACK
+req-000238-5827,2024-01-19T14:46:21Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ap-south-1,devops,Terraform/1.5.0,,3,6,0,0,0,0,0,0,NORMAL
+req-000253-7801,2024-01-03T12:07:17Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,us-west-2,api-user,console.aws.amazon.com,,1,13,0,0,0,0,0,0,NORMAL
+req-000213-9666,2024-01-23T10:13:39Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,us-east-1,devops,AWS Internal,,0,2,0,0,0,0,0,0,NORMAL
+req-000246-2137,2024-01-09T07:52:16Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ap-south-1,devops,Boto3/1.28.0,,1,8,0,0,0,0,0,0,NORMAL
+req-0002c4-5891,2024-01-21T09:48:41Z,AttachUserPolicy,iam.amazonaws.com,203.0.113.99,ru-central-1,iam-readonly,Boto3/1.28.0,,1,35,1,0,0,0,0,1,SUSPICIOUS
+req-0001c1-7099,2024-01-16T09:27:13Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ca-central-1,svc-billing,Boto3/1.28.0,,3,12,0,0,0,0,0,0,NORMAL
+req-0001c6-9821,2024-01-22T20:38:12Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ap-south-1,admin,Boto3/1.28.0,,4,10,0,0,0,0,0,0,NORMAL
+req-0000e5-2562,2024-01-28T14:27:41Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ap-south-1,john.doe,aws-cli/2.13.0,,2,10,0,0,0,0,0,0,NORMAL
+req-000161-9745,2024-01-14T13:30:24Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-northeast-1,svc-lambda,aws-cli/2.13.0,,0,1,0,0,0,0,0,0,NORMAL
+req-0002d9-3527,2024-01-15T22:48:32Z,RunInstances,ec2.amazonaws.com,54.239.28.85,ap-northeast-1,svc-lambda,Boto3/1.28.0,,3,32,0,0,1,0,0,0,SUSPICIOUS
+req-0000d5-7999,2024-01-02T11:35:37Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ap-northeast-1,devops,AWS Internal,,1,11,0,0,0,0,0,0,NORMAL
+req-000050-7770,2024-01-27T15:00:42Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,ca-central-1,devops,Boto3/1.28.0,,4,8,0,0,0,0,0,0,NORMAL
+req-000095-5720,2024-01-24T15:38:33Z,GetCallerIdentity,sts.amazonaws.com,10.0.0.1,us-east-1,iam-readonly,aws-cli/2.13.0,,3,2,0,0,0,0,0,0,NORMAL
+req-00012f-7990,2024-01-13T18:31:01Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,ca-central-1,devops,aws-cli/2.13.0,,3,11,0,0,0,0,0,0,NORMAL
+req-000275-1369,2024-01-26T10:59:49Z,GetCallerIdentity,sts.amazonaws.com,10.0.0.1,ap-northeast-1,api-user,aws-cli/2.13.0,,2,4,0,0,0,0,0,0,NORMAL
+req-00030a-4594,2024-01-04T05:29:56Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,185.220.101.47,ru-central-1,svc-billing,curl/7.88.1,AccessDenied,0,83,1,0,0,0,1,0,SUSPICIOUS
+req-0001fb-5221,2024-01-17T10:17:51Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,eu-west-2,svc-lambda,Boto3/1.28.0,,0,11,0,0,0,0,0,0,NORMAL
+req-000157-7131,2024-01-13T16:37:06Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,us-east-1,api-user,Boto3/1.28.0,,0,9,0,0,0,0,0,0,NORMAL
+req-0001e6-7997,2024-01-21T19:36:22Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ap-northeast-1,svc-lambda,Terraform/1.5.0,,3,12,0,0,0,0,0,0,NORMAL
+req-0002c8-2253,2024-01-17T07:27:18Z,RunInstances,ec2.amazonaws.com,192.0.2.45,eu-west-2,terraform-svc,curl/7.88.1,,4,26,1,0,0,0,0,0,SUSPICIOUS
+req-000086-4084,2024-01-19T14:35:50Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ap-northeast-1,api-user,AWS Internal,,0,8,0,0,0,0,0,0,NORMAL
+req-0002c0-5657,2024-01-22T15:06:56Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,192.0.2.45,cn-north-1,admin,curl/7.88.1,,2,23,1,0,0,0,0,0,SUSPICIOUS
+req-000138-6978,2024-01-25T09:07:54Z,GetObject,s3.amazonaws.com,172.31.0.10,ap-south-1,api-user,Boto3/1.28.0,,4,14,0,0,0,0,0,0,NORMAL
+req-0002d3-5806,2024-01-30T10:38:54Z,PutBucketPolicy,s3.amazonaws.com,54.239.28.85,ap-northeast-1,terraform-svc,python-requests/2.31,,3,36,0,0,0,0,0,0,SUSPICIOUS
+req-000276-9381,2024-01-07T13:31:20Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ca-central-1,terraform-svc,console.aws.amazon.com,,4,10,0,0,0,0,0,0,NORMAL
+req-000001-7912,2024-01-24T17:57:34Z,ListBuckets,s3.amazonaws.com,10.0.0.1,us-east-1,svc-lambda,Boto3/1.28.0,,0,10,0,0,0,0,0,0,NORMAL
+req-00013d-5345,2024-01-24T17:56:21Z,GetObject,s3.amazonaws.com,172.16.0.5,ap-south-1,svc-lambda,AWS Internal,,3,1,0,0,0,0,0,0,NORMAL
+req-0002c3-4933,2024-01-13T19:05:25Z,AttachUserPolicy,iam.amazonaws.com,203.0.113.99,sa-east-1,devops,AWS Internal,UnauthorizedOperation,2,42,1,0,0,0,1,1,SUSPICIOUS
+req-000224-7987,2024-01-02T17:06:24Z,ListBuckets,s3.amazonaws.com,54.239.28.85,ap-south-1,devops,Terraform/1.5.0,,0,2,0,0,0,0,0,0,NORMAL
+req-000369-1693,2024-01-08T11:47:42Z,GetSecretValue,secretsmanager.amazonaws.com,54.239.28.85,ap-south-1,devops,Go-http-client/1.1,,4,97,0,0,0,0,0,1,SUSPICIOUS
+req-000215-4812,2024-01-21T18:31:31Z,ListBuckets,s3.amazonaws.com,10.0.1.20,ap-northeast-1,devops,AWS Internal,,1,15,0,0,0,0,0,0,NORMAL
+req-0001de-2128,2024-01-28T11:53:38Z,AssumeRole,sts.amazonaws.com,172.16.0.5,eu-west-2,svc-lambda,aws-cli/2.13.0,,4,3,0,0,0,0,0,0,NORMAL
+req-000195-1891,2024-01-07T11:07:11Z,GetObject,s3.amazonaws.com,172.31.0.10,us-east-1,api-user,aws-cli/2.13.0,,4,14,0,0,0,0,0,0,NORMAL
+req-0000ad-8202,2024-01-15T11:04:44Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,us-west-2,svc-lambda,Terraform/1.5.0,,0,3,0,0,0,0,0,0,NORMAL
+req-00007e-7505,2024-01-27T15:42:51Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,ap-northeast-1,john.doe,aws-cli/2.13.0,,2,2,0,0,0,0,0,0,NORMAL
+req-00018b-9468,2024-01-09T13:34:46Z,GetObject,s3.amazonaws.com,10.0.1.20,ca-central-1,terraform-svc,Boto3/1.28.0,,2,1,0,0,0,0,0,0,NORMAL
+req-0001a5-1305,2024-01-17T09:25:38Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-south-1,john.doe,AWS Internal,,4,11,0,0,0,0,0,0,NORMAL
+req-000229-2162,2024-01-04T15:25:52Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,eu-west-2,api-user,Boto3/1.28.0,,0,6,0,0,0,0,0,0,NORMAL
+req-000388-1729,2024-01-23T23:17:40Z,DeleteBucket,s3.amazonaws.com,192.0.2.45,ca-central-1,root,libwww-perl/6.07,AccessDenied,39,35,1,1,1,0,1,0,ATTACK
+req-00005b-3725,2024-01-25T08:40:45Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-east-1,admin,Boto3/1.28.0,,0,8,0,0,0,0,0,0,NORMAL
+req-0003ac-8601,2024-01-04T03:12:54Z,PutUserPolicy,iam.amazonaws.com,185.220.101.47,cn-north-1,admin,curl/7.88.1,,35,35,1,1,1,0,0,1,ATTACK
+req-0000b6-9351,2024-01-10T20:37:21Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,eu-west-2,api-user,Boto3/1.28.0,,4,14,0,0,0,0,0,0,NORMAL
+req-000113-3688,2024-01-03T09:33:36Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-south-1,terraform-svc,console.aws.amazon.com,,0,10,0,0,0,0,0,0,NORMAL
+req-000380-2903,2024-01-21T01:15:52Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,us-west-2,iam-readonly,libwww-perl/6.07,,1,88,1,0,1,0,0,0,SUSPICIOUS
+req-000046-7818,2024-01-03T11:15:07Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,ap-south-1,api-user,aws-cli/2.13.0,,4,13,0,0,0,0,0,0,NORMAL
+req-000124-7718,2024-01-25T15:50:15Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,us-west-2,svc-lambda,AWS Internal,,1,1,0,0,0,0,0,0,NORMAL
+req-000084-8245,2024-01-11T17:09:28Z,AssumeRole,sts.amazonaws.com,172.31.0.10,ca-central-1,svc-billing,console.aws.amazon.com,,0,8,0,0,0,0,0,0,NORMAL
+req-00012d-2376,2024-01-05T10:12:52Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-south-1,iam-readonly,aws-cli/2.13.0,,3,6,0,0,0,0,0,0,NORMAL
+req-0001a9-3135,2024-01-17T15:48:07Z,ListBuckets,s3.amazonaws.com,172.16.0.5,ap-northeast-1,terraform-svc,AWS Internal,,0,8,0,0,0,0,0,0,NORMAL
+req-000147-4860,2024-01-14T15:34:43Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-south-1,devops,Boto3/1.28.0,,3,10,0,0,0,0,0,0,NORMAL
+req-000091-3042,2024-01-30T15:06:45Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,ap-northeast-1,iam-readonly,Boto3/1.28.0,,4,14,0,0,0,0,0,0,NORMAL
+req-0001a8-3450,2024-01-28T15:58:32Z,ListBuckets,s3.amazonaws.com,10.0.0.1,ap-south-1,admin,Boto3/1.28.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000245-6298,2024-01-15T17:59:17Z,GetObject,s3.amazonaws.com,10.0.1.20,eu-west-2,terraform-svc,Boto3/1.28.0,,3,12,0,0,0,0,0,0,NORMAL
+req-000088-6543,2024-01-12T12:58:18Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-northeast-1,api-user,AWS Internal,,3,7,0,0,0,0,0,0,NORMAL
+req-0001c3-3203,2024-01-26T14:00:11Z,ListBuckets,s3.amazonaws.com,172.31.0.10,us-west-2,svc-lambda,aws-cli/2.13.0,,3,8,0,0,0,0,0,0,NORMAL
+req-0000a5-6922,2024-01-23T09:45:59Z,ListBuckets,s3.amazonaws.com,10.0.2.45,us-east-1,svc-billing,Terraform/1.5.0,,1,13,0,0,0,0,0,0,NORMAL
+req-00001d-3546,2024-01-09T09:07:56Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ap-northeast-1,terraform-svc,Boto3/1.28.0,,0,12,0,0,0,0,0,0,NORMAL
+req-000306-8887,2024-01-21T04:32:16Z,GetSecretValue,secretsmanager.amazonaws.com,10.0.0.1,cn-north-1,terraform-svc,Mozilla/5.0 (unknown),UnauthorizedOperation,2,73,1,0,0,0,1,1,SUSPICIOUS
+req-0000c2-3868,2024-01-19T17:14:34Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ap-south-1,iam-readonly,Boto3/1.28.0,,0,15,0,0,0,0,0,0,NORMAL
+req-000185-8353,2024-01-07T16:49:46Z,GetObject,s3.amazonaws.com,10.0.2.45,us-west-2,api-user,console.aws.amazon.com,,1,5,0,0,0,0,0,0,NORMAL
+req-000355-2946,2024-01-21T04:46:25Z,AttachUserPolicy,iam.amazonaws.com,54.239.28.85,ru-central-1,api-user,aws-cli/2.13.0,AccessDenied,1,24,1,0,0,0,1,1,SUSPICIOUS
+req-0000aa-9234,2024-01-21T09:19:39Z,GetObject,s3.amazonaws.com,172.31.0.10,ap-northeast-1,api-user,Boto3/1.28.0,,4,2,0,0,0,0,0,0,NORMAL
+req-0002c2-4463,2024-01-24T23:58:51Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,10.0.0.1,sa-east-1,john.doe,libwww-perl/6.07,InvalidClientTokenId,4,36,1,0,1,0,1,0,SUSPICIOUS
+req-00008d-7172,2024-01-02T15:42:21Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ap-northeast-1,svc-lambda,Terraform/1.5.0,,4,3,0,0,0,0,0,0,NORMAL
+req-0000ae-7070,2024-01-24T12:55:22Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,ap-south-1,iam-readonly,Boto3/1.28.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000007-1916,2024-01-18T18:14:43Z,ListBuckets,s3.amazonaws.com,192.168.1.100,us-east-1,terraform-svc,Terraform/1.5.0,,2,14,0,0,0,0,0,0,NORMAL
+req-0002ea-3269,2024-01-26T10:24:30Z,GetSecretValue,secretsmanager.amazonaws.com,185.220.101.47,cn-north-1,api-user,libwww-perl/6.07,AccessDenied,4,36,1,0,0,0,1,1,SUSPICIOUS
+req-0001df-1306,2024-01-21T19:32:24Z,ListBuckets,s3.amazonaws.com,52.94.228.167,ap-northeast-1,devops,AWS Internal,,1,15,0,0,0,0,0,0,NORMAL
+req-00004a-5352,2024-01-04T13:34:14Z,GetObject,s3.amazonaws.com,10.0.2.45,ap-northeast-1,terraform-svc,console.aws.amazon.com,,1,15,0,0,0,0,0,0,NORMAL
+req-00038f-1046,2024-01-19T23:49:44Z,PutUserPolicy,iam.amazonaws.com,91.108.4.1,us-west-2,john.doe,Mozilla/5.0 (unknown),,19,31,1,0,1,0,0,1,ATTACK
+req-00032e-3872,2024-01-21T10:44:24Z,CreateAccessKey,iam.amazonaws.com,198.51.100.77,cn-north-1,admin,libwww-perl/6.07,,1,62,1,0,0,0,0,0,SUSPICIOUS
+req-0000ef-5040,2024-01-16T11:50:04Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,us-east-1,svc-billing,aws-cli/2.13.0,,2,5,0,0,0,0,0,0,NORMAL
+req-000092-6727,2024-01-03T13:58:14Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ca-central-1,john.doe,Boto3/1.28.0,,3,15,0,0,0,0,0,0,NORMAL
+req-000319-8559,2024-01-17T07:37:50Z,AttachUserPolicy,iam.amazonaws.com,192.0.2.45,ap-northeast-1,root,Go-http-client/1.1,UnauthorizedOperation,4,79,1,0,0,0,1,1,SUSPICIOUS
+req-0000eb-7383,2024-01-13T09:45:50Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,us-west-2,admin,console.aws.amazon.com,,1,12,0,0,0,0,0,0,NORMAL
+req-0000dd-4214,2024-01-19T16:46:26Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ap-south-1,svc-billing,Boto3/1.28.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00039c-6071,2024-01-19T01:40:31Z,DeleteTrail,cloudtrail.amazonaws.com,198.51.100.77,us-west-2,admin,Go-http-client/1.1,UnauthorizedOperation,11,21,1,1,1,0,1,1,ATTACK
+req-0001f5-6624,2024-01-30T16:09:55Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,us-west-2,john.doe,aws-cli/2.13.0,,2,1,0,0,0,0,0,0,NORMAL
+req-000085-5703,2024-01-15T14:02:03Z,ListBuckets,s3.amazonaws.com,10.0.2.45,eu-west-2,admin,Terraform/1.5.0,,2,14,0,0,0,0,0,0,NORMAL
+req-0003df-4015,2024-01-13T03:03:59Z,PutUserPolicy,iam.amazonaws.com,185.220.101.47,ap-northeast-1,john.doe,python-requests/2.31,AccessDenied,12,58,1,0,1,0,1,1,ATTACK
+req-000307-9866,2024-01-17T13:41:48Z,CreateAccessKey,iam.amazonaws.com,103.21.244.0,sa-east-1,john.doe,console.aws.amazon.com,,2,59,1,0,0,0,0,0,SUSPICIOUS
+req-0000ba-3262,2024-01-28T14:54:47Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,eu-west-2,iam-readonly,console.aws.amazon.com,,0,12,0,0,0,0,0,0,NORMAL
+req-00002a-4501,2024-01-21T16:20:29Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,us-east-1,iam-readonly,Boto3/1.28.0,,3,8,0,0,0,0,0,0,NORMAL
+req-0002b9-1745,2024-01-20T12:42:51Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,devops,aws-cli/2.13.0,,4,12,0,0,0,0,0,0,NORMAL
+req-00006d-9850,2024-01-01T16:17:54Z,ListBuckets,s3.amazonaws.com,172.31.0.10,us-west-2,iam-readonly,Boto3/1.28.0,,1,3,0,0,0,0,0,0,NORMAL
+req-00024d-9015,2024-01-02T09:12:01Z,ListBuckets,s3.amazonaws.com,54.239.28.85,ap-northeast-1,svc-lambda,aws-cli/2.13.0,,4,4,0,0,0,0,0,0,NORMAL
+req-000039-6111,2024-01-06T20:19:06Z,AssumeRole,sts.amazonaws.com,172.16.0.5,us-west-2,admin,console.aws.amazon.com,,4,1,0,0,0,0,0,0,NORMAL
+req-000196-8982,2024-01-22T11:04:16Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,eu-west-2,api-user,AWS Internal,,0,4,0,0,0,0,0,0,NORMAL
+req-0001bb-4271,2024-01-30T17:58:12Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,us-east-1,terraform-svc,AWS Internal,,3,12,0,0,0,0,0,0,NORMAL
+req-0002f6-9270,2024-01-24T04:35:17Z,PutBucketPolicy,s3.amazonaws.com,54.239.28.85,us-east-1,svc-lambda,curl/7.88.1,,3,46,0,0,0,0,0,0,SUSPICIOUS
+req-0003e6-4876,2024-01-04T22:31:59Z,PutUserPolicy,iam.amazonaws.com,203.0.113.99,ap-south-1,root,python-requests/2.31,UnauthorizedOperation,35,61,1,1,1,1,1,1,ATTACK
+req-000019-2343,2024-01-08T16:37:38Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,eu-west-2,terraform-svc,AWS Internal,,0,10,0,0,0,0,0,0,NORMAL
+req-0001d4-3048,2024-01-01T15:11:06Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,ap-south-1,admin,aws-cli/2.13.0,,2,5,0,0,0,0,0,0,NORMAL
+req-00021c-1518,2024-01-26T20:48:19Z,ListBuckets,s3.amazonaws.com,172.31.0.10,eu-west-2,api-user,Terraform/1.5.0,,2,12,0,0,0,0,0,0,NORMAL
+req-000214-9608,2024-01-14T11:38:54Z,GetObject,s3.amazonaws.com,52.94.228.167,ca-central-1,terraform-svc,console.aws.amazon.com,,2,5,0,0,0,0,0,0,NORMAL
+req-00026b-3465,2024-01-09T09:07:44Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ca-central-1,admin,aws-cli/2.13.0,,1,8,0,0,0,0,0,0,NORMAL
+req-0002b7-8506,2024-01-08T11:39:28Z,AssumeRole,sts.amazonaws.com,172.16.0.5,us-west-2,admin,aws-cli/2.13.0,,1,6,0,0,0,0,0,0,NORMAL
+req-00039f-1699,2024-01-12T02:05:43Z,CreateUser,iam.amazonaws.com,198.51.100.77,cn-north-1,admin,Go-http-client/1.1,AccessDenied,31,84,1,1,1,0,1,1,ATTACK
+req-000153-6730,2024-01-15T16:11:55Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,ap-south-1,svc-billing,aws-cli/2.13.0,,3,10,0,0,0,0,0,0,NORMAL
+req-000034-3704,2024-01-11T13:42:43Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,us-east-1,devops,Terraform/1.5.0,,3,12,0,0,0,0,0,0,NORMAL
+req-0001fc-3248,2024-01-08T11:09:21Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,ap-south-1,api-user,AWS Internal,,3,11,0,0,0,0,0,0,NORMAL
+req-000205-9784,2024-01-13T20:46:20Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,us-west-2,api-user,Terraform/1.5.0,,3,10,0,0,0,0,0,0,NORMAL
+req-000399-3460,2024-01-14T02:57:47Z,CreateUser,iam.amazonaws.com,45.155.205.12,cn-north-1,john.doe,curl/7.88.1,,37,32,1,0,1,1,0,1,ATTACK
+req-00030e-9633,2024-01-15T09:15:23Z,GetSecretValue,secretsmanager.amazonaws.com,91.108.4.1,sa-east-1,terraform-svc,python-requests/2.31,,2,41,1,0,0,0,0,1,SUSPICIOUS
+req-000109-3078,2024-01-26T19:26:58Z,GetObject,s3.amazonaws.com,34.224.10.5,us-west-2,john.doe,AWS Internal,,0,5,0,0,0,0,0,0,NORMAL
+req-000332-4969,2024-01-08T00:54:46Z,PutBucketPolicy,s3.amazonaws.com,198.51.100.77,sa-east-1,iam-readonly,aws-cli/2.13.0,,2,63,1,0,1,0,0,0,SUSPICIOUS
+req-0002c7-8671,2024-01-21T16:41:33Z,RunInstances,ec2.amazonaws.com,192.0.2.45,sa-east-1,terraform-svc,Mozilla/5.0 (unknown),AccessDenied,0,57,1,0,0,0,1,0,SUSPICIOUS
+req-0002ab-8248,2024-01-04T17:34:55Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,us-west-2,terraform-svc,console.aws.amazon.com,,1,14,0,0,0,0,0,0,NORMAL
+req-000341-3721,2024-01-15T13:40:58Z,GetSecretValue,secretsmanager.amazonaws.com,172.16.0.5,sa-east-1,terraform-svc,Terraform/1.5.0,,4,33,1,0,0,0,0,1,SUSPICIOUS
+req-000207-5989,2024-01-07T07:18:28Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-northeast-1,svc-lambda,Terraform/1.5.0,,3,15,0,0,0,0,0,0,NORMAL
+req-0001c0-5254,2024-01-04T16:20:23Z,AssumeRole,sts.amazonaws.com,52.94.228.167,ap-south-1,john.doe,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-000013-2612,2024-01-14T12:26:29Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,ap-south-1,svc-lambda,Terraform/1.5.0,,0,11,0,0,0,0,0,0,NORMAL
+req-0002cc-6910,2024-01-20T23:46:31Z,GetSecretValue,secretsmanager.amazonaws.com,192.168.1.100,cn-north-1,iam-readonly,Terraform/1.5.0,AccessDenied,2,99,1,0,1,0,1,1,SUSPICIOUS
+req-0001e4-2153,2024-01-27T07:39:17Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,us-west-2,iam-readonly,AWS Internal,,4,1,0,0,0,0,0,0,NORMAL
+req-000239-3770,2024-01-09T16:03:40Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,us-west-2,svc-lambda,AWS Internal,,3,10,0,0,0,0,0,0,NORMAL
+req-0001b2-3871,2024-01-10T15:45:38Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,ca-central-1,api-user,Boto3/1.28.0,,0,13,0,0,0,0,0,0,NORMAL
+req-000170-7738,2024-01-16T09:58:31Z,AssumeRole,sts.amazonaws.com,10.0.1.20,ca-central-1,svc-lambda,AWS Internal,,0,15,0,0,0,0,0,0,NORMAL
+req-000054-2143,2024-01-30T10:38:32Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,eu-west-2,john.doe,Terraform/1.5.0,,1,14,0,0,0,0,0,0,NORMAL
+req-00003e-1470,2024-01-15T19:36:39Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,us-east-1,devops,AWS Internal,,3,6,0,0,0,0,0,0,NORMAL
+req-00027f-5749,2024-01-14T12:40:58Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,eu-west-2,admin,console.aws.amazon.com,,2,1,0,0,0,0,0,0,NORMAL
+req-000111-2975,2024-01-15T17:00:00Z,AssumeRole,sts.amazonaws.com,10.0.0.1,ap-south-1,john.doe,Terraform/1.5.0,,2,14,0,0,0,0,0,0,NORMAL
+req-00011e-2262,2024-01-03T15:16:45Z,AssumeRole,sts.amazonaws.com,172.16.0.5,eu-west-2,devops,AWS Internal,,4,11,0,0,0,0,0,0,NORMAL
+req-000169-9980,2024-01-23T12:26:18Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,us-west-2,terraform-svc,console.aws.amazon.com,,1,1,0,0,0,0,0,0,NORMAL
+req-000163-9587,2024-01-10T07:18:29Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,us-east-1,admin,Terraform/1.5.0,,4,10,0,0,0,0,0,0,NORMAL
+req-0001c9-6950,2024-01-21T16:25:17Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ap-northeast-1,svc-lambda,Boto3/1.28.0,,3,13,0,0,0,0,0,0,NORMAL
+req-000117-6185,2024-01-20T17:04:33Z,AssumeRole,sts.amazonaws.com,10.0.2.45,eu-west-2,john.doe,Boto3/1.28.0,,0,6,0,0,0,0,0,0,NORMAL
+req-00000d-9689,2024-01-05T10:23:48Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ca-central-1,api-user,console.aws.amazon.com,,1,9,0,0,0,0,0,0,NORMAL
+req-0000b7-1436,2024-01-04T17:26:37Z,ListBuckets,s3.amazonaws.com,10.0.2.45,us-west-2,svc-billing,Boto3/1.28.0,,2,13,0,0,0,0,0,0,NORMAL
+req-000171-6542,2024-01-25T15:47:36Z,GetCallerIdentity,sts.amazonaws.com,10.0.0.1,ap-south-1,iam-readonly,console.aws.amazon.com,,4,4,0,0,0,0,0,0,NORMAL
+req-000372-1131,2024-01-08T21:03:43Z,GetSecretValue,secretsmanager.amazonaws.com,192.0.2.45,us-east-1,admin,Go-http-client/1.1,,2,74,1,0,0,0,0,1,SUSPICIOUS
+req-000268-6778,2024-01-07T18:48:47Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,ca-central-1,api-user,Terraform/1.5.0,,1,6,0,0,0,0,0,0,NORMAL
+req-0000e0-3474,2024-01-27T09:40:14Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ap-south-1,admin,AWS Internal,,0,12,0,0,0,0,0,0,NORMAL
+req-00023d-6653,2024-01-21T18:10:13Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,eu-west-2,svc-lambda,Terraform/1.5.0,,4,12,0,0,0,0,0,0,NORMAL
+req-0003cb-4710,2024-01-19T00:17:15Z,CreateUser,iam.amazonaws.com,185.220.101.47,us-west-2,root,python-requests/2.31,,9,88,1,1,1,0,0,1,ATTACK
+req-00028e-9055,2024-01-22T14:23:11Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ap-south-1,iam-readonly,aws-cli/2.13.0,,0,11,0,0,0,0,0,0,NORMAL
+req-000222-9422,2024-01-06T09:17:07Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,eu-west-2,admin,Boto3/1.28.0,,0,10,0,0,0,0,0,0,NORMAL
+req-000247-2740,2024-01-18T09:49:27Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,us-east-1,devops,console.aws.amazon.com,,1,10,0,0,0,0,0,0,NORMAL
+req-00027a-4047,2024-01-19T18:48:58Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,eu-west-2,api-user,AWS Internal,,1,4,0,0,0,0,0,0,NORMAL
+req-0000b1-5609,2024-01-07T10:37:22Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,ca-central-1,api-user,aws-cli/2.13.0,,0,1,0,0,0,0,0,0,NORMAL
+req-00029a-7900,2024-01-28T17:27:36Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,ap-northeast-1,admin,aws-cli/2.13.0,,4,15,0,0,0,0,0,0,NORMAL
+req-0002a2-4868,2024-01-27T11:18:41Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,ap-northeast-1,iam-readonly,AWS Internal,,1,5,0,0,0,0,0,0,NORMAL
+req-00024a-9770,2024-01-23T13:52:49Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-south-1,john.doe,AWS Internal,,3,2,0,0,0,0,0,0,NORMAL
+req-00036a-1834,2024-01-12T02:53:08Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,192.0.2.45,ru-central-1,john.doe,Mozilla/5.0 (unknown),,4,65,1,0,1,0,0,0,SUSPICIOUS
+req-00018a-4994,2024-01-08T14:57:41Z,GetObject,s3.amazonaws.com,172.31.0.10,ap-south-1,svc-lambda,AWS Internal,,4,15,0,0,0,0,0,0,NORMAL
+req-0000a4-6236,2024-01-29T09:45:28Z,AssumeRole,sts.amazonaws.com,172.31.5.22,ap-south-1,admin,Boto3/1.28.0,,0,13,0,0,0,0,0,0,NORMAL
+req-0000f9-6110,2024-01-04T08:53:46Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,us-east-1,terraform-svc,Terraform/1.5.0,,1,6,0,0,0,0,0,0,NORMAL
+req-00027b-1439,2024-01-10T16:31:35Z,DescribeSecurityGroups,ec2.amazonaws.com,192.168.1.100,us-west-2,svc-billing,Terraform/1.5.0,,3,4,0,0,0,0,0,0,NORMAL
+req-000376-6956,2024-01-21T13:03:19Z,RunInstances,ec2.amazonaws.com,198.51.100.77,ap-northeast-1,admin,libwww-perl/6.07,,0,54,1,0,0,0,0,0,SUSPICIOUS
+req-00029e-5913,2024-01-21T08:52:19Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,eu-west-2,svc-billing,Terraform/1.5.0,,4,13,0,0,0,0,0,0,NORMAL
+req-000178-2741,2024-01-10T19:35:33Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,eu-west-2,iam-readonly,Boto3/1.28.0,,2,12,0,0,0,0,0,0,NORMAL
+req-00019d-9423,2024-01-28T10:51:39Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,eu-west-2,admin,aws-cli/2.13.0,,1,13,0,0,0,0,0,0,NORMAL
+req-00004b-5982,2024-01-30T16:18:28Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,us-east-1,svc-lambda,aws-cli/2.13.0,,0,8,0,0,0,0,0,0,NORMAL
+req-000072-2874,2024-01-15T11:32:38Z,ListBuckets,s3.amazonaws.com,34.224.10.5,eu-west-2,api-user,console.aws.amazon.com,,3,2,0,0,0,0,0,0,NORMAL
+req-000257-6929,2024-01-08T15:12:07Z,ListBuckets,s3.amazonaws.com,10.0.0.1,us-east-1,devops,AWS Internal,,4,2,0,0,0,0,0,0,NORMAL
+req-0003c2-1705,2024-01-01T23:59:44Z,CreateLoginProfile,iam.amazonaws.com,203.0.113.99,us-east-1,john.doe,curl/7.88.1,UnauthorizedOperation,8,53,1,0,1,1,1,1,ATTACK
+req-000187-5934,2024-01-05T07:59:20Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,eu-west-2,terraform-svc,aws-cli/2.13.0,,4,1,0,0,0,0,0,0,NORMAL
+req-000069-9017,2024-01-29T09:26:41Z,AssumeRole,sts.amazonaws.com,10.0.2.45,eu-west-2,svc-lambda,AWS Internal,,0,14,0,0,0,0,0,0,NORMAL
+req-000073-8430,2024-01-29T14:14:26Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,us-west-2,john.doe,console.aws.amazon.com,,2,14,0,0,0,0,0,0,NORMAL
+req-0001a2-2263,2024-01-29T15:08:28Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,eu-west-2,api-user,Terraform/1.5.0,,1,4,0,0,0,0,0,0,NORMAL
+req-00020e-8239,2024-01-19T10:42:30Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,ap-northeast-1,devops,AWS Internal,,3,7,0,0,0,0,0,0,NORMAL
+req-0001ca-2311,2024-01-24T09:15:42Z,AssumeRole,sts.amazonaws.com,34.224.10.5,us-east-1,iam-readonly,Terraform/1.5.0,,2,12,0,0,0,0,0,0,NORMAL
+req-00019a-2252,2024-01-05T20:57:34Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ap-south-1,svc-billing,console.aws.amazon.com,,1,5,0,0,0,0,0,0,NORMAL
+req-00005d-5183,2024-01-05T16:14:29Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,ap-northeast-1,john.doe,AWS Internal,,2,8,0,0,0,0,0,0,NORMAL
+req-0003a3-3885,2024-01-07T03:03:13Z,PutUserPolicy,iam.amazonaws.com,192.0.2.45,us-east-1,john.doe,Go-http-client/1.1,UnauthorizedOperation,6,74,1,0,1,0,1,1,ATTACK
+req-00005a-2121,2024-01-29T18:48:31Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,eu-west-2,svc-billing,AWS Internal,,4,1,0,0,0,0,0,0,NORMAL
+req-000151-3846,2024-01-25T09:54:33Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,us-east-1,api-user,aws-cli/2.13.0,,4,1,0,0,0,0,0,0,NORMAL
+req-0003dd-9115,2024-01-19T22:43:32Z,StopLogging,cloudtrail.amazonaws.com,185.220.101.47,cn-north-1,root,curl/7.88.1,,8,46,1,1,1,1,0,1,ATTACK
+req-00039a-3307,2024-01-15T22:05:56Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,ru-central-1,root,Mozilla/5.0 (unknown),,10,49,1,1,1,1,0,1,ATTACK
+req-0003a6-8514,2024-01-11T01:42:52Z,DeleteBucket,s3.amazonaws.com,91.108.4.1,ap-northeast-1,admin,libwww-perl/6.07,UnauthorizedOperation,25,21,1,1,1,0,1,0,ATTACK
+req-00025e-5835,2024-01-14T14:10:48Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,ap-south-1,iam-readonly,aws-cli/2.13.0,,2,4,0,0,0,0,0,0,NORMAL
+req-000252-9943,2024-01-24T20:43:25Z,ListBuckets,s3.amazonaws.com,10.0.1.20,us-east-1,svc-billing,aws-cli/2.13.0,,2,2,0,0,0,0,0,0,NORMAL
+req-000264-8607,2024-01-23T20:25:11Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,eu-west-2,iam-readonly,aws-cli/2.13.0,,2,11,0,0,0,0,0,0,NORMAL
+req-00005f-5847,2024-01-08T08:24:36Z,AssumeRole,sts.amazonaws.com,52.94.228.167,ca-central-1,iam-readonly,Boto3/1.28.0,,2,10,0,0,0,0,0,0,NORMAL
+req-00000c-3927,2024-01-24T07:56:46Z,AssumeRole,sts.amazonaws.com,10.0.2.45,us-east-1,john.doe,Boto3/1.28.0,,2,9,0,0,0,0,0,0,NORMAL
+req-00018d-2702,2024-01-25T17:13:55Z,GetObject,s3.amazonaws.com,10.0.2.45,ap-northeast-1,john.doe,Terraform/1.5.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000216-7783,2024-01-24T08:54:13Z,AssumeRole,sts.amazonaws.com,172.31.5.22,ap-south-1,svc-lambda,aws-cli/2.13.0,,4,7,0,0,0,0,0,0,NORMAL
+req-00002c-2193,2024-01-02T07:15:30Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,us-east-1,john.doe,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-00002b-2530,2024-01-17T11:42:40Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,us-west-2,svc-lambda,AWS Internal,,4,6,0,0,0,0,0,0,NORMAL
+req-00014a-7510,2024-01-30T18:51:04Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ap-northeast-1,svc-billing,aws-cli/2.13.0,,0,7,0,0,0,0,0,0,NORMAL
+req-0000a8-3114,2024-01-25T20:35:40Z,GetObject,s3.amazonaws.com,10.0.1.20,us-west-2,svc-billing,Terraform/1.5.0,,4,3,0,0,0,0,0,0,NORMAL
+req-0001f2-8046,2024-01-17T18:15:15Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,ap-northeast-1,api-user,Boto3/1.28.0,,0,5,0,0,0,0,0,0,NORMAL
+req-00036d-8058,2024-01-06T23:25:22Z,GetSecretValue,secretsmanager.amazonaws.com,10.0.0.1,us-west-2,svc-billing,python-requests/2.31,,0,32,0,0,1,0,0,1,SUSPICIOUS
+req-000256-9190,2024-01-20T09:44:02Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ap-northeast-1,devops,console.aws.amazon.com,,4,3,0,0,0,0,0,0,NORMAL
+req-0002f5-9361,2024-01-13T21:22:53Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,54.239.28.85,ru-central-1,john.doe,aws-cli/2.13.0,,1,94,1,0,0,0,0,0,SUSPICIOUS
+req-000065-9791,2024-01-03T12:50:25Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,ca-central-1,iam-readonly,AWS Internal,,0,5,0,0,0,0,0,0,NORMAL
+req-0001ab-7971,2024-01-24T19:58:48Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,us-west-2,svc-billing,Terraform/1.5.0,,4,2,0,0,0,0,0,0,NORMAL
+req-0000b3-5582,2024-01-10T15:04:24Z,AssumeRole,sts.amazonaws.com,54.239.28.85,ap-northeast-1,john.doe,Terraform/1.5.0,,4,8,0,0,0,0,0,0,NORMAL
+req-0001bd-9066,2024-01-28T07:30:23Z,AssumeRole,sts.amazonaws.com,10.0.1.20,us-west-2,api-user,console.aws.amazon.com,,4,6,0,0,0,0,0,0,NORMAL
+req-0001a1-7649,2024-01-17T08:16:24Z,ListBuckets,s3.amazonaws.com,54.239.28.85,ap-northeast-1,terraform-svc,Boto3/1.28.0,,1,9,0,0,0,0,0,0,NORMAL
+req-000367-9074,2024-01-06T02:36:03Z,AttachUserPolicy,iam.amazonaws.com,103.21.244.0,us-east-1,svc-lambda,AWS Internal,,0,56,1,0,1,0,0,1,SUSPICIOUS
+req-000373-5052,2024-01-06T16:15:17Z,RunInstances,ec2.amazonaws.com,34.224.10.5,sa-east-1,root,curl/7.88.1,,0,53,1,0,0,0,0,0,SUSPICIOUS
+req-0002a9-8786,2024-01-29T11:50:59Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,eu-west-2,svc-lambda,Boto3/1.28.0,,1,6,0,0,0,0,0,0,NORMAL
+req-0000b2-6992,2024-01-04T20:27:08Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,eu-west-2,api-user,console.aws.amazon.com,,2,12,0,0,0,0,0,0,NORMAL
+req-00018c-3742,2024-01-07T17:20:32Z,DescribeSecurityGroups,ec2.amazonaws.com,54.239.28.85,eu-west-2,admin,AWS Internal,,0,2,0,0,0,0,0,0,NORMAL
+req-000390-7898,2024-01-12T02:54:54Z,StopLogging,cloudtrail.amazonaws.com,203.0.113.99,cn-north-1,root,curl/7.88.1,,13,57,1,1,1,0,0,1,ATTACK
+req-00031a-3276,2024-01-15T14:54:35Z,PutBucketPolicy,s3.amazonaws.com,172.16.0.5,cn-north-1,svc-billing,Go-http-client/1.1,InvalidClientTokenId,0,67,1,0,0,0,1,0,SUSPICIOUS
+req-0003c1-6289,2024-01-04T23:01:14Z,StopLogging,cloudtrail.amazonaws.com,192.0.2.45,sa-east-1,john.doe,Mozilla/5.0 (unknown),UnauthorizedOperation,8,21,1,0,1,0,1,1,ATTACK
+req-0002ad-2312,2024-01-14T17:50:02Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,us-east-1,iam-readonly,Terraform/1.5.0,,2,14,0,0,0,0,0,0,NORMAL
+req-000180-7920,2024-01-14T18:43:47Z,AssumeRole,sts.amazonaws.com,10.0.2.45,ap-northeast-1,terraform-svc,Terraform/1.5.0,,4,5,0,0,0,0,0,0,NORMAL
+req-0003bd-4246,2024-01-14T22:43:48Z,DeleteTrail,cloudtrail.amazonaws.com,103.21.244.0,ru-central-1,root,Go-http-client/1.1,UnauthorizedOperation,32,60,1,1,1,1,1,1,ATTACK
+req-0002f0-1445,2024-01-06T21:03:39Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,34.224.10.5,sa-east-1,terraform-svc,Terraform/1.5.0,,2,43,1,0,0,0,0,0,SUSPICIOUS
+req-000102-9109,2024-01-07T09:52:24Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,eu-west-2,admin,aws-cli/2.13.0,,4,9,0,0,0,0,0,0,NORMAL
+req-00021b-7147,2024-01-05T08:17:53Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,iam-readonly,Boto3/1.28.0,,0,6,0,0,0,0,0,0,NORMAL
+req-000150-7126,2024-01-14T20:47:31Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,us-east-1,john.doe,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-000010-9479,2024-01-23T10:19:25Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,ap-northeast-1,svc-lambda,Boto3/1.28.0,,2,8,0,0,0,0,0,0,NORMAL
+req-000145-8204,2024-01-12T13:11:28Z,GetObject,s3.amazonaws.com,192.168.1.100,eu-west-2,svc-billing,console.aws.amazon.com,,0,5,0,0,0,0,0,0,NORMAL
+req-0002f7-4450,2024-01-09T14:15:42Z,AttachUserPolicy,iam.amazonaws.com,185.220.101.47,ca-central-1,svc-lambda,Mozilla/5.0 (unknown),,2,63,1,0,0,0,0,1,SUSPICIOUS
+req-0000df-1554,2024-01-30T09:56:34Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ap-south-1,api-user,Boto3/1.28.0,,0,9,0,0,0,0,0,0,NORMAL
+req-0000b4-3363,2024-01-26T12:21:35Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ap-south-1,admin,console.aws.amazon.com,,2,13,0,0,0,0,0,0,NORMAL
+req-0003d8-6283,2024-01-30T02:19:38Z,CreateLoginProfile,iam.amazonaws.com,103.21.244.0,cn-north-1,john.doe,Go-http-client/1.1,,24,42,1,0,1,1,0,1,ATTACK
+req-000017-9883,2024-01-10T10:13:03Z,AssumeRole,sts.amazonaws.com,10.0.2.45,ap-northeast-1,devops,console.aws.amazon.com,,4,12,0,0,0,0,0,0,NORMAL
+req-000165-5190,2024-01-12T08:45:41Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,ap-south-1,api-user,Boto3/1.28.0,,0,7,0,0,0,0,0,0,NORMAL
+req-00029b-4373,2024-01-11T13:36:06Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,ca-central-1,devops,Terraform/1.5.0,,3,2,0,0,0,0,0,0,NORMAL
+req-00035e-2218,2024-01-09T11:08:46Z,GetSecretValue,secretsmanager.amazonaws.com,34.224.10.5,ru-central-1,root,Go-http-client/1.1,AccessDenied,4,74,1,0,0,0,1,1,SUSPICIOUS
+req-000155-3167,2024-01-28T07:49:49Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,us-east-1,devops,console.aws.amazon.com,,0,8,0,0,0,0,0,0,NORMAL
+req-0001b0-1852,2024-01-26T13:21:51Z,AssumeRole,sts.amazonaws.com,52.94.228.167,ap-south-1,john.doe,console.aws.amazon.com,,4,10,0,0,0,0,0,0,NORMAL
+req-000228-6758,2024-01-16T14:01:04Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,us-west-2,terraform-svc,console.aws.amazon.com,,3,2,0,0,0,0,0,0,NORMAL
+req-000342-5359,2024-01-22T15:48:06Z,GetSecretValue,secretsmanager.amazonaws.com,172.16.0.5,ap-south-1,john.doe,Boto3/1.28.0,,0,27,0,0,0,0,0,1,SUSPICIOUS
+req-0000cc-1911,2024-01-16T16:05:57Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ap-south-1,john.doe,Terraform/1.5.0,,4,8,0,0,0,0,0,0,NORMAL
+req-000277-6756,2024-01-13T12:23:00Z,GetObject,s3.amazonaws.com,172.31.5.22,ap-south-1,iam-readonly,Boto3/1.28.0,,2,6,0,0,0,0,0,0,NORMAL
+req-00005e-7951,2024-01-15T08:22:37Z,ListBuckets,s3.amazonaws.com,172.31.0.10,us-east-1,api-user,Terraform/1.5.0,,2,11,0,0,0,0,0,0,NORMAL
+req-00022f-3089,2024-01-01T16:39:32Z,GetObject,s3.amazonaws.com,172.31.5.22,ca-central-1,terraform-svc,console.aws.amazon.com,,3,14,0,0,0,0,0,0,NORMAL
+req-000045-9056,2024-01-16T20:07:52Z,ListBuckets,s3.amazonaws.com,52.94.228.167,us-east-1,admin,Terraform/1.5.0,,0,7,0,0,0,0,0,0,NORMAL
+req-00026f-3634,2024-01-05T07:22:18Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ca-central-1,iam-readonly,Terraform/1.5.0,,3,3,0,0,0,0,0,0,NORMAL
+req-00011d-5403,2024-01-09T18:10:23Z,AssumeRole,sts.amazonaws.com,172.16.0.5,ap-northeast-1,iam-readonly,AWS Internal,,1,12,0,0,0,0,0,0,NORMAL
+req-00034d-4639,2024-01-11T13:49:23Z,AttachUserPolicy,iam.amazonaws.com,45.155.205.12,ap-south-1,iam-readonly,aws-cli/2.13.0,,1,86,1,0,0,0,0,1,SUSPICIOUS
+req-0001b3-9451,2024-01-07T11:02:50Z,ListBuckets,s3.amazonaws.com,52.94.228.167,ap-northeast-1,iam-readonly,Boto3/1.28.0,,4,9,0,0,0,0,0,0,NORMAL
+req-00009a-3209,2024-01-15T17:44:30Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ap-northeast-1,iam-readonly,Boto3/1.28.0,,1,13,0,0,0,0,0,0,NORMAL
+req-00004c-5102,2024-01-29T07:27:47Z,AssumeRole,sts.amazonaws.com,172.31.5.22,eu-west-2,admin,Terraform/1.5.0,,2,10,0,0,0,0,0,0,NORMAL
+req-0002db-3260,2024-01-25T04:48:33Z,RunInstances,ec2.amazonaws.com,172.16.0.5,sa-east-1,api-user,python-requests/2.31,,3,49,1,0,0,0,0,0,SUSPICIOUS
+req-0001bf-2972,2024-01-28T13:43:49Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-northeast-1,api-user,Terraform/1.5.0,,1,8,0,0,0,0,0,0,NORMAL
+req-0000bd-5480,2024-01-11T14:30:22Z,GetObject,s3.amazonaws.com,172.31.5.22,us-west-2,svc-lambda,console.aws.amazon.com,,4,15,0,0,0,0,0,0,NORMAL
+req-000110-2494,2024-01-13T07:40:19Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ap-northeast-1,svc-lambda,aws-cli/2.13.0,,1,7,0,0,0,0,0,0,NORMAL
+req-0000ed-5781,2024-01-20T16:50:20Z,ListBuckets,s3.amazonaws.com,34.224.10.5,ap-south-1,api-user,aws-cli/2.13.0,,3,1,0,0,0,0,0,0,NORMAL
+req-0001e8-9939,2024-01-24T20:20:38Z,ListBuckets,s3.amazonaws.com,172.31.5.22,eu-west-2,svc-lambda,AWS Internal,,1,10,0,0,0,0,0,0,NORMAL
+req-000076-9313,2024-01-20T11:19:22Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,ca-central-1,admin,Terraform/1.5.0,,0,10,0,0,0,0,0,0,NORMAL
+req-0003b0-6282,2024-01-27T03:48:40Z,CreateUser,iam.amazonaws.com,91.108.4.1,ru-central-1,admin,python-requests/2.31,AccessDenied,21,90,1,1,1,0,1,1,ATTACK
+req-000201-5372,2024-01-04T10:08:11Z,AssumeRole,sts.amazonaws.com,172.31.0.10,us-west-2,john.doe,console.aws.amazon.com,,0,13,0,0,0,0,0,0,NORMAL
+req-00033a-6711,2024-01-06T18:12:48Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,45.155.205.12,ap-south-1,svc-billing,python-requests/2.31,InvalidClientTokenId,3,52,1,0,0,0,1,0,SUSPICIOUS
+req-000250-3822,2024-01-02T16:15:44Z,GetObject,s3.amazonaws.com,10.0.0.1,ap-northeast-1,devops,aws-cli/2.13.0,,1,1,0,0,0,0,0,0,NORMAL
+req-00007f-2887,2024-01-14T16:36:25Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ca-central-1,iam-readonly,aws-cli/2.13.0,,3,5,0,0,0,0,0,0,NORMAL
+req-000075-6793,2024-01-18T16:35:21Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,us-west-2,api-user,console.aws.amazon.com,,0,7,0,0,0,0,0,0,NORMAL
+req-0001da-8786,2024-01-08T19:00:02Z,ListBuckets,s3.amazonaws.com,54.239.28.85,us-east-1,admin,aws-cli/2.13.0,,4,13,0,0,0,0,0,0,NORMAL
+req-0002b6-5636,2024-01-14T09:54:13Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,us-east-1,devops,console.aws.amazon.com,,4,4,0,0,0,0,0,0,NORMAL
+req-00003a-5941,2024-01-23T16:53:40Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ca-central-1,john.doe,Boto3/1.28.0,,1,2,0,0,0,0,0,0,NORMAL
+req-000360-3514,2024-01-27T20:32:38Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,34.224.10.5,sa-east-1,api-user,Mozilla/5.0 (unknown),UnauthorizedOperation,1,73,1,0,0,0,1,0,SUSPICIOUS
+req-000391-2736,2024-01-24T03:01:44Z,StopLogging,cloudtrail.amazonaws.com,203.0.113.99,eu-west-2,john.doe,python-requests/2.31,UnauthorizedOperation,32,67,1,0,1,0,1,1,ATTACK
+req-000172-1894,2024-01-12T14:42:43Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,eu-west-2,svc-lambda,console.aws.amazon.com,,3,3,0,0,0,0,0,0,NORMAL
+req-00010d-3139,2024-01-27T12:18:21Z,DescribeSecurityGroups,ec2.amazonaws.com,54.239.28.85,us-west-2,devops,AWS Internal,,4,10,0,0,0,0,0,0,NORMAL
+req-00002f-9976,2024-01-20T14:52:46Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ap-northeast-1,terraform-svc,AWS Internal,,4,7,0,0,0,0,0,0,NORMAL
+req-00015e-5888,2024-01-04T15:55:43Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,ap-south-1,terraform-svc,AWS Internal,,3,9,0,0,0,0,0,0,NORMAL
+req-0000c4-9261,2024-01-18T17:33:31Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,svc-billing,aws-cli/2.13.0,,1,14,0,0,0,0,0,0,NORMAL
+req-0003e8-5687,2024-01-19T22:35:12Z,PutUserPolicy,iam.amazonaws.com,203.0.113.99,ca-central-1,admin,libwww-perl/6.07,AccessDenied,17,52,1,1,1,0,1,1,ATTACK
+req-000343-8753,2024-01-13T00:38:33Z,CreateAccessKey,iam.amazonaws.com,10.0.0.1,ru-central-1,devops,curl/7.88.1,,2,82,1,0,1,0,0,0,SUSPICIOUS
+req-0002e1-2809,2024-01-27T07:49:19Z,RunInstances,ec2.amazonaws.com,198.51.100.77,ap-south-1,api-user,Terraform/1.5.0,UnauthorizedOperation,3,84,1,0,0,0,1,0,SUSPICIOUS
+req-000108-5380,2024-01-18T16:10:20Z,AssumeRole,sts.amazonaws.com,172.31.0.10,ap-northeast-1,api-user,AWS Internal,,2,5,0,0,0,0,0,0,NORMAL
+req-0001bc-2285,2024-01-20T20:22:09Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,us-east-1,iam-readonly,Boto3/1.28.0,,0,2,0,0,0,0,0,0,NORMAL
+req-0002a4-8960,2024-01-06T15:41:54Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,us-west-2,svc-billing,aws-cli/2.13.0,,0,12,0,0,0,0,0,0,NORMAL
+req-000131-9907,2024-01-07T13:41:56Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,ap-south-1,devops,Terraform/1.5.0,,4,4,0,0,0,0,0,0,NORMAL
+req-000156-7168,2024-01-23T11:45:41Z,ListBuckets,s3.amazonaws.com,10.0.1.20,us-east-1,iam-readonly,aws-cli/2.13.0,,2,7,0,0,0,0,0,0,NORMAL
+req-0003c7-4079,2024-01-15T03:55:39Z,TerminateInstances,ec2.amazonaws.com,198.51.100.77,us-east-1,john.doe,libwww-perl/6.07,,37,45,1,0,1,1,0,0,ATTACK
+req-000096-9782,2024-01-04T08:53:57Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,ap-northeast-1,api-user,Boto3/1.28.0,,3,10,0,0,0,0,0,0,NORMAL
+req-00007d-1126,2024-01-25T09:16:18Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,us-east-1,john.doe,aws-cli/2.13.0,,2,2,0,0,0,0,0,0,NORMAL
+req-000313-6013,2024-01-15T06:55:15Z,PutBucketPolicy,s3.amazonaws.com,103.21.244.0,cn-north-1,root,libwww-perl/6.07,,3,47,1,0,0,0,0,0,SUSPICIOUS
+req-000033-9947,2024-01-13T19:54:57Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,ap-south-1,svc-billing,Boto3/1.28.0,,3,9,0,0,0,0,0,0,NORMAL
+req-000162-6641,2024-01-01T10:43:00Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-east-1,iam-readonly,aws-cli/2.13.0,,1,4,0,0,0,0,0,0,NORMAL
+req-0003a0-8573,2024-01-10T00:24:10Z,PutUserPolicy,iam.amazonaws.com,198.51.100.77,us-west-2,root,Go-http-client/1.1,UnauthorizedOperation,30,29,1,1,1,0,1,1,ATTACK
+req-00008f-4178,2024-01-10T10:51:50Z,GetObject,s3.amazonaws.com,10.0.1.20,us-west-2,john.doe,console.aws.amazon.com,,3,15,0,0,0,0,0,0,NORMAL
+req-0001d7-1549,2024-01-23T19:15:24Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,us-west-2,admin,AWS Internal,,3,4,0,0,0,0,0,0,NORMAL
+req-000190-1745,2024-01-21T07:46:39Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,eu-west-2,admin,Boto3/1.28.0,,0,13,0,0,0,0,0,0,NORMAL
+req-000272-1070,2024-01-25T14:09:29Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ap-south-1,admin,Terraform/1.5.0,,2,3,0,0,0,0,0,0,NORMAL
+req-000141-8113,2024-01-23T14:01:27Z,ListBuckets,s3.amazonaws.com,172.31.0.10,ap-northeast-1,api-user,aws-cli/2.13.0,,1,10,0,0,0,0,0,0,NORMAL
+req-000014-8579,2024-01-15T15:08:27Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-south-1,john.doe,AWS Internal,,1,5,0,0,0,0,0,0,NORMAL
+req-00032a-2035,2024-01-14T00:01:00Z,GetSecretValue,secretsmanager.amazonaws.com,185.220.101.47,ap-northeast-1,root,console.aws.amazon.com,InvalidClientTokenId,2,44,1,0,1,0,1,1,SUSPICIOUS
+req-000317-9898,2024-01-28T21:17:12Z,GetSecretValue,secretsmanager.amazonaws.com,10.0.0.1,eu-west-2,john.doe,console.aws.amazon.com,,4,37,0,0,0,0,0,1,SUSPICIOUS
+req-000329-1076,2024-01-13T03:44:19Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,ru-central-1,svc-lambda,Go-http-client/1.1,AccessDenied,3,26,1,0,1,0,1,0,SUSPICIOUS
+req-000198-4629,2024-01-14T12:10:00Z,ListBuckets,s3.amazonaws.com,54.239.28.85,ap-northeast-1,svc-billing,Terraform/1.5.0,,2,4,0,0,0,0,0,0,NORMAL
+req-00021a-9779,2024-01-10T15:36:46Z,GetObject,s3.amazonaws.com,52.94.228.167,ca-central-1,admin,AWS Internal,,2,9,0,0,0,0,0,0,NORMAL
+req-00026d-6616,2024-01-17T20:41:21Z,AssumeRole,sts.amazonaws.com,10.0.0.1,ap-south-1,iam-readonly,aws-cli/2.13.0,,3,10,0,0,0,0,0,0,NORMAL
+req-000027-8066,2024-01-30T15:51:34Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ap-south-1,devops,aws-cli/2.13.0,,1,6,0,0,0,0,0,0,NORMAL
+req-0000b0-8648,2024-01-07T12:48:10Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-east-1,api-user,aws-cli/2.13.0,,3,9,0,0,0,0,0,0,NORMAL
+req-0000f6-6816,2024-01-30T17:05:06Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ca-central-1,api-user,Boto3/1.28.0,,1,11,0,0,0,0,0,0,NORMAL
+req-00033d-7993,2024-01-30T16:12:56Z,CreateAccessKey,iam.amazonaws.com,91.108.4.1,ca-central-1,terraform-svc,libwww-perl/6.07,AccessDenied,3,41,1,0,0,0,1,0,SUSPICIOUS
+req-00029c-9779,2024-01-14T12:12:31Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,eu-west-2,api-user,console.aws.amazon.com,,0,14,0,0,0,0,0,0,NORMAL
+req-0002f3-4333,2024-01-19T09:26:28Z,PutBucketPolicy,s3.amazonaws.com,192.0.2.45,ap-northeast-1,iam-readonly,Mozilla/5.0 (unknown),,0,84,1,0,0,0,0,0,SUSPICIOUS
+req-00035b-3043,2024-01-09T17:54:48Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,203.0.113.99,us-east-1,root,Boto3/1.28.0,,0,30,1,0,0,0,0,0,SUSPICIOUS
+req-00009b-7524,2024-01-29T10:02:20Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,us-east-1,admin,Terraform/1.5.0,,2,9,0,0,0,0,0,0,NORMAL
+req-000120-1579,2024-01-12T14:24:58Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ca-central-1,john.doe,aws-cli/2.13.0,,1,3,0,0,0,0,0,0,NORMAL
+req-00025b-2804,2024-01-14T12:12:47Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,us-west-2,api-user,AWS Internal,,2,4,0,0,0,0,0,0,NORMAL
+req-00023a-5552,2024-01-03T14:08:32Z,ListBuckets,s3.amazonaws.com,10.0.1.20,us-west-2,admin,Boto3/1.28.0,,0,14,0,0,0,0,0,0,NORMAL
+req-0002e8-5968,2024-01-05T16:07:23Z,AttachUserPolicy,iam.amazonaws.com,192.168.1.100,us-east-1,john.doe,Go-http-client/1.1,,2,67,0,0,0,0,0,1,SUSPICIOUS
+req-000012-8744,2024-01-18T10:08:46Z,GetObject,s3.amazonaws.com,172.31.0.10,us-east-1,svc-lambda,aws-cli/2.13.0,,4,10,0,0,0,0,0,0,NORMAL
+req-000080-2734,2024-01-30T18:23:05Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ca-central-1,devops,aws-cli/2.13.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000143-8869,2024-01-12T07:00:27Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,ap-northeast-1,devops,Boto3/1.28.0,,0,5,0,0,0,0,0,0,NORMAL
+req-000100-7286,2024-01-17T09:24:26Z,AssumeRole,sts.amazonaws.com,54.239.28.85,ap-south-1,svc-billing,Boto3/1.28.0,,4,3,0,0,0,0,0,0,NORMAL
+req-000292-1438,2024-01-24T08:03:53Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ap-northeast-1,john.doe,Terraform/1.5.0,,0,8,0,0,0,0,0,0,NORMAL
+req-0003c5-2231,2024-01-12T00:35:53Z,CreateLoginProfile,iam.amazonaws.com,45.155.205.12,us-west-2,root,Go-http-client/1.1,,20,46,1,1,1,1,0,1,ATTACK
+req-0000bf-5450,2024-01-07T10:52:34Z,GetObject,s3.amazonaws.com,10.0.0.1,ap-northeast-1,svc-lambda,AWS Internal,,2,15,0,0,0,0,0,0,NORMAL
+req-000074-2398,2024-01-22T09:59:30Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,us-east-1,svc-billing,Boto3/1.28.0,,0,2,0,0,0,0,0,0,NORMAL
+req-000269-9714,2024-01-16T14:32:33Z,GetObject,s3.amazonaws.com,34.224.10.5,ap-south-1,svc-billing,Terraform/1.5.0,,0,8,0,0,0,0,0,0,NORMAL
+req-00025f-9548,2024-01-28T15:14:05Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ap-northeast-1,john.doe,console.aws.amazon.com,,3,14,0,0,0,0,0,0,NORMAL
+req-0000b5-9446,2024-01-26T12:30:33Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-south-1,john.doe,Terraform/1.5.0,,3,3,0,0,0,0,0,0,NORMAL
+req-00012e-6432,2024-01-15T17:51:08Z,ListBuckets,s3.amazonaws.com,192.168.1.100,ap-south-1,admin,AWS Internal,,0,15,0,0,0,0,0,0,NORMAL
+req-0002f8-9011,2024-01-01T15:57:00Z,RunInstances,ec2.amazonaws.com,45.155.205.12,sa-east-1,admin,aws-cli/2.13.0,AccessDenied,1,72,1,0,0,0,1,0,SUSPICIOUS
+req-0002c9-1266,2024-01-12T08:16:37Z,AttachUserPolicy,iam.amazonaws.com,45.155.205.12,cn-north-1,svc-lambda,curl/7.88.1,,0,84,1,0,0,0,0,1,SUSPICIOUS
+req-0002d4-5627,2024-01-26T15:54:10Z,CreateAccessKey,iam.amazonaws.com,185.220.101.47,ru-central-1,svc-billing,python-requests/2.31,AccessDenied,4,46,1,0,0,0,1,0,SUSPICIOUS
+req-0002ae-3627,2024-01-14T18:56:58Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,eu-west-2,iam-readonly,Terraform/1.5.0,,0,14,0,0,0,0,0,0,NORMAL
+req-0003d4-1136,2024-01-14T00:50:29Z,CreateLoginProfile,iam.amazonaws.com,103.21.244.0,sa-east-1,john.doe,python-requests/2.31,UnauthorizedOperation,27,56,1,0,1,0,1,1,ATTACK
+req-000206-9812,2024-01-29T20:02:56Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,ap-northeast-1,devops,console.aws.amazon.com,,1,9,0,0,0,0,0,0,NORMAL
+req-0003d9-8158,2024-01-03T02:19:36Z,DeleteBucket,s3.amazonaws.com,185.220.101.47,us-west-2,root,Go-http-client/1.1,AccessDenied,34,89,1,1,1,0,1,0,ATTACK
+req-00002e-3184,2024-01-08T15:58:54Z,AssumeRole,sts.amazonaws.com,192.168.1.100,us-west-2,devops,AWS Internal,,0,8,0,0,0,0,0,0,NORMAL
+req-00038e-9144,2024-01-11T22:08:51Z,DeleteTrail,cloudtrail.amazonaws.com,45.155.205.12,cn-north-1,admin,curl/7.88.1,AccessDenied,20,69,1,1,1,0,1,1,ATTACK
+req-00009e-6372,2024-01-18T09:18:20Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,eu-west-2,terraform-svc,Terraform/1.5.0,,0,2,0,0,0,0,0,0,NORMAL
+req-000354-6825,2024-01-22T13:53:10Z,PutBucketPolicy,s3.amazonaws.com,203.0.113.99,sa-east-1,svc-billing,Boto3/1.28.0,InvalidClientTokenId,0,32,1,0,0,0,1,0,SUSPICIOUS
+req-0000ac-9938,2024-01-14T16:39:40Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,us-east-1,john.doe,console.aws.amazon.com,,0,8,0,0,0,0,0,0,NORMAL
+req-000011-2104,2024-01-08T16:00:04Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,ap-south-1,api-user,aws-cli/2.13.0,,0,4,0,0,0,0,0,0,NORMAL
+req-000200-8258,2024-01-11T19:56:26Z,GetObject,s3.amazonaws.com,172.16.0.5,ca-central-1,svc-lambda,Boto3/1.28.0,,3,5,0,0,0,0,0,0,NORMAL
+req-000031-3503,2024-01-03T15:08:09Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,us-east-1,svc-billing,Boto3/1.28.0,,1,7,0,0,0,0,0,0,NORMAL
+req-0003cc-5718,2024-01-09T22:31:13Z,CreateLoginProfile,iam.amazonaws.com,198.51.100.77,cn-north-1,john.doe,Mozilla/5.0 (unknown),,15,46,1,0,1,0,0,1,ATTACK
+req-0003ad-7794,2024-01-17T01:18:17Z,CreateUser,iam.amazonaws.com,203.0.113.99,sa-east-1,admin,Go-http-client/1.1,,21,59,1,1,1,1,0,1,ATTACK
+req-000204-6323,2024-01-30T09:28:55Z,GetObject,s3.amazonaws.com,192.168.1.100,us-east-1,john.doe,console.aws.amazon.com,,4,8,0,0,0,0,0,0,NORMAL
+req-0003b9-4272,2024-01-27T02:20:39Z,DeleteTrail,cloudtrail.amazonaws.com,103.21.244.0,cn-north-1,admin,Go-http-client/1.1,AccessDenied,11,97,1,1,1,0,1,1,ATTACK
+req-0001e1-3126,2024-01-17T08:42:04Z,AssumeRole,sts.amazonaws.com,172.16.0.5,eu-west-2,svc-billing,Boto3/1.28.0,,0,14,0,0,0,0,0,0,NORMAL
+req-00011c-3248,2024-01-22T18:47:11Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,ap-northeast-1,svc-billing,Terraform/1.5.0,,0,1,0,0,0,0,0,0,NORMAL
+req-0002cf-7418,2024-01-19T14:15:12Z,GetSecretValue,secretsmanager.amazonaws.com,54.239.28.85,sa-east-1,devops,Terraform/1.5.0,InvalidClientTokenId,2,92,1,0,0,0,1,1,SUSPICIOUS
+req-00036e-7477,2024-01-25T04:42:16Z,RunInstances,ec2.amazonaws.com,172.16.0.5,eu-west-2,devops,curl/7.88.1,,1,80,0,0,0,0,0,0,SUSPICIOUS
+req-0000e2-3937,2024-01-01T11:32:52Z,ListBuckets,s3.amazonaws.com,52.94.228.167,us-west-2,api-user,aws-cli/2.13.0,,3,13,0,0,0,0,0,0,NORMAL
+req-00001b-5345,2024-01-04T16:04:34Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ap-south-1,api-user,AWS Internal,,1,9,0,0,0,0,0,0,NORMAL
+req-0003bb-3003,2024-01-07T00:42:23Z,StopLogging,cloudtrail.amazonaws.com,185.220.101.47,ca-central-1,admin,python-requests/2.31,UnauthorizedOperation,28,38,1,1,1,1,1,1,ATTACK
+req-0001b6-9294,2024-01-19T13:00:16Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ca-central-1,devops,Boto3/1.28.0,,1,7,0,0,0,0,0,0,NORMAL
+req-0003b8-6105,2024-01-09T01:11:12Z,TerminateInstances,ec2.amazonaws.com,198.51.100.77,ru-central-1,john.doe,Mozilla/5.0 (unknown),AccessDenied,22,70,1,0,1,0,1,0,ATTACK
+req-00016d-6615,2024-01-09T16:56:46Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,us-east-1,terraform-svc,console.aws.amazon.com,,0,6,0,0,0,0,0,0,NORMAL
+req-0000e6-5593,2024-01-16T16:17:02Z,GetObject,s3.amazonaws.com,172.31.5.22,ca-central-1,svc-lambda,Boto3/1.28.0,,0,11,0,0,0,0,0,0,NORMAL
+req-000026-9379,2024-01-20T08:27:22Z,ConsoleLogin,signin.amazonaws.com,172.31.5.22,ca-central-1,svc-billing,aws-cli/2.13.0,,2,7,0,0,0,0,0,0,NORMAL
+req-0003c6-6108,2024-01-11T00:13:52Z,CreateLoginProfile,iam.amazonaws.com,185.220.101.47,ap-northeast-1,root,python-requests/2.31,UnauthorizedOperation,38,85,1,1,1,1,1,1,ATTACK
+req-000177-8414,2024-01-16T16:45:42Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,us-east-1,iam-readonly,AWS Internal,,2,12,0,0,0,0,0,0,NORMAL
+req-0001d6-3975,2024-01-25T11:25:04Z,AssumeRole,sts.amazonaws.com,10.0.0.1,us-west-2,john.doe,aws-cli/2.13.0,,4,8,0,0,0,0,0,0,NORMAL
+req-0003c8-8550,2024-01-29T03:06:47Z,DeleteTrail,cloudtrail.amazonaws.com,45.155.205.12,ru-central-1,root,Go-http-client/1.1,AccessDenied,12,50,1,1,1,0,1,1,ATTACK
+req-000353-1149,2024-01-29T09:09:13Z,CreateAccessKey,iam.amazonaws.com,198.51.100.77,eu-west-2,svc-lambda,python-requests/2.31,,1,45,1,0,0,0,0,0,SUSPICIOUS
+req-0002c1-5412,2024-01-01T04:05:29Z,CreateAccessKey,iam.amazonaws.com,91.108.4.1,cn-north-1,iam-readonly,python-requests/2.31,InvalidClientTokenId,3,78,1,0,0,0,1,0,SUSPICIOUS
+req-00034a-9757,2024-01-09T23:42:30Z,AttachUserPolicy,iam.amazonaws.com,10.0.0.1,us-west-2,john.doe,libwww-perl/6.07,,0,37,0,0,1,0,0,1,SUSPICIOUS
+req-0000c3-1613,2024-01-16T19:11:59Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,ap-south-1,iam-readonly,AWS Internal,,2,15,0,0,0,0,0,0,NORMAL
+req-000357-8856,2024-01-30T21:32:14Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,us-east-1,devops,python-requests/2.31,,0,95,1,0,0,0,0,0,SUSPICIOUS
+req-000361-6396,2024-01-04T17:43:35Z,PutBucketPolicy,s3.amazonaws.com,198.51.100.77,ru-central-1,john.doe,python-requests/2.31,,3,28,1,0,0,0,0,0,SUSPICIOUS
+req-0001f8-6901,2024-01-01T17:04:24Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ap-northeast-1,admin,console.aws.amazon.com,,2,11,0,0,0,0,0,0,NORMAL
+req-0003ca-9087,2024-01-10T01:12:25Z,StopLogging,cloudtrail.amazonaws.com,91.108.4.1,ap-south-1,john.doe,curl/7.88.1,,16,96,1,0,1,0,0,1,ATTACK
+req-00033f-7845,2024-01-27T05:31:00Z,CreateAccessKey,iam.amazonaws.com,34.224.10.5,sa-east-1,admin,console.aws.amazon.com,AccessDenied,0,28,1,0,0,0,1,0,SUSPICIOUS
+req-000244-4027,2024-01-13T09:42:48Z,GetObject,s3.amazonaws.com,10.0.1.20,ap-south-1,iam-readonly,console.aws.amazon.com,,4,13,0,0,0,0,0,0,NORMAL
+req-0003c9-9321,2024-01-12T00:27:13Z,DeleteTrail,cloudtrail.amazonaws.com,185.220.101.47,cn-north-1,john.doe,Go-http-client/1.1,,14,70,1,0,1,1,0,1,ATTACK
+req-0000a3-5678,2024-01-09T19:45:28Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ca-central-1,admin,Terraform/1.5.0,,1,10,0,0,0,0,0,0,NORMAL
+req-00038d-3089,2024-01-04T00:36:27Z,DeleteBucket,s3.amazonaws.com,103.21.244.0,cn-north-1,john.doe,python-requests/2.31,UnauthorizedOperation,22,38,1,0,1,0,1,0,ATTACK
+req-000099-6447,2024-01-22T18:40:06Z,GetObject,s3.amazonaws.com,192.168.1.100,us-west-2,svc-billing,aws-cli/2.13.0,,4,12,0,0,0,0,0,0,NORMAL
+req-000322-3869,2024-01-12T14:44:53Z,AttachUserPolicy,iam.amazonaws.com,203.0.113.99,cn-north-1,john.doe,python-requests/2.31,UnauthorizedOperation,2,70,1,0,0,0,1,1,SUSPICIOUS
+req-0003e2-6811,2024-01-10T23:02:41Z,CreateUser,iam.amazonaws.com,203.0.113.99,ca-central-1,admin,python-requests/2.31,,33,25,1,1,1,1,0,1,ATTACK
+req-0002f4-5739,2024-01-15T17:02:00Z,CreateAccessKey,iam.amazonaws.com,192.168.1.100,eu-west-2,terraform-svc,curl/7.88.1,,3,99,0,0,0,0,0,0,SUSPICIOUS
+req-000070-8847,2024-01-10T15:29:41Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,us-west-2,iam-readonly,aws-cli/2.13.0,,0,1,0,0,0,0,0,0,NORMAL
+req-0000e3-7112,2024-01-12T20:17:50Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,us-east-1,api-user,aws-cli/2.13.0,,3,2,0,0,0,0,0,0,NORMAL
+req-0002b1-8837,2024-01-20T20:43:26Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,us-west-2,iam-readonly,AWS Internal,,2,8,0,0,0,0,0,0,NORMAL
+req-000068-7078,2024-01-29T10:34:08Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,ca-central-1,admin,aws-cli/2.13.0,,3,8,0,0,0,0,0,0,NORMAL
+req-0001a6-7730,2024-01-16T16:55:30Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,ca-central-1,john.doe,AWS Internal,,1,4,0,0,0,0,0,0,NORMAL
+req-0001a4-3639,2024-01-14T20:01:15Z,AssumeRole,sts.amazonaws.com,52.94.228.167,us-east-1,john.doe,Terraform/1.5.0,,0,3,0,0,0,0,0,0,NORMAL
+req-0002ef-2627,2024-01-11T16:24:16Z,RunInstances,ec2.amazonaws.com,10.0.0.1,ap-south-1,svc-billing,Go-http-client/1.1,,0,34,0,0,0,0,0,0,SUSPICIOUS
+req-00024b-8530,2024-01-03T17:23:34Z,GetObject,s3.amazonaws.com,54.239.28.85,eu-west-2,svc-lambda,console.aws.amazon.com,,2,2,0,0,0,0,0,0,NORMAL
+req-00030d-2657,2024-01-06T07:12:01Z,GetSecretValue,secretsmanager.amazonaws.com,34.224.10.5,ap-northeast-1,iam-readonly,console.aws.amazon.com,,1,53,0,0,0,0,0,1,SUSPICIOUS
+req-0002a1-8133,2024-01-05T10:47:43Z,GetObject,s3.amazonaws.com,10.0.2.45,us-east-1,devops,aws-cli/2.13.0,,2,14,0,0,0,0,0,0,NORMAL
+req-000078-3955,2024-01-20T07:59:42Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,ap-northeast-1,svc-lambda,AWS Internal,,2,1,0,0,0,0,0,0,NORMAL
+req-000036-7906,2024-01-11T12:48:56Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,eu-west-2,john.doe,aws-cli/2.13.0,,3,5,0,0,0,0,0,0,NORMAL
+req-000098-7338,2024-01-18T15:01:24Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,ap-northeast-1,iam-readonly,AWS Internal,,3,1,0,0,0,0,0,0,NORMAL
+req-000194-7760,2024-01-24T18:57:46Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,svc-billing,Terraform/1.5.0,,2,4,0,0,0,0,0,0,NORMAL
+req-0003b2-5505,2024-01-18T01:53:15Z,CreateLoginProfile,iam.amazonaws.com,198.51.100.77,ap-northeast-1,root,Go-http-client/1.1,AccessDenied,29,53,1,1,1,1,1,1,ATTACK
+req-0000d0-3086,2024-01-04T12:11:34Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,ap-northeast-1,svc-lambda,console.aws.amazon.com,,3,9,0,0,0,0,0,0,NORMAL
+req-000293-9064,2024-01-25T08:04:42Z,GetObject,s3.amazonaws.com,54.239.28.85,ap-south-1,api-user,console.aws.amazon.com,,4,13,0,0,0,0,0,0,NORMAL
+req-00034c-6134,2024-01-24T06:07:36Z,CreateAccessKey,iam.amazonaws.com,52.94.228.167,us-east-1,svc-lambda,Boto3/1.28.0,,2,36,0,0,0,0,0,0,SUSPICIOUS
+req-0002fb-1116,2024-01-02T11:17:31Z,GetSecretValue,secretsmanager.amazonaws.com,203.0.113.99,ru-central-1,terraform-svc,Mozilla/5.0 (unknown),,4,46,1,0,0,0,0,1,SUSPICIOUS
+req-000009-7543,2024-01-18T15:16:47Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,us-east-1,john.doe,Terraform/1.5.0,,4,7,0,0,0,0,0,0,NORMAL
+req-000328-9721,2024-01-15T04:22:11Z,PutBucketPolicy,s3.amazonaws.com,45.155.205.12,us-east-1,svc-lambda,python-requests/2.31,UnauthorizedOperation,1,24,1,0,0,0,1,0,SUSPICIOUS
+req-000025-1452,2024-01-13T15:43:53Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,us-west-2,svc-billing,aws-cli/2.13.0,,4,6,0,0,0,0,0,0,NORMAL
+req-0001c5-6903,2024-01-15T08:47:21Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,us-east-1,iam-readonly,Boto3/1.28.0,,2,6,0,0,0,0,0,0,NORMAL
+req-00028c-5723,2024-01-05T15:31:48Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,us-east-1,devops,console.aws.amazon.com,,2,12,0,0,0,0,0,0,NORMAL
+req-0000fe-7431,2024-01-21T15:20:38Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-east-1,iam-readonly,Terraform/1.5.0,,3,10,0,0,0,0,0,0,NORMAL
+req-000130-5835,2024-01-20T07:39:39Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,us-east-1,terraform-svc,aws-cli/2.13.0,,1,11,0,0,0,0,0,0,NORMAL
+req-0002eb-7478,2024-01-22T19:39:26Z,RunInstances,ec2.amazonaws.com,103.21.244.0,cn-north-1,john.doe,python-requests/2.31,InvalidClientTokenId,3,49,1,0,0,0,1,0,SUSPICIOUS
+req-00023c-3525,2024-01-28T15:02:21Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,us-east-1,john.doe,console.aws.amazon.com,,0,3,0,0,0,0,0,0,NORMAL
+req-000270-1674,2024-01-26T17:09:10Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ca-central-1,svc-lambda,AWS Internal,,1,2,0,0,0,0,0,0,NORMAL
+req-0002dd-9516,2024-01-30T21:41:09Z,GetSecretValue,secretsmanager.amazonaws.com,185.220.101.47,eu-west-2,svc-lambda,libwww-perl/6.07,,4,27,1,0,0,0,0,1,SUSPICIOUS
+req-00037c-3112,2024-01-26T16:01:10Z,AttachUserPolicy,iam.amazonaws.com,103.21.244.0,ru-central-1,svc-billing,Mozilla/5.0 (unknown),,4,55,1,0,0,0,0,1,SUSPICIOUS
+req-000107-3281,2024-01-20T18:40:27Z,AssumeRole,sts.amazonaws.com,192.168.1.100,ap-northeast-1,svc-billing,AWS Internal,,1,10,0,0,0,0,0,0,NORMAL
+req-000263-8524,2024-01-01T08:30:42Z,AssumeRole,sts.amazonaws.com,52.94.228.167,eu-west-2,john.doe,Boto3/1.28.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00012a-5984,2024-01-09T14:54:07Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,us-west-2,devops,Boto3/1.28.0,,0,3,0,0,0,0,0,0,NORMAL
+req-00019f-8448,2024-01-30T15:50:23Z,AssumeRole,sts.amazonaws.com,192.168.1.100,us-east-1,svc-lambda,Boto3/1.28.0,,3,8,0,0,0,0,0,0,NORMAL
+req-000097-2402,2024-01-12T16:15:36Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-south-1,devops,Boto3/1.28.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000315-4830,2024-01-09T10:24:01Z,RunInstances,ec2.amazonaws.com,91.108.4.1,cn-north-1,iam-readonly,python-requests/2.31,,1,76,1,0,0,0,0,0,SUSPICIOUS
+req-000281-3354,2024-01-12T18:06:34Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.0.10,us-east-1,svc-lambda,console.aws.amazon.com,,4,6,0,0,0,0,0,0,NORMAL
+req-00037a-9955,2024-01-23T06:28:59Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,91.108.4.1,ru-central-1,iam-readonly,aws-cli/2.13.0,InvalidClientTokenId,0,29,1,0,0,0,1,0,SUSPICIOUS
+req-000227-6954,2024-01-28T09:57:39Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,eu-west-2,terraform-svc,console.aws.amazon.com,,2,15,0,0,0,0,0,0,NORMAL
+req-000377-8734,2024-01-22T01:47:20Z,PutBucketPolicy,s3.amazonaws.com,185.220.101.47,us-west-2,admin,python-requests/2.31,,1,56,1,0,1,0,0,0,SUSPICIOUS
+req-0001e9-1267,2024-01-13T14:00:46Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,us-east-1,terraform-svc,AWS Internal,,0,5,0,0,0,0,0,0,NORMAL
+req-000094-8685,2024-01-16T20:44:53Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ap-south-1,svc-billing,console.aws.amazon.com,,1,13,0,0,0,0,0,0,NORMAL
+req-000093-2623,2024-01-12T08:14:01Z,GetObject,s3.amazonaws.com,52.94.228.167,eu-west-2,devops,Boto3/1.28.0,,2,15,0,0,0,0,0,0,NORMAL
+req-0002d1-7914,2024-01-08T15:45:03Z,RunInstances,ec2.amazonaws.com,103.21.244.0,sa-east-1,iam-readonly,curl/7.88.1,AccessDenied,4,22,1,0,0,0,1,0,SUSPICIOUS
+req-0003a4-2514,2024-01-07T23:42:57Z,DeleteTrail,cloudtrail.amazonaws.com,185.220.101.47,ca-central-1,john.doe,Mozilla/5.0 (unknown),UnauthorizedOperation,21,43,1,0,1,1,1,1,ATTACK
+req-0002e4-8443,2024-01-11T03:33:37Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,203.0.113.99,eu-west-2,svc-lambda,curl/7.88.1,,1,66,1,0,1,0,0,0,SUSPICIOUS
+req-000294-1517,2024-01-26T12:55:34Z,DescribeSecurityGroups,ec2.amazonaws.com,192.168.1.100,eu-west-2,svc-billing,console.aws.amazon.com,,4,1,0,0,0,0,0,0,NORMAL
+req-00015d-1879,2024-01-10T16:29:54Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ca-central-1,svc-billing,Terraform/1.5.0,,0,8,0,0,0,0,0,0,NORMAL
+req-0001d0-8816,2024-01-18T14:00:44Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,ca-central-1,svc-billing,AWS Internal,,3,13,0,0,0,0,0,0,NORMAL
+req-000146-9871,2024-01-04T17:05:42Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,ap-south-1,iam-readonly,Boto3/1.28.0,,2,13,0,0,0,0,0,0,NORMAL
+req-0000bb-6804,2024-01-15T09:58:34Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,eu-west-2,devops,AWS Internal,,2,9,0,0,0,0,0,0,NORMAL
+req-00007c-4612,2024-01-19T17:31:33Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,eu-west-2,svc-billing,aws-cli/2.13.0,,2,1,0,0,0,0,0,0,NORMAL
+req-000356-7260,2024-01-26T22:42:42Z,PutBucketPolicy,s3.amazonaws.com,103.21.244.0,ru-central-1,svc-billing,Mozilla/5.0 (unknown),AccessDenied,0,79,1,0,1,0,1,0,SUSPICIOUS
+req-000261-9261,2024-01-14T07:02:02Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,ca-central-1,terraform-svc,AWS Internal,,3,12,0,0,0,0,0,0,NORMAL
+req-000090-4271,2024-01-17T13:33:26Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,eu-west-2,svc-billing,AWS Internal,,1,14,0,0,0,0,0,0,NORMAL
+req-0003bf-1266,2024-01-02T03:57:34Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,ap-south-1,root,Mozilla/5.0 (unknown),AccessDenied,38,25,1,1,1,0,1,1,ATTACK
+req-0000c6-2562,2024-01-14T20:32:20Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ca-central-1,terraform-svc,aws-cli/2.13.0,,0,7,0,0,0,0,0,0,NORMAL
+req-000262-1203,2024-01-16T14:15:05Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,us-west-2,iam-readonly,Terraform/1.5.0,,4,13,0,0,0,0,0,0,NORMAL
+req-000118-2106,2024-01-16T19:49:04Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,eu-west-2,svc-lambda,Terraform/1.5.0,,0,10,0,0,0,0,0,0,NORMAL
+req-000126-4792,2024-01-23T09:17:05Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,eu-west-2,admin,Boto3/1.28.0,,0,15,0,0,0,0,0,0,NORMAL
+req-000191-7473,2024-01-20T11:05:18Z,AssumeRole,sts.amazonaws.com,10.0.0.1,ap-south-1,iam-readonly,AWS Internal,,3,7,0,0,0,0,0,0,NORMAL
+req-00007b-7785,2024-01-22T14:27:31Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,ap-south-1,admin,console.aws.amazon.com,,4,8,0,0,0,0,0,0,NORMAL
+req-0000b8-9589,2024-01-24T10:03:37Z,ListBuckets,s3.amazonaws.com,192.168.1.100,ca-central-1,api-user,console.aws.amazon.com,,3,3,0,0,0,0,0,0,NORMAL
+req-0000cb-9792,2024-01-18T20:57:32Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ca-central-1,admin,Boto3/1.28.0,,1,10,0,0,0,0,0,0,NORMAL
+req-0001b7-8254,2024-01-29T11:34:52Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,ca-central-1,iam-readonly,Boto3/1.28.0,,4,5,0,0,0,0,0,0,NORMAL
+req-0000f7-2615,2024-01-11T19:50:27Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,ap-northeast-1,svc-lambda,Terraform/1.5.0,,0,1,0,0,0,0,0,0,NORMAL
+req-0001a0-9918,2024-01-27T17:17:53Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ap-south-1,terraform-svc,console.aws.amazon.com,,2,10,0,0,0,0,0,0,NORMAL
+req-0003a5-7375,2024-01-16T03:34:44Z,CreateLoginProfile,iam.amazonaws.com,45.155.205.12,ca-central-1,john.doe,libwww-perl/6.07,,15,75,1,0,1,0,0,1,ATTACK
+req-0002fe-5489,2024-01-02T20:54:20Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,91.108.4.1,ap-south-1,svc-lambda,libwww-perl/6.07,,3,72,1,0,0,0,0,0,SUSPICIOUS
+req-00038b-5940,2024-01-20T02:11:43Z,StopLogging,cloudtrail.amazonaws.com,192.0.2.45,ap-south-1,admin,python-requests/2.31,,32,39,1,1,1,1,0,1,ATTACK
+req-000344-1937,2024-01-12T07:42:25Z,CreateAccessKey,iam.amazonaws.com,91.108.4.1,sa-east-1,john.doe,python-requests/2.31,,3,98,1,0,0,0,0,0,SUSPICIOUS
+req-000378-6426,2024-01-04T03:42:00Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,ap-northeast-1,svc-billing,python-requests/2.31,,4,36,1,0,1,0,0,0,SUSPICIOUS
+req-000082-3399,2024-01-21T20:52:09Z,ListBuckets,s3.amazonaws.com,34.224.10.5,us-west-2,svc-billing,aws-cli/2.13.0,,1,2,0,0,0,0,0,0,NORMAL
+req-00027e-1958,2024-01-24T15:36:01Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,us-west-2,admin,Terraform/1.5.0,,2,3,0,0,0,0,0,0,NORMAL
+req-000193-1684,2024-01-18T07:55:35Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ca-central-1,svc-lambda,AWS Internal,,1,2,0,0,0,0,0,0,NORMAL
+req-000311-3743,2024-01-03T23:50:30Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,34.224.10.5,cn-north-1,devops,Boto3/1.28.0,AccessDenied,4,28,1,0,1,0,1,0,SUSPICIOUS
+req-000303-5939,2024-01-26T02:08:03Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,172.16.0.5,ap-south-1,iam-readonly,aws-cli/2.13.0,,3,27,0,0,1,0,0,0,SUSPICIOUS
+req-0002e0-6115,2024-01-10T17:13:05Z,GetSecretValue,secretsmanager.amazonaws.com,45.155.205.12,sa-east-1,devops,python-requests/2.31,InvalidClientTokenId,4,90,1,0,0,0,1,1,SUSPICIOUS
+req-000392-8696,2024-01-08T00:04:00Z,TerminateInstances,ec2.amazonaws.com,185.220.101.47,ru-central-1,admin,libwww-perl/6.07,,31,39,1,1,1,1,0,0,ATTACK
+req-0000dc-6126,2024-01-27T19:20:58Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-west-2,svc-lambda,Terraform/1.5.0,,1,6,0,0,0,0,0,0,NORMAL
+req-000282-4087,2024-01-04T09:13:09Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,eu-west-2,svc-billing,Boto3/1.28.0,,4,4,0,0,0,0,0,0,NORMAL
+req-000394-4724,2024-01-18T03:45:53Z,PutUserPolicy,iam.amazonaws.com,103.21.244.0,cn-north-1,john.doe,python-requests/2.31,AccessDenied,21,93,1,0,1,1,1,1,ATTACK
+req-0002f1-4874,2024-01-02T03:12:15Z,CreateAccessKey,iam.amazonaws.com,34.224.10.5,eu-west-2,john.doe,Boto3/1.28.0,InvalidClientTokenId,4,95,0,0,1,0,1,0,SUSPICIOUS
+req-000327-3903,2024-01-06T05:53:01Z,GetSecretValue,secretsmanager.amazonaws.com,45.155.205.12,ru-central-1,iam-readonly,console.aws.amazon.com,,4,32,1,0,0,0,0,1,SUSPICIOUS
+req-000398-7523,2024-01-11T00:05:19Z,StopLogging,cloudtrail.amazonaws.com,185.220.101.47,ap-south-1,admin,Mozilla/5.0 (unknown),UnauthorizedOperation,5,65,1,1,1,1,1,1,ATTACK
+req-000271-7109,2024-01-02T18:42:20Z,GetObject,s3.amazonaws.com,34.224.10.5,eu-west-2,john.doe,Terraform/1.5.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00036b-5901,2024-01-28T17:49:54Z,RunInstances,ec2.amazonaws.com,185.220.101.47,us-east-1,john.doe,python-requests/2.31,InvalidClientTokenId,0,57,1,0,0,0,1,0,SUSPICIOUS
+req-0002f9-6864,2024-01-15T21:43:07Z,CreateAccessKey,iam.amazonaws.com,45.155.205.12,sa-east-1,admin,Go-http-client/1.1,,2,68,1,0,0,0,0,0,SUSPICIOUS
+req-000183-7825,2024-01-23T11:42:03Z,AssumeRole,sts.amazonaws.com,34.224.10.5,us-west-2,iam-readonly,Boto3/1.28.0,,3,7,0,0,0,0,0,0,NORMAL
+req-0003cd-2137,2024-01-10T22:54:58Z,TerminateInstances,ec2.amazonaws.com,45.155.205.12,ap-northeast-1,admin,python-requests/2.31,UnauthorizedOperation,20,41,1,1,1,0,1,0,ATTACK
+req-0001fe-9582,2024-01-22T15:51:12Z,GetObject,s3.amazonaws.com,54.239.28.85,us-east-1,john.doe,Terraform/1.5.0,,1,5,0,0,0,0,0,0,NORMAL
+req-00010c-2037,2024-01-21T14:42:44Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,us-west-2,svc-lambda,console.aws.amazon.com,,2,14,0,0,0,0,0,0,NORMAL
+req-000334-9992,2024-01-07T04:08:05Z,RunInstances,ec2.amazonaws.com,10.0.0.1,us-east-1,api-user,libwww-perl/6.07,,1,95,0,0,0,0,0,0,SUSPICIOUS
+req-0001ba-3924,2024-01-27T18:21:04Z,ListBuckets,s3.amazonaws.com,10.0.2.45,us-east-1,devops,Boto3/1.28.0,,4,15,0,0,0,0,0,0,NORMAL
+req-0001f1-3209,2024-01-17T13:27:49Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,ap-northeast-1,svc-billing,console.aws.amazon.com,,1,13,0,0,0,0,0,0,NORMAL
+req-000071-5505,2024-01-11T08:38:09Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,us-west-2,devops,aws-cli/2.13.0,,0,3,0,0,0,0,0,0,NORMAL
+req-0002b4-3787,2024-01-20T13:16:09Z,GetObject,s3.amazonaws.com,172.16.0.5,us-east-1,devops,console.aws.amazon.com,,0,6,0,0,0,0,0,0,NORMAL
+req-0000e9-6347,2024-01-20T12:49:39Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,eu-west-2,iam-readonly,aws-cli/2.13.0,,4,7,0,0,0,0,0,0,NORMAL
+req-000366-2424,2024-01-17T13:45:56Z,CreateAccessKey,iam.amazonaws.com,54.239.28.85,sa-east-1,john.doe,libwww-perl/6.07,,1,59,1,0,0,0,0,0,SUSPICIOUS
+req-000260-6362,2024-01-14T18:47:55Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ca-central-1,svc-billing,Terraform/1.5.0,,1,4,0,0,0,0,0,0,NORMAL
+req-0002a0-8106,2024-01-24T20:29:17Z,ListBuckets,s3.amazonaws.com,34.224.10.5,eu-west-2,svc-lambda,aws-cli/2.13.0,,4,13,0,0,0,0,0,0,NORMAL
+req-000176-6953,2024-01-07T15:41:42Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.2.45,ap-northeast-1,terraform-svc,AWS Internal,,3,6,0,0,0,0,0,0,NORMAL
+req-0003d6-5641,2024-01-22T02:53:00Z,CreateUser,iam.amazonaws.com,103.21.244.0,eu-west-2,root,libwww-perl/6.07,AccessDenied,8,52,1,1,1,0,1,1,ATTACK
+req-00034b-8159,2024-01-03T19:41:21Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,103.21.244.0,us-west-2,api-user,Go-http-client/1.1,,3,68,1,0,0,0,0,0,SUSPICIOUS
+req-0000ea-7227,2024-01-14T13:11:43Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,eu-west-2,svc-billing,AWS Internal,,4,11,0,0,0,0,0,0,NORMAL
+req-000312-8762,2024-01-23T10:23:33Z,RunInstances,ec2.amazonaws.com,198.51.100.77,cn-north-1,devops,Mozilla/5.0 (unknown),,3,83,1,0,0,0,0,0,SUSPICIOUS
+req-0002a5-2479,2024-01-29T08:26:57Z,AssumeRole,sts.amazonaws.com,10.0.0.1,us-east-1,svc-billing,AWS Internal,,2,11,0,0,0,0,0,0,NORMAL
+req-00013e-7783,2024-01-13T07:28:46Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-west-2,svc-lambda,Boto3/1.28.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000289-1229,2024-01-17T10:36:04Z,GetObject,s3.amazonaws.com,54.239.28.85,ap-northeast-1,svc-lambda,aws-cli/2.13.0,,0,14,0,0,0,0,0,0,NORMAL
+req-00019b-1600,2024-01-13T16:49:37Z,AssumeRole,sts.amazonaws.com,172.31.0.10,ap-northeast-1,iam-readonly,AWS Internal,,1,15,0,0,0,0,0,0,NORMAL
+req-000383-8308,2024-01-09T10:13:37Z,AttachUserPolicy,iam.amazonaws.com,34.224.10.5,sa-east-1,svc-billing,Mozilla/5.0 (unknown),,3,39,1,0,0,0,0,1,SUSPICIOUS
+req-0002c6-1662,2024-01-20T11:11:27Z,RunInstances,ec2.amazonaws.com,185.220.101.47,sa-east-1,svc-billing,AWS Internal,,3,31,1,0,0,0,0,0,SUSPICIOUS
+req-000167-9524,2024-01-01T17:19:26Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ap-south-1,svc-lambda,Terraform/1.5.0,,0,11,0,0,0,0,0,0,NORMAL
+req-000103-1535,2024-01-01T16:50:48Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,eu-west-2,john.doe,console.aws.amazon.com,,1,5,0,0,0,0,0,0,NORMAL
+req-0002e9-1034,2024-01-29T09:18:13Z,PutBucketPolicy,s3.amazonaws.com,10.0.0.1,sa-east-1,terraform-svc,Terraform/1.5.0,,1,82,1,0,0,0,0,0,SUSPICIOUS
+req-000274-4610,2024-01-10T08:01:25Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,ap-south-1,svc-lambda,Terraform/1.5.0,,4,14,0,0,0,0,0,0,NORMAL
+req-000279-7156,2024-01-16T11:55:33Z,AssumeRole,sts.amazonaws.com,52.94.228.167,ap-northeast-1,john.doe,AWS Internal,,2,2,0,0,0,0,0,0,NORMAL
+req-00011b-5005,2024-01-14T18:46:54Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,us-west-2,admin,AWS Internal,,1,1,0,0,0,0,0,0,NORMAL
+req-000179-7437,2024-01-09T08:39:12Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,us-west-2,svc-lambda,aws-cli/2.13.0,,1,2,0,0,0,0,0,0,NORMAL
+req-000181-5105,2024-01-09T10:48:50Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,ap-south-1,svc-lambda,aws-cli/2.13.0,,1,5,0,0,0,0,0,0,NORMAL
+req-0000e1-1108,2024-01-30T16:30:42Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-northeast-1,svc-lambda,Boto3/1.28.0,,3,1,0,0,0,0,0,0,NORMAL
+req-0003ba-9691,2024-01-09T23:37:26Z,PutUserPolicy,iam.amazonaws.com,45.155.205.12,us-east-1,root,Go-http-client/1.1,,23,97,1,1,1,1,0,1,ATTACK
+req-00032f-4808,2024-01-30T19:37:28Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,203.0.113.99,ru-central-1,svc-billing,AWS Internal,,3,85,1,0,0,0,0,0,SUSPICIOUS
+req-0001d9-4866,2024-01-29T12:03:55Z,AssumeRole,sts.amazonaws.com,34.224.10.5,eu-west-2,svc-billing,aws-cli/2.13.0,,1,2,0,0,0,0,0,0,NORMAL
+req-00015c-6820,2024-01-22T09:57:21Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,us-west-2,api-user,console.aws.amazon.com,,0,4,0,0,0,0,0,0,NORMAL
+req-0001fa-9027,2024-01-08T07:59:33Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ap-northeast-1,svc-lambda,AWS Internal,,2,6,0,0,0,0,0,0,NORMAL
+req-000280-6285,2024-01-04T19:38:48Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-east-1,svc-lambda,aws-cli/2.13.0,,1,9,0,0,0,0,0,0,NORMAL
+req-0003dc-2753,2024-01-27T03:03:05Z,DeleteBucket,s3.amazonaws.com,45.155.205.12,ap-south-1,john.doe,Mozilla/5.0 (unknown),UnauthorizedOperation,8,54,1,0,1,1,1,0,ATTACK
+req-0003a1-6385,2024-01-24T01:06:58Z,TerminateInstances,ec2.amazonaws.com,45.155.205.12,cn-north-1,root,Mozilla/5.0 (unknown),UnauthorizedOperation,30,75,1,1,1,0,1,0,ATTACK
+req-00038a-2939,2024-01-08T00:06:18Z,CreateLoginProfile,iam.amazonaws.com,198.51.100.77,sa-east-1,admin,Go-http-client/1.1,UnauthorizedOperation,27,29,1,1,1,1,1,1,ATTACK
+req-00026c-8272,2024-01-30T15:08:30Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,us-east-1,terraform-svc,console.aws.amazon.com,,2,7,0,0,0,0,0,0,NORMAL
+req-000358-2040,2024-01-10T13:36:08Z,PutBucketPolicy,s3.amazonaws.com,198.51.100.77,eu-west-2,api-user,Go-http-client/1.1,,0,61,1,0,0,0,0,0,SUSPICIOUS
+req-000324-7041,2024-01-30T06:31:26Z,PutBucketPolicy,s3.amazonaws.com,91.108.4.1,ru-central-1,svc-lambda,AWS Internal,AccessDenied,4,35,1,0,0,0,1,0,SUSPICIOUS
+req-000286-8065,2024-01-03T08:01:49Z,DescribeInstances,ec2.amazonaws.com,192.168.1.100,eu-west-2,iam-readonly,AWS Internal,,3,13,0,0,0,0,0,0,NORMAL
+req-00034f-4534,2024-01-04T22:17:54Z,GetSecretValue,secretsmanager.amazonaws.com,91.108.4.1,sa-east-1,john.doe,Go-http-client/1.1,AccessDenied,4,81,1,0,1,0,1,1,SUSPICIOUS
+req-00022d-3403,2024-01-29T16:48:40Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-east-1,john.doe,aws-cli/2.13.0,,0,13,0,0,0,0,0,0,NORMAL
+req-0003be-5670,2024-01-20T01:20:37Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,ru-central-1,root,Mozilla/5.0 (unknown),AccessDenied,29,50,1,1,1,1,1,1,ATTACK
+req-000242-9605,2024-01-27T07:04:00Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,us-east-1,admin,AWS Internal,,3,2,0,0,0,0,0,0,NORMAL
+req-00031c-7404,2024-01-19T10:40:51Z,PutBucketPolicy,s3.amazonaws.com,10.0.0.1,ru-central-1,terraform-svc,Go-http-client/1.1,,4,97,1,0,0,0,0,0,SUSPICIOUS
+req-000056-4912,2024-01-15T13:59:20Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,us-east-1,iam-readonly,Terraform/1.5.0,,1,12,0,0,0,0,0,0,NORMAL
+req-0000f3-4434,2024-01-18T19:01:46Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,ca-central-1,john.doe,aws-cli/2.13.0,,3,12,0,0,0,0,0,0,NORMAL
+req-0002bb-6132,2024-01-17T18:27:09Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,eu-west-2,admin,Boto3/1.28.0,,2,2,0,0,0,0,0,0,NORMAL
+req-0000a0-3339,2024-01-17T12:51:47Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,ap-south-1,svc-lambda,AWS Internal,,1,1,0,0,0,0,0,0,NORMAL
+req-00020d-8514,2024-01-07T09:00:39Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ap-northeast-1,admin,Terraform/1.5.0,,2,1,0,0,0,0,0,0,NORMAL
+req-000024-4164,2024-01-28T19:14:14Z,DescribeSecurityGroups,ec2.amazonaws.com,192.168.1.100,eu-west-2,svc-billing,AWS Internal,,0,11,0,0,0,0,0,0,NORMAL
+req-00021d-7131,2024-01-07T11:33:19Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,eu-west-2,iam-readonly,AWS Internal,,1,2,0,0,0,0,0,0,NORMAL
+req-0000ab-1464,2024-01-11T16:53:59Z,ListBuckets,s3.amazonaws.com,34.224.10.5,us-east-1,api-user,Terraform/1.5.0,,4,1,0,0,0,0,0,0,NORMAL
+req-00028f-3764,2024-01-13T13:44:37Z,AssumeRole,sts.amazonaws.com,54.239.28.85,us-west-2,admin,Terraform/1.5.0,,0,12,0,0,0,0,0,0,NORMAL
+req-00037b-6690,2024-01-07T04:26:35Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,185.220.101.47,sa-east-1,root,curl/7.88.1,,2,91,1,0,0,0,0,0,SUSPICIOUS
+req-00035a-1087,2024-01-29T21:07:11Z,CreateAccessKey,iam.amazonaws.com,45.155.205.12,sa-east-1,root,Go-http-client/1.1,UnauthorizedOperation,4,43,1,0,0,0,1,0,SUSPICIOUS
+req-000350-3933,2024-01-28T06:46:59Z,RunInstances,ec2.amazonaws.com,198.51.100.77,ru-central-1,iam-readonly,python-requests/2.31,,1,26,1,0,0,0,0,0,SUSPICIOUS
+req-0003b1-3138,2024-01-18T22:58:05Z,StopLogging,cloudtrail.amazonaws.com,185.220.101.47,sa-east-1,root,Mozilla/5.0 (unknown),AccessDenied,29,23,1,1,1,1,1,1,ATTACK
+req-0002de-3406,2024-01-30T10:22:00Z,AttachUserPolicy,iam.amazonaws.com,103.21.244.0,sa-east-1,svc-lambda,libwww-perl/6.07,InvalidClientTokenId,2,87,1,0,0,0,1,1,SUSPICIOUS
+req-000060-9138,2024-01-28T16:43:49Z,GetObject,s3.amazonaws.com,192.168.1.100,ap-northeast-1,svc-billing,AWS Internal,,0,15,0,0,0,0,0,0,NORMAL
+req-000234-9161,2024-01-06T10:27:38Z,ListBuckets,s3.amazonaws.com,52.94.228.167,us-west-2,devops,Terraform/1.5.0,,0,10,0,0,0,0,0,0,NORMAL
+req-0000f1-6147,2024-01-11T11:38:44Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,ap-northeast-1,api-user,AWS Internal,,1,8,0,0,0,0,0,0,NORMAL
+req-0002e7-7051,2024-01-07T22:29:30Z,RunInstances,ec2.amazonaws.com,103.21.244.0,ru-central-1,devops,python-requests/2.31,,0,40,1,0,1,0,0,0,SUSPICIOUS
+req-00023f-6172,2024-01-30T11:51:28Z,AssumeRole,sts.amazonaws.com,54.239.28.85,ap-northeast-1,devops,Boto3/1.28.0,,3,11,0,0,0,0,0,0,NORMAL
+req-0002b3-2457,2024-01-21T15:39:40Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,us-east-1,terraform-svc,AWS Internal,,1,15,0,0,0,0,0,0,NORMAL
+req-0001cd-5463,2024-01-28T12:30:29Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ap-northeast-1,iam-readonly,aws-cli/2.13.0,,4,15,0,0,0,0,0,0,NORMAL
+req-00022a-4411,2024-01-06T15:30:24Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,eu-west-2,api-user,Terraform/1.5.0,,0,6,0,0,0,0,0,0,NORMAL
+req-000379-3137,2024-01-07T08:37:24Z,PutBucketPolicy,s3.amazonaws.com,203.0.113.99,cn-north-1,john.doe,Go-http-client/1.1,AccessDenied,0,33,1,0,0,0,1,0,SUSPICIOUS
+req-0000cf-7184,2024-01-12T13:57:24Z,GetCallerIdentity,sts.amazonaws.com,10.0.2.45,ca-central-1,svc-lambda,console.aws.amazon.com,,3,14,0,0,0,0,0,0,NORMAL
+req-000189-8780,2024-01-12T12:18:13Z,ListBuckets,s3.amazonaws.com,52.94.228.167,ca-central-1,svc-lambda,Boto3/1.28.0,,4,9,0,0,0,0,0,0,NORMAL
+req-00031b-5909,2024-01-08T10:26:27Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,192.168.1.100,ap-south-1,iam-readonly,libwww-perl/6.07,UnauthorizedOperation,3,88,0,0,0,0,1,0,SUSPICIOUS
+req-00018e-8523,2024-01-03T20:47:43Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-west-2,devops,AWS Internal,,1,1,0,0,0,0,0,0,NORMAL
+req-0002ff-6181,2024-01-09T01:58:26Z,GetSecretValue,secretsmanager.amazonaws.com,45.155.205.12,cn-north-1,svc-lambda,curl/7.88.1,,4,77,1,0,1,0,0,1,SUSPICIOUS
+req-000351-6706,2024-01-18T00:25:21Z,AttachUserPolicy,iam.amazonaws.com,198.51.100.77,ru-central-1,root,AWS Internal,InvalidClientTokenId,3,80,1,0,1,0,1,1,SUSPICIOUS
+req-0000da-4974,2024-01-24T10:07:47Z,GetCallerIdentity,sts.amazonaws.com,172.31.0.10,ca-central-1,admin,Boto3/1.28.0,,3,15,0,0,0,0,0,0,NORMAL
+req-000005-4814,2024-01-22T07:14:49Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ap-northeast-1,svc-lambda,AWS Internal,,2,2,0,0,0,0,0,0,NORMAL
+req-000301-2766,2024-01-30T20:21:53Z,PutBucketPolicy,s3.amazonaws.com,172.16.0.5,ap-south-1,admin,Mozilla/5.0 (unknown),,2,51,0,0,0,0,0,0,SUSPICIOUS
+req-000283-8544,2024-01-18T18:44:48Z,DescribeSecurityGroups,ec2.amazonaws.com,34.224.10.5,ca-central-1,iam-readonly,console.aws.amazon.com,,0,7,0,0,0,0,0,0,NORMAL
+req-0003a2-6245,2024-01-02T03:34:09Z,DeleteTrail,cloudtrail.amazonaws.com,45.155.205.12,ap-northeast-1,root,Go-http-client/1.1,UnauthorizedOperation,35,38,1,1,1,1,1,1,ATTACK
+req-000265-9887,2024-01-02T15:18:27Z,AssumeRole,sts.amazonaws.com,10.0.0.1,eu-west-2,svc-lambda,console.aws.amazon.com,,2,12,0,0,0,0,0,0,NORMAL
+req-0002e3-5661,2024-01-28T17:38:14Z,AttachUserPolicy,iam.amazonaws.com,203.0.113.99,cn-north-1,api-user,libwww-perl/6.07,InvalidClientTokenId,2,58,1,0,0,0,1,1,SUSPICIOUS
+req-000223-6101,2024-01-10T19:36:15Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,us-east-1,terraform-svc,Terraform/1.5.0,,1,2,0,0,0,0,0,0,NORMAL
+req-0002d6-2867,2024-01-02T16:51:04Z,AttachUserPolicy,iam.amazonaws.com,185.220.101.47,sa-east-1,iam-readonly,console.aws.amazon.com,,2,75,1,0,0,0,0,1,SUSPICIOUS
+req-0002ac-4446,2024-01-30T08:52:48Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ca-central-1,svc-billing,Boto3/1.28.0,,1,5,0,0,0,0,0,0,NORMAL
+req-000063-3695,2024-01-17T12:32:58Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,us-west-2,terraform-svc,Boto3/1.28.0,,2,14,0,0,0,0,0,0,NORMAL
+req-000325-7244,2024-01-02T16:29:01Z,GetSecretValue,secretsmanager.amazonaws.com,192.168.1.100,us-west-2,john.doe,Go-http-client/1.1,,0,79,0,0,0,0,0,1,SUSPICIOUS
+req-0002d8-1687,2024-01-04T03:50:39Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,192.168.1.100,ru-central-1,terraform-svc,aws-cli/2.13.0,UnauthorizedOperation,4,33,1,0,1,0,1,0,SUSPICIOUS
+req-00023e-7222,2024-01-10T14:30:47Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,ap-south-1,devops,AWS Internal,,4,4,0,0,0,0,0,0,NORMAL
+req-000197-6379,2024-01-29T08:12:20Z,GetObject,s3.amazonaws.com,54.239.28.85,us-east-1,svc-billing,console.aws.amazon.com,,3,8,0,0,0,0,0,0,NORMAL
+req-0001f7-5185,2024-01-19T13:57:42Z,ListBuckets,s3.amazonaws.com,10.0.1.20,us-west-2,svc-lambda,AWS Internal,,4,1,0,0,0,0,0,0,NORMAL
+req-000030-4919,2024-01-21T20:17:49Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,eu-west-2,iam-readonly,AWS Internal,,4,8,0,0,0,0,0,0,NORMAL
+req-000021-7658,2024-01-22T10:15:42Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,ca-central-1,terraform-svc,console.aws.amazon.com,,0,6,0,0,0,0,0,0,NORMAL
+req-00030c-1486,2024-01-07T14:40:37Z,CreateAccessKey,iam.amazonaws.com,10.0.0.1,ca-central-1,root,aws-cli/2.13.0,,2,25,0,0,0,0,0,0,SUSPICIOUS
+req-000348-9990,2024-01-05T01:31:50Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,198.51.100.77,ru-central-1,svc-lambda,libwww-perl/6.07,UnauthorizedOperation,0,58,1,0,1,0,1,0,SUSPICIOUS
+req-0000c9-7813,2024-01-05T14:29:47Z,ListBuckets,s3.amazonaws.com,172.31.5.22,us-east-1,terraform-svc,Boto3/1.28.0,,4,6,0,0,0,0,0,0,NORMAL
+req-000087-3827,2024-01-11T20:45:05Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,ap-south-1,admin,aws-cli/2.13.0,,4,11,0,0,0,0,0,0,NORMAL
+req-00001c-9666,2024-01-27T14:34:45Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-east-1,svc-billing,aws-cli/2.13.0,,2,10,0,0,0,0,0,0,NORMAL
+req-000371-7370,2024-01-23T21:08:20Z,AttachUserPolicy,iam.amazonaws.com,192.0.2.45,us-east-1,devops,libwww-perl/6.07,,3,84,1,0,0,0,0,1,SUSPICIOUS
+req-0000e7-2260,2024-01-19T10:09:48Z,GetObject,s3.amazonaws.com,34.224.10.5,ca-central-1,svc-billing,aws-cli/2.13.0,,3,15,0,0,0,0,0,0,NORMAL
+req-0001ea-9376,2024-01-11T20:01:49Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,us-east-1,john.doe,Boto3/1.28.0,,2,15,0,0,0,0,0,0,NORMAL
+req-000305-4153,2024-01-26T21:01:29Z,RunInstances,ec2.amazonaws.com,103.21.244.0,sa-east-1,api-user,python-requests/2.31,,4,62,1,0,0,0,0,0,SUSPICIOUS
+req-00017b-8912,2024-01-02T18:35:59Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,ca-central-1,admin,Terraform/1.5.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000121-2276,2024-01-30T13:46:20Z,ListBuckets,s3.amazonaws.com,172.31.5.22,eu-west-2,svc-billing,console.aws.amazon.com,,2,14,0,0,0,0,0,0,NORMAL
+req-0001a3-6410,2024-01-04T20:42:14Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,ap-south-1,api-user,aws-cli/2.13.0,,3,13,0,0,0,0,0,0,NORMAL
+req-0002a3-1606,2024-01-16T14:35:27Z,GetCallerIdentity,sts.amazonaws.com,172.16.0.5,us-east-1,iam-readonly,aws-cli/2.13.0,,3,11,0,0,0,0,0,0,NORMAL
+req-000188-7814,2024-01-06T10:33:04Z,GetCallerIdentity,sts.amazonaws.com,34.224.10.5,us-west-2,svc-billing,Boto3/1.28.0,,4,3,0,0,0,0,0,0,NORMAL
+req-000251-9145,2024-01-19T20:04:52Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ap-south-1,api-user,AWS Internal,,0,2,0,0,0,0,0,0,NORMAL
+req-0001f3-1396,2024-01-07T12:20:22Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,us-west-2,devops,aws-cli/2.13.0,,4,11,0,0,0,0,0,0,NORMAL
+req-00008b-7937,2024-01-24T20:43:58Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,us-west-2,svc-lambda,console.aws.amazon.com,,4,2,0,0,0,0,0,0,NORMAL
+req-00003f-1166,2024-01-29T11:38:44Z,GetCallerIdentity,sts.amazonaws.com,54.239.28.85,eu-west-2,svc-billing,Terraform/1.5.0,,2,9,0,0,0,0,0,0,NORMAL
+req-0001d8-1691,2024-01-22T13:19:59Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,ap-northeast-1,john.doe,aws-cli/2.13.0,,2,3,0,0,0,0,0,0,NORMAL
+req-000288-5544,2024-01-22T09:22:01Z,AssumeRole,sts.amazonaws.com,10.0.2.45,us-east-1,terraform-svc,AWS Internal,,0,3,0,0,0,0,0,0,NORMAL
+req-000081-9363,2024-01-08T12:21:49Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,eu-west-2,svc-billing,Terraform/1.5.0,,1,2,0,0,0,0,0,0,NORMAL
+req-0003d1-7722,2024-01-04T03:17:43Z,StopLogging,cloudtrail.amazonaws.com,45.155.205.12,sa-east-1,john.doe,Mozilla/5.0 (unknown),UnauthorizedOperation,38,22,1,0,1,0,1,1,ATTACK
+req-000209-1408,2024-01-05T15:25:26Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-northeast-1,terraform-svc,aws-cli/2.13.0,,2,8,0,0,0,0,0,0,NORMAL
+req-000347-5814,2024-01-22T15:54:44Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,52.94.228.167,sa-east-1,svc-billing,curl/7.88.1,UnauthorizedOperation,0,69,1,0,0,0,1,0,SUSPICIOUS
+req-0003c3-3069,2024-01-23T02:10:59Z,DeleteTrail,cloudtrail.amazonaws.com,192.0.2.45,ca-central-1,john.doe,python-requests/2.31,AccessDenied,13,94,1,0,1,0,1,1,ATTACK
+req-000041-6419,2024-01-18T14:33:22Z,ConsoleLogin,signin.amazonaws.com,192.168.1.100,us-east-1,api-user,console.aws.amazon.com,,3,12,0,0,0,0,0,0,NORMAL
+req-00032d-2668,2024-01-14T06:19:49Z,PutBucketPolicy,s3.amazonaws.com,52.94.228.167,us-west-2,admin,Mozilla/5.0 (unknown),AccessDenied,4,83,0,0,0,0,1,0,SUSPICIOUS
+req-00000f-9645,2024-01-22T09:30:35Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,us-west-2,iam-readonly,aws-cli/2.13.0,,1,5,0,0,0,0,0,0,NORMAL
+req-00009d-9507,2024-01-06T12:31:44Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,eu-west-2,terraform-svc,Terraform/1.5.0,,3,6,0,0,0,0,0,0,NORMAL
+req-000029-5930,2024-01-22T13:47:57Z,DescribeInstances,ec2.amazonaws.com,10.0.1.20,us-east-1,svc-lambda,Terraform/1.5.0,,1,10,0,0,0,0,0,0,NORMAL
+req-0001ed-2285,2024-01-02T11:46:51Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ca-central-1,api-user,Terraform/1.5.0,,4,7,0,0,0,0,0,0,NORMAL
+req-00017c-6273,2024-01-05T20:06:24Z,GetObject,s3.amazonaws.com,10.0.2.45,us-west-2,john.doe,AWS Internal,,4,10,0,0,0,0,0,0,NORMAL
+req-0000bc-4684,2024-01-07T14:15:17Z,AssumeRole,sts.amazonaws.com,172.31.0.10,us-west-2,svc-billing,console.aws.amazon.com,,4,5,0,0,0,0,0,0,NORMAL
+req-0002fc-3875,2024-01-07T17:42:47Z,GetSecretValue,secretsmanager.amazonaws.com,203.0.113.99,ru-central-1,devops,python-requests/2.31,,4,97,1,0,0,0,0,1,SUSPICIOUS
+req-0000d9-4555,2024-01-03T20:12:51Z,AssumeRole,sts.amazonaws.com,172.16.0.5,us-west-2,api-user,Boto3/1.28.0,,4,12,0,0,0,0,0,0,NORMAL
+req-000318-9399,2024-01-27T12:37:48Z,AttachUserPolicy,iam.amazonaws.com,10.0.0.1,ru-central-1,svc-billing,AWS Internal,UnauthorizedOperation,0,80,1,0,0,0,1,1,SUSPICIOUS
+req-000035-8022,2024-01-19T16:42:01Z,DescribeSecurityGroups,ec2.amazonaws.com,172.31.5.22,ap-northeast-1,terraform-svc,AWS Internal,,0,11,0,0,0,0,0,0,NORMAL
+req-00036f-8110,2024-01-27T21:28:10Z,PutBucketPolicy,s3.amazonaws.com,185.220.101.47,cn-north-1,terraform-svc,libwww-perl/6.07,,1,65,1,0,0,0,0,0,SUSPICIOUS
+req-000152-8605,2024-01-23T12:12:17Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,us-east-1,devops,AWS Internal,,2,14,0,0,0,0,0,0,NORMAL
+req-0002ed-2970,2024-01-07T16:48:30Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,172.16.0.5,cn-north-1,terraform-svc,libwww-perl/6.07,UnauthorizedOperation,4,22,1,0,0,0,1,0,SUSPICIOUS
+req-0002d0-1606,2024-01-19T23:38:46Z,GetSecretValue,secretsmanager.amazonaws.com,10.0.0.1,sa-east-1,iam-readonly,Mozilla/5.0 (unknown),InvalidClientTokenId,4,57,1,0,1,0,1,1,SUSPICIOUS
+req-0002d5-1770,2024-01-16T13:19:15Z,CreateAccessKey,iam.amazonaws.com,172.16.0.5,eu-west-2,devops,curl/7.88.1,,1,91,0,0,0,0,0,0,SUSPICIOUS
+req-000128-6345,2024-01-28T11:20:59Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ca-central-1,john.doe,Terraform/1.5.0,,3,12,0,0,0,0,0,0,NORMAL
+req-0002be-8499,2024-01-02T15:28:22Z,GetSecretValue,secretsmanager.amazonaws.com,52.94.228.167,ap-northeast-1,svc-billing,aws-cli/2.13.0,AccessDenied,4,82,0,0,0,0,1,1,SUSPICIOUS
+req-0000fc-4232,2024-01-21T09:42:27Z,DescribeInstances,ec2.amazonaws.com,52.94.228.167,us-west-2,svc-lambda,Terraform/1.5.0,,3,1,0,0,0,0,0,0,NORMAL
+req-0002d7-9444,2024-01-25T01:56:35Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,192.168.1.100,ap-northeast-1,svc-billing,console.aws.amazon.com,,2,39,0,0,1,0,0,0,SUSPICIOUS
+req-0001ce-9576,2024-01-21T14:47:40Z,ListBuckets,s3.amazonaws.com,172.16.0.5,ap-northeast-1,api-user,AWS Internal,,4,7,0,0,0,0,0,0,NORMAL
+req-0001c8-2168,2024-01-21T13:39:36Z,GetCallerIdentity,sts.amazonaws.com,172.31.5.22,ap-northeast-1,terraform-svc,AWS Internal,,3,14,0,0,0,0,0,0,NORMAL
+req-0003e5-6703,2024-01-09T23:08:44Z,StopLogging,cloudtrail.amazonaws.com,91.108.4.1,sa-east-1,john.doe,Go-http-client/1.1,UnauthorizedOperation,25,95,1,0,1,1,1,1,ATTACK
+req-000330-2300,2024-01-24T07:27:48Z,RunInstances,ec2.amazonaws.com,198.51.100.77,ap-south-1,root,aws-cli/2.13.0,UnauthorizedOperation,1,99,1,0,0,0,1,0,SUSPICIOUS
+req-00035f-2156,2024-01-14T21:44:09Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,34.224.10.5,eu-west-2,terraform-svc,Mozilla/5.0 (unknown),,4,46,0,0,0,0,0,0,SUSPICIOUS
+req-00010e-3035,2024-01-21T08:50:53Z,ListBuckets,s3.amazonaws.com,52.94.228.167,us-west-2,admin,Boto3/1.28.0,,3,1,0,0,0,0,0,0,NORMAL
+req-0000ca-2341,2024-01-08T19:43:48Z,AssumeRole,sts.amazonaws.com,172.31.5.22,us-west-2,iam-readonly,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-0000a2-2858,2024-01-12T15:25:20Z,AssumeRole,sts.amazonaws.com,172.31.5.22,us-west-2,api-user,Boto3/1.28.0,,2,4,0,0,0,0,0,0,NORMAL
+req-00022c-7208,2024-01-13T11:04:38Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,ap-south-1,devops,Boto3/1.28.0,,0,11,0,0,0,0,0,0,NORMAL
+req-0002da-5698,2024-01-08T00:53:51Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,185.220.101.47,ru-central-1,svc-billing,Terraform/1.5.0,,3,63,1,0,1,0,0,0,SUSPICIOUS
+req-000192-3360,2024-01-26T19:54:34Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,us-east-1,svc-lambda,aws-cli/2.13.0,,2,11,0,0,0,0,0,0,NORMAL
+req-0002bf-4479,2024-01-27T05:10:47Z,RunInstances,ec2.amazonaws.com,203.0.113.99,us-east-1,iam-readonly,libwww-perl/6.07,,4,54,1,0,0,0,0,0,SUSPICIOUS
+req-0001dd-9892,2024-01-16T07:45:28Z,AssumeRole,sts.amazonaws.com,10.0.0.1,us-west-2,svc-billing,Boto3/1.28.0,,4,5,0,0,0,0,0,0,NORMAL
+req-000336-7925,2024-01-13T11:24:10Z,PutBucketPolicy,s3.amazonaws.com,45.155.205.12,ap-northeast-1,devops,libwww-perl/6.07,InvalidClientTokenId,3,76,1,0,0,0,1,0,SUSPICIOUS
+req-000304-1173,2024-01-04T12:39:48Z,AuthorizeSecurityGroupIngress,ec2.amazonaws.com,103.21.244.0,ap-south-1,iam-readonly,Boto3/1.28.0,,3,49,1,0,0,0,0,0,SUSPICIOUS
+req-00006a-7018,2024-01-08T14:54:23Z,ListBuckets,s3.amazonaws.com,172.31.5.22,us-west-2,john.doe,Boto3/1.28.0,,0,11,0,0,0,0,0,0,NORMAL
+req-000236-2281,2024-01-25T20:49:17Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,ap-south-1,svc-lambda,console.aws.amazon.com,,3,9,0,0,0,0,0,0,NORMAL
+req-000186-3131,2024-01-02T13:27:17Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,us-east-1,api-user,aws-cli/2.13.0,,4,5,0,0,0,0,0,0,NORMAL
+req-000002-8359,2024-01-21T18:44:34Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,ap-northeast-1,api-user,Boto3/1.28.0,,3,4,0,0,0,0,0,0,NORMAL
+req-0003aa-2625,2024-01-10T03:54:42Z,DeleteTrail,cloudtrail.amazonaws.com,103.21.244.0,ap-northeast-1,admin,Mozilla/5.0 (unknown),AccessDenied,32,56,1,1,1,1,1,1,ATTACK
+req-0003d7-8752,2024-01-24T01:12:27Z,DeleteBucket,s3.amazonaws.com,91.108.4.1,sa-east-1,john.doe,libwww-perl/6.07,UnauthorizedOperation,10,57,1,0,1,0,1,0,ATTACK
+req-000232-1257,2024-01-22T20:08:08Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ca-central-1,john.doe,AWS Internal,,0,2,0,0,0,0,0,0,NORMAL
+req-000051-5719,2024-01-07T07:17:35Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,eu-west-2,devops,console.aws.amazon.com,,1,15,0,0,0,0,0,0,NORMAL
+req-0000ce-5703,2024-01-30T07:57:04Z,AssumeRole,sts.amazonaws.com,34.224.10.5,eu-west-2,admin,aws-cli/2.13.0,,3,1,0,0,0,0,0,0,NORMAL
+req-000023-1634,2024-01-08T19:17:10Z,AssumeRole,sts.amazonaws.com,54.239.28.85,us-west-2,iam-readonly,AWS Internal,,0,7,0,0,0,0,0,0,NORMAL
+req-000308-9308,2024-01-22T18:43:09Z,CreateAccessKey,iam.amazonaws.com,192.168.1.100,ca-central-1,admin,AWS Internal,,0,50,0,0,0,0,0,0,SUSPICIOUS
+req-0001fd-6118,2024-01-14T10:15:36Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,ap-northeast-1,svc-lambda,AWS Internal,,1,7,0,0,0,0,0,0,NORMAL
+req-0001ac-1116,2024-01-14T15:16:12Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,ca-central-1,svc-billing,Boto3/1.28.0,,0,12,0,0,0,0,0,0,NORMAL
+req-0001c7-5694,2024-01-15T18:56:05Z,ConsoleLogin,signin.amazonaws.com,10.0.2.45,us-west-2,devops,Boto3/1.28.0,,3,10,0,0,0,0,0,0,NORMAL
+req-00016f-7221,2024-01-16T16:51:36Z,AssumeRole,sts.amazonaws.com,10.0.0.1,ap-south-1,devops,AWS Internal,,3,3,0,0,0,0,0,0,NORMAL
+req-00005c-3950,2024-01-14T12:09:15Z,AssumeRole,sts.amazonaws.com,172.31.5.22,us-west-2,svc-billing,aws-cli/2.13.0,,4,7,0,0,0,0,0,0,NORMAL
+req-000154-4511,2024-01-13T07:03:10Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-west-2,admin,Boto3/1.28.0,,4,13,0,0,0,0,0,0,NORMAL
+req-000382-7258,2024-01-09T05:01:34Z,PutBucketPolicy,s3.amazonaws.com,172.16.0.5,ru-central-1,terraform-svc,Go-http-client/1.1,,4,33,1,0,0,0,0,0,SUSPICIOUS
+req-000235-7038,2024-01-02T12:02:36Z,DescribeSecurityGroups,ec2.amazonaws.com,192.168.1.100,eu-west-2,api-user,Terraform/1.5.0,,3,12,0,0,0,0,0,0,NORMAL
+req-00015a-4111,2024-01-24T13:02:37Z,AssumeRole,sts.amazonaws.com,10.0.1.20,us-east-1,devops,AWS Internal,,4,14,0,0,0,0,0,0,NORMAL
+req-000309-8657,2024-01-26T06:04:21Z,CreateAccessKey,iam.amazonaws.com,45.155.205.12,ca-central-1,api-user,aws-cli/2.13.0,InvalidClientTokenId,1,80,1,0,0,0,1,0,SUSPICIOUS
+req-0000f2-7437,2024-01-26T16:15:20Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,us-west-2,svc-lambda,Boto3/1.28.0,,3,5,0,0,0,0,0,0,NORMAL
+req-00000e-2290,2024-01-26T20:19:15Z,GetObject,s3.amazonaws.com,34.224.10.5,ap-south-1,svc-billing,Terraform/1.5.0,,0,4,0,0,0,0,0,0,NORMAL
+req-00013c-6682,2024-01-05T14:21:47Z,ListBuckets,s3.amazonaws.com,172.31.5.22,us-east-1,api-user,AWS Internal,,0,4,0,0,0,0,0,0,NORMAL
+req-000259-8121,2024-01-02T07:41:23Z,AssumeRole,sts.amazonaws.com,172.31.5.22,us-east-1,svc-lambda,Terraform/1.5.0,,2,4,0,0,0,0,0,0,NORMAL
+req-000184-4695,2024-01-07T11:39:55Z,GetObject,s3.amazonaws.com,172.31.5.22,ap-northeast-1,admin,Boto3/1.28.0,,3,14,0,0,0,0,0,0,NORMAL
+req-000112-5902,2024-01-26T18:06:06Z,GetObject,s3.amazonaws.com,52.94.228.167,ap-south-1,devops,aws-cli/2.13.0,,2,6,0,0,0,0,0,0,NORMAL
+req-0000a7-3053,2024-01-14T15:49:26Z,ListBuckets,s3.amazonaws.com,10.0.0.1,ca-central-1,svc-lambda,Boto3/1.28.0,,4,2,0,0,0,0,0,0,NORMAL
+req-000349-8125,2024-01-07T07:10:48Z,AttachUserPolicy,iam.amazonaws.com,103.21.244.0,ru-central-1,devops,libwww-perl/6.07,,0,33,1,0,0,0,0,1,SUSPICIOUS
+req-0003e1-2758,2024-01-16T23:23:42Z,DeleteTrail,cloudtrail.amazonaws.com,203.0.113.99,cn-north-1,john.doe,Mozilla/5.0 (unknown),,22,70,1,0,1,0,0,1,ATTACK
+req-000287-1168,2024-01-30T08:16:02Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ap-northeast-1,admin,console.aws.amazon.com,,0,5,0,0,0,0,0,0,NORMAL
+req-000333-4007,2024-01-20T07:55:24Z,PutBucketPolicy,s3.amazonaws.com,172.16.0.5,ru-central-1,svc-lambda,libwww-perl/6.07,UnauthorizedOperation,4,61,1,0,0,0,1,0,SUSPICIOUS
+req-0001e5-5075,2024-01-18T10:24:12Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ap-northeast-1,admin,Boto3/1.28.0,,1,9,0,0,0,0,0,0,NORMAL
+req-0003d5-1255,2024-01-06T22:19:31Z,CreateUser,iam.amazonaws.com,198.51.100.77,eu-west-2,admin,Mozilla/5.0 (unknown),UnauthorizedOperation,23,28,1,1,1,1,1,1,ATTACK
+req-0001f9-9709,2024-01-17T13:45:06Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.0.1,ap-northeast-1,john.doe,AWS Internal,,2,8,0,0,0,0,0,0,NORMAL
+req-000340-4482,2024-01-16T06:11:32Z,RunInstances,ec2.amazonaws.com,91.108.4.1,eu-west-2,svc-lambda,Mozilla/5.0 (unknown),,0,77,1,0,0,0,0,0,SUSPICIOUS
+req-0000f4-5139,2024-01-22T13:31:08Z,GetCallerIdentity,sts.amazonaws.com,192.168.1.100,us-west-2,iam-readonly,console.aws.amazon.com,,2,4,0,0,0,0,0,0,NORMAL
+req-000237-6119,2024-01-03T17:43:40Z,GetCallerIdentity,sts.amazonaws.com,10.0.1.20,ap-northeast-1,svc-lambda,Boto3/1.28.0,,4,13,0,0,0,0,0,0,NORMAL
+req-00036c-8999,2024-01-17T20:52:57Z,RunInstances,ec2.amazonaws.com,34.224.10.5,sa-east-1,terraform-svc,aws-cli/2.13.0,,0,79,1,0,0,0,0,0,SUSPICIOUS
+req-000233-7974,2024-01-21T09:51:26Z,ConsoleLogin,signin.amazonaws.com,172.31.0.10,ca-central-1,john.doe,console.aws.amazon.com,,3,15,0,0,0,0,0,0,NORMAL
+req-0002af-1853,2024-01-11T18:29:44Z,AssumeRole,sts.amazonaws.com,34.224.10.5,ap-northeast-1,iam-readonly,Boto3/1.28.0,,0,13,0,0,0,0,0,0,NORMAL
+req-0000be-5712,2024-01-25T12:51:09Z,DescribeInstances,ec2.amazonaws.com,34.224.10.5,ca-central-1,devops,Terraform/1.5.0,,2,1,0,0,0,0,0,0,NORMAL
+req-00030f-7131,2024-01-26T04:12:12Z,AttachUserPolicy,iam.amazonaws.com,192.0.2.45,ru-central-1,root,libwww-perl/6.07,,4,68,1,0,0,0,0,1,SUSPICIOUS
+req-0002bc-5321,2024-01-10T13:57:56Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ca-central-1,svc-lambda,AWS Internal,,2,10,0,0,0,0,0,0,NORMAL
+req-0001dc-8187,2024-01-26T15:41:48Z,ListBuckets,s3.amazonaws.com,10.0.2.45,ap-south-1,john.doe,console.aws.amazon.com,,2,13,0,0,0,0,0,0,NORMAL
+req-0002aa-4926,2024-01-24T20:42:51Z,AssumeRole,sts.amazonaws.com,172.31.0.10,ca-central-1,api-user,aws-cli/2.13.0,,0,12,0,0,0,0,0,0,NORMAL
+req-0001ff-9732,2024-01-30T16:10:20Z,GetObject,s3.amazonaws.com,52.94.228.167,us-west-2,svc-lambda,AWS Internal,,0,9,0,0,0,0,0,0,NORMAL
+req-00003b-9289,2024-01-18T12:27:42Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ca-central-1,iam-readonly,aws-cli/2.13.0,,2,2,0,0,0,0,0,0,NORMAL
+req-0001db-6824,2024-01-20T17:21:59Z,AssumeRole,sts.amazonaws.com,172.16.0.5,us-east-1,devops,console.aws.amazon.com,,0,1,0,0,0,0,0,0,NORMAL
+req-000231-3278,2024-01-14T13:34:13Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,us-east-1,devops,Boto3/1.28.0,,1,8,0,0,0,0,0,0,NORMAL
+req-000359-9501,2024-01-26T17:51:33Z,CreateAccessKey,iam.amazonaws.com,203.0.113.99,cn-north-1,svc-billing,curl/7.88.1,AccessDenied,3,28,1,0,0,0,1,0,SUSPICIOUS
+req-0002ec-3028,2024-01-23T05:01:36Z,PutBucketPolicy,s3.amazonaws.com,10.0.0.1,cn-north-1,admin,Mozilla/5.0 (unknown),,2,91,1,0,0,0,0,0,SUSPICIOUS
+req-0000fd-9796,2024-01-26T18:50:04Z,GetCallerIdentity,sts.amazonaws.com,52.94.228.167,us-east-1,svc-billing,aws-cli/2.13.0,,4,2,0,0,0,0,0,0,NORMAL
+req-000016-7930,2024-01-01T13:24:16Z,ConsoleLogin,signin.amazonaws.com,52.94.228.167,eu-west-2,admin,Boto3/1.28.0,,3,5,0,0,0,0,0,0,NORMAL
+req-00013a-3872,2024-01-12T19:14:42Z,ListBuckets,s3.amazonaws.com,172.16.0.5,us-west-2,terraform-svc,AWS Internal,,4,14,0,0,0,0,0,0,NORMAL
+req-0001cc-3071,2024-01-08T10:47:18Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,ca-central-1,devops,aws-cli/2.13.0,,3,11,0,0,0,0,0,0,NORMAL
+req-0000a1-3513,2024-01-12T17:23:24Z,DescribeSecurityGroups,ec2.amazonaws.com,10.0.1.20,ap-south-1,john.doe,Terraform/1.5.0,,4,1,0,0,0,0,0,0,NORMAL
+req-000115-5668,2024-01-05T19:15:17Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,eu-west-2,devops,console.aws.amazon.com,,0,4,0,0,0,0,0,0,NORMAL
+req-0003bc-4562,2024-01-18T01:04:24Z,DeleteTrail,cloudtrail.amazonaws.com,198.51.100.77,ap-northeast-1,root,Go-http-client/1.1,AccessDenied,23,97,1,1,1,0,1,1,ATTACK
+req-0000c0-7771,2024-01-08T15:40:14Z,ConsoleLogin,signin.amazonaws.com,10.0.1.20,us-east-1,svc-lambda,Terraform/1.5.0,,0,2,0,0,0,0,0,0,NORMAL
+req-000182-4675,2024-01-27T12:28:06Z,ConsoleLogin,signin.amazonaws.com,10.0.0.1,us-east-1,api-user,console.aws.amazon.com,,4,14,0,0,0,0,0,0,NORMAL
+req-000326-8558,2024-01-11T04:42:47Z,PutBucketPolicy,s3.amazonaws.com,185.220.101.47,ap-south-1,svc-lambda,Terraform/1.5.0,,3,82,1,0,0,0,0,0,SUSPICIOUS
+req-00019e-4585,2024-01-24T09:46:30Z,ConsoleLogin,signin.amazonaws.com,172.16.0.5,ap-northeast-1,iam-readonly,Terraform/1.5.0,,2,1,0,0,0,0,0,0,NORMAL
+req-0001ec-8999,2024-01-24T08:20:50Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,ap-northeast-1,john.doe,Terraform/1.5.0,,3,3,0,0,0,0,0,0,NORMAL
+req-000158-5895,2024-01-09T12:40:20Z,ListBuckets,s3.amazonaws.com,34.224.10.5,us-west-2,devops,Boto3/1.28.0,,2,5,0,0,0,0,0,0,NORMAL
+req-000302-8314,2024-01-25T02:38:39Z,RunInstances,ec2.amazonaws.com,192.0.2.45,ru-central-1,john.doe,Go-http-client/1.1,,3,32,1,0,1,0,0,0,SUSPICIOUS
+req-000135-6761,2024-01-24T19:44:22Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-east-1,api-user,AWS Internal,,4,1,0,0,0,0,0,0,NORMAL
+req-000296-9837,2024-01-04T19:36:43Z,DescribeSecurityGroups,ec2.amazonaws.com,172.16.0.5,us-east-1,devops,Terraform/1.5.0,,3,11,0,0,0,0,0,0,NORMAL
+req-000083-8354,2024-01-21T19:31:29Z,DescribeInstances,ec2.amazonaws.com,172.16.0.5,us-west-2,admin,aws-cli/2.13.0,,4,13,0,0,0,0,0,0,NORMAL
+req-000298-2594,2024-01-19T18:01:48Z,DescribeInstances,ec2.amazonaws.com,10.0.0.1,ca-central-1,svc-billing,aws-cli/2.13.0,,2,7,0,0,0,0,0,0,NORMAL
+req-000368-7643,2024-01-17T15:43:43Z,CreateAccessKey,iam.amazonaws.com,10.0.0.1,sa-east-1,root,libwww-perl/6.07,InvalidClientTokenId,4,35,1,0,0,0,1,0,SUSPICIOUS
+req-000064-4696,2024-01-26T12:07:29Z,DescribeInstances,ec2.amazonaws.com,172.31.0.10,us-west-2,svc-lambda,Terraform/1.5.0,,0,3,0,0,0,0,0,0,NORMAL
+req-000175-1002,2024-01-13T08:26:02Z,DescribeSecurityGroups,ec2.amazonaws.com,52.94.228.167,eu-west-2,svc-lambda,aws-cli/2.13.0,,4,9,0,0,0,0,0,0,NORMAL
+req-000058-8486,2024-01-28T20:28:06Z,GetCallerIdentity,sts.amazonaws.com,10.0.0.1,ap-northeast-1,iam-readonly,Terraform/1.5.0,,4,15,0,0,0,0,0,0,NORMAL
+req-0001cb-2363,2024-01-01T07:49:25Z,DescribeInstances,ec2.amazonaws.com,54.239.28.85,ca-central-1,devops,aws-cli/2.13.0,,4,13,0,0,0,0,0,0,NORMAL
+req-00014b-7790,2024-01-20T18:37:33Z,ListBuckets,s3.amazonaws.com,172.31.0.10,ca-central-1,admin,Terraform/1.5.0,,3,2,0,0,0,0,0,0,NORMAL
+req-0000d7-7761,2024-01-05T18:51:29Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,ca-central-1,svc-billing,Terraform/1.5.0,,0,9,0,0,0,0,0,0,NORMAL
+req-0001d3-8418,2024-01-05T09:18:07Z,DescribeInstances,ec2.amazonaws.com,10.0.2.45,eu-west-2,iam-readonly,AWS Internal,,3,10,0,0,0,0,0,0,NORMAL
+req-00007a-2391,2024-01-24T11:20:49Z,ConsoleLogin,signin.amazonaws.com,34.224.10.5,eu-west-2,john.doe,Boto3/1.28.0,,4,10,0,0,0,0,0,0,NORMAL
+req-000267-6487,2024-01-23T15:04:35Z,ConsoleLogin,signin.amazonaws.com,54.239.28.85,eu-west-2,john.doe,console.aws.amazon.com,,1,3,0,0,0,0,0,0,NORMAL
+req-000015-4872,2024-01-21T07:34:53Z,DescribeInstances,ec2.amazonaws.com,172.31.5.22,ca-central-1,api-user,Terraform/1.5.0,,0,2,0,0,0,0,0,0,NORMAL
+req-0002bd-4095,2024-01-28T17:59:42Z,RunInstances,ec2.amazonaws.com,103.21.244.0,sa-east-1,terraform-svc,Terraform/1.5.0,,3,26,1,0,0,0,0,0,SUSPICIOUS
+req-000048-2229,2024-01-03T17:10:15Z,ListBuckets,s3.amazonaws.com,10.0.2.45,us-east-1,john.doe,AWS Internal,,1,9,0,0,0,0,0,0,NORMAL
+req-00006b-4475,2024-01-28T08:52:29Z,ListBuckets,s3.amazonaws.com,172.31.5.22,eu-west-2,john.doe,Boto3/1.28.0,,0,11,0,0,0,0,0,0,NORMAL
+req-00010f-5489,2024-01-30T18:08:56Z,GetObject,s3.amazonaws.com,172.16.0.5,ca-central-1,devops,Terraform/1.5.0,,2,3,0,0,0,0,0,0,NORMAL
+req-00035d-1601,2024-01-07T16:44:06Z,GetSecretValue,secretsmanager.amazonaws.com,103.21.244.0,ru-central-1,api-user,AWS Internal,InvalidClientTokenId,0,50,1,0,0,0,1,1,SUSPICIOUS
+req-0001b4-7474,2024-01-03T09:17:49Z,AssumeRole,sts.amazonaws.com,10.0.1.20,eu-west-2,svc-lambda,console.aws.amazon.com,,3,6,0,0,0,0,0,0,NORMAL
+req-000067-7689,2024-01-27T17:29:58Z,ListBuckets,s3.amazonaws.com,172.31.5.22,ap-northeast-1,svc-lambda,Boto3/1.28.0,,2,11,0,0,0,0,0,0,NORMAL

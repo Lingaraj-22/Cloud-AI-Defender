@@ -1,4 +1,4 @@
-# ☁️ Cloud AI Defender v2.0
+# ☁️ Cloud AI Defender 
 ### Enterprise AI-Powered Cloud SOC Platform
 **100% Free Stack · No AWS Billing Required · Runs Locally**
 
